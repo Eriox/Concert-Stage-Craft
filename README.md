@@ -1,109 +1,152 @@
 # 🎭 Concert Stage Craft
 
-**Bring your concerts and live events to life in Minecraft!**
+### Bring Your Concerts to Life in Minecraft!
 
-Concert Stage Craft (CSC) is a Minecraft mod designed to bring realistic concert staging, professional lighting equipment, and live event production into the game.
+**Concert Stage Craft (CSC)** is a Minecraft mod dedicated to bringing realistic concert staging, professional lighting equipment, and live event production into Minecraft.
 
-Whether you're building a massive music festival, a concert arena, a DJ stage, or a small live performance setup, Concert Stage Craft gives you the tools to create immersive and detailed event environments.
+Whether you're building a massive outdoor music festival, an indoor concert arena, a DJ stage, or a small live performance, Concert Stage Craft provides the tools and equipment to create immersive and professional-looking event environments.
+
+**Our mission is to make concert production in Minecraft more realistic, creative, and accessible to everyone.**
+
+---
+
+## 📥 Download
+
+Ready to bring your next big show to life?
+
+### 🎮 [Download Concert Stage Craft on CurseForge](https://www.curseforge.com/minecraft/mc-mods/concert-stage-craft)
+
+| Information | Details |
+|---|---|
+| Minecraft Version | 1.20.1 |
+| Mod Loaders | Forge & Fabric |
+| Project Status | Active Development |
+| Platform | CurseForge |
+
+---
 
 ## ✨ Features
 
 ### 🏗️ Professional Stage Equipment
-- Modular truss structures for building realistic stage setups.
-- Different truss sizes and configurations.
-- Stage rigging equipment, including hoists.
-- Equipment designed for concerts, festivals, and live events.
 
-### 💡 Lighting & Show Control
+Design and build realistic concert stages with equipment inspired by the live entertainment industry.
+
+- Modular truss structures in various sizes and configurations.
+- Professional stage rigging equipment.
+- Hoists for suspended stage structures.
+- Flexible stage construction possibilities.
+- Equipment suitable for concerts, festivals, and live performances.
+
+### 💡 Realistic Stage Lighting
+
+Transform your stage with professional lighting equipment designed to create immersive concert environments.
+
 - Professional lighting fixtures.
-- Customizable lighting effects and settings.
-- AutoShow functionality for music-driven lighting performances.
-- Tools for creating immersive concert lighting setups.
+- Customizable lighting settings.
+- Multiple lighting effects and configurations.
+- Flexible lighting setups for different event types.
+- Equipment inspired by real-world concert lighting technology.
 
-### 🎵 Live Event Production
-- Equipment designed for musicians, DJs, and event creators.
-- Flexible stage configurations.
-- Realistic concert and festival environments.
-- More features planned for future updates.
+### 🎤 Built for Live Entertainment
 
-## 🎮 Compatibility
+Concert Stage Craft gives creators the freedom to design a wide variety of entertainment environments:
 
-| Requirement | Details |
-|---|---|
-| Minecraft | 1.20.1 |
-| Mod Loader | Forge |
-| Environment | Client |
-| Theatrical | Compatibility development planned |
-| Theatrical ExtraLights | Compatibility development planned |
+- Outdoor music festivals.
+- Indoor concert arenas.
+- DJ stages and performances.
+- Live music events.
+- Theaters and entertainment venues.
+- Custom stage productions.
 
-## 📦 Installation
-
-1. Install Minecraft Forge for version 1.20.1.
-2. Download the latest compatible version of Concert Stage Craft.
-3. Place the `.jar` file inside your Minecraft `mods` folder.
-4. Launch Minecraft using your Forge installation.
-5. Start building your concert stage!
-
-**Note:** Check the release information for additional dependencies or compatibility requirements.
-
-## 🚧 Development Roadmap
-
-Concert Stage Craft is an evolving project. Future development focuses on improving realism, expanding equipment options, and making live event production more immersive.
-
-### Phase 1 — Core Equipment
-- Stage equipment and truss structures.
-- Basic lighting fixtures.
-- Essential construction components.
-
-### Phase 2 — Lighting Improvements
-- Expanded lighting controls.
-- Improved lighting effects.
-- AutoShow improvements.
-- More realistic lighting behavior.
-
-### Phase 3 — Planned
-- Additional professional stage equipment.
-- Improved compatibility with other staging mods.
-- More equipment for musicians and DJs.
-- Further improvements to realism and customization.
-
-### Phase 4 — Future Development
-- Advanced show control features.
-- Additional equipment and customization options.
-- Performance optimization.
-- Continued improvements based on community feedback.
-
-*The roadmap may change as development progresses.*
-
-## 🤝 Compatibility With Other Mods
-
-Concert Stage Craft aims to complement existing Minecraft staging and lighting mods.
-
-Compatibility improvements with **Theatrical** and **Theatrical ExtraLights** are part of the project's development goals.
-
-## 🐛 Bug Reports & Suggestions
-
-Found a bug or have an idea for a new feature?
-
-Feel free to open an issue on GitHub!
-
-When reporting a bug, please include:
-- Your Minecraft and Forge versions.
-- Your Concert Stage Craft version.
-- A description of the issue.
-- Steps to reproduce the problem.
-- Logs or screenshots, if available.
-
-Community feedback is always appreciated and helps improve the mod.
-
-## ❤️ Support the Project
-
-Concert Stage Craft is an independent project developed with the goal of bringing more realistic concert production equipment into Minecraft.
-
-Every download, suggestion, and piece of feedback helps the project grow.
-
-**Thank you for supporting Concert Stage Craft!**
+From small performances to massive festival stages, **your creativity is the only limit!**
 
 ---
 
-**🎭 Concert Stage Craft — Create the stage. Control the lights. Bring the show to life.**
+## 🔧 Compatibility
+
+Concert Stage Craft is designed for **Minecraft 1.20.1** and supports:
+
+- **Minecraft Forge**
+- **Fabric**
+
+### Integration With Other Mods
+
+Concert Stage Craft aims to complement existing Minecraft staging and lighting mods.
+
+**Theatrical**
+
+Designed to expand the possibilities of professional stage construction alongside existing theatrical equipment.
+
+**Theatrical ExtraLights**
+
+Compatibility improvements are being developed to provide more flexible and immersive professional lighting setups.
+
+*Some integrations may still be under development.*
+
+---
+
+## 📦 Installation
+
+1. Install **Minecraft 1.20.1**.
+2. Install **Forge or Fabric**, depending on your preferred mod loader.
+3. Visit the [official CurseForge page](https://www.curseforge.com/minecraft/mc-mods/concert-stage-craft).
+4. Download the version compatible with your installation.
+5. Place the `.jar` file inside your Minecraft `mods` folder.
+6. Launch Minecraft and start building your dream concert stage!
+
+**Important:** Always use the correct version for your mod loader and check the download page for any required dependencies.
+
+---
+
+## 🐛 Bug Reports & Feature Requests
+
+Found a bug or have an idea for a new feature?
+
+Your feedback is always welcome!
+
+Feel free to open an issue on GitHub to report problems, suggest improvements, or share your ideas.
+
+When reporting a bug, please include:
+
+- Minecraft version.
+- Mod loader and version.
+- Concert Stage Craft version.
+- Description of the issue.
+- Steps to reproduce the problem.
+- Crash logs or screenshots, if available.
+
+Your feedback helps improve Concert Stage Craft and shape its future!
+
+---
+
+## ❤️ Support the Project
+
+Concert Stage Craft is an independent Minecraft mod created with a passion for concert production, professional lighting, and live entertainment.
+
+The project continues to grow thanks to the support of its community.
+
+Every download, suggestion, bug report, and piece of feedback helps make Concert Stage Craft better.
+
+**A huge thank you to everyone who downloads and supports the mod!**
+
+Your support means a lot and motivates me to continue developing new equipment, improving existing features, and bringing even more realism to Minecraft concerts.
+
+---
+
+## 🔗 Official Links
+
+**📦 CurseForge — Official Download**
+
+https://www.curseforge.com/minecraft/mc-mods/concert-stage-craft
+
+**🐛 Bug Reports & Suggestions**
+
+Use the Issues section of this GitHub repository.
+
+---
+
+### 🎭 Concert Stage Craft
+
+**Create the stage. Control the lights. Bring the show to life.**
+
+*Made with passion for Minecraft concerts and live events.*
