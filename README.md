@@ -27,26 +27,6 @@ Ready to bring your next big show to life?
 
 ## ✨ Features
 
-### 🏗️ Professional Stage Equipment
-
-Design and build realistic concert stages with equipment inspired by the live entertainment industry.
-
-- Modular truss structures in various sizes and configurations.
-- Professional stage rigging equipment.
-- Hoists for suspended stage structures.
-- Flexible stage construction possibilities.
-- Equipment suitable for concerts, festivals, and live performances.
-
-### 💡 Realistic Stage Lighting
-
-Transform your stage with professional lighting equipment designed to create immersive concert environments.
-
-- Professional lighting fixtures.
-- Customizable lighting settings.
-- Multiple lighting effects and configurations.
-- Flexible lighting setups for different event types.
-- Equipment inspired by real-world concert lighting technology.
-
 ### 🎤 Built for Live Entertainment
 
 Concert Stage Craft gives creators the freedom to design a wide variety of entertainment environments:
