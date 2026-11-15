@@ -10,6 +10,14 @@ Whether you're building a massive outdoor music festival, an indoor concert aren
 
 ---
 
+## 📚 Documentation
+
+[📖 **Complete Tutorial — Concert Stage Craft 1.2.0**](TUTORIAL.md)
+
+Learn how to install the mod, program lighting shows, configure Art-Net, use AutoShow and LiveVision, and optimize performance.
+
+---
+
 ## 📥 Download
 
 Ready to bring your next big show to life?
