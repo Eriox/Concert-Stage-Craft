@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "hanging=true": {
+   "model": "concertstage:block/csc_speaker"
+  },
+  "hanging=false": {
+   "model": "concertstage:block/csc_speaker"
+  }
+ }
+}

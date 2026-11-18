@@ -1,0 +1,107 @@
+{
+  "parent": "concertstage:block/palan_chaine_full",
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        -0.944,
+        1.255,
+        -0.08
+      ],
+      "scale": [
+        0.3795,
+        0.3795,
+        0.3795
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0.244,
+        3.58,
+        0.0
+      ],
+      "scale": [
+        0.1518,
+        0.1518,
+        0.1518
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0.489,
+        1.159,
+        0.0
+      ],
+      "scale": [
+        0.3036,
+        0.3036,
+        0.3036
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0.853,
+        2.725,
+        0.335
+      ],
+      "scale": [
+        0.2277,
+        0.2277,
+        0.2277
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0.276,
+        0.927,
+        -0.276
+      ],
+      "scale": [
+        0.2429,
+        0.2429,
+        0.2429
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        -0.276,
+        0.927,
+        0.276
+      ],
+      "scale": [
+        0.2429,
+        0.2429,
+        0.2429
+      ]
+    }
+  }
+}

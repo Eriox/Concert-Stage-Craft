@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Concert Stage Craft</Name>
+  <Version>1.2.0</Version>
+  <Author>Concert Stage Craft (generated from the game data)</Author>
+ </Creator>
+ <Manufacturer>Concert Stage Craft</Manufacturer>
+ <Model>PAR P64</Model>
+ <Type>Dimmer</Type>
+ <Channel Name="Dimmer (halogen)">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer (halogen)</Capability>
+ </Channel>
+ <Mode Name="Full">
+  <Physical>
+   <Bulb Type="Halogen" Lumens="0" ColourTemperature="3200"/>
+   <Dimensions Weight="0" Width="688" Height="688" Depth="688"/>
+   <Lens Name="Other" DegreesMin="24" DegreesMax="24"/>
+   <Focus Type="Head" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="Other"/>
+  </Physical>
+  <Channel Number="0">Dimmer (halogen)</Channel>
+ </Mode>
+ <Mode Name="Compact">
+  <Physical>
+   <Bulb Type="Halogen" Lumens="0" ColourTemperature="3200"/>
+   <Dimensions Weight="0" Width="688" Height="688" Depth="688"/>
+   <Lens Name="Other" DegreesMin="24" DegreesMax="24"/>
+   <Focus Type="Head" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="Other"/>
+  </Physical>
+  <Channel Number="0">Dimmer (halogen)</Channel>
+ </Mode>
+ <Mode Name="Ultra Compact">
+  <Physical>
+   <Bulb Type="Halogen" Lumens="0" ColourTemperature="3200"/>
+   <Dimensions Weight="0" Width="688" Height="688" Depth="688"/>
+   <Lens Name="Other" DegreesMin="24" DegreesMax="24"/>
+   <Focus Type="Head" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="Other"/>
+  </Physical>
+  <Channel Number="0">Dimmer (halogen)</Channel>
+ </Mode>
+</FixtureDefinition>

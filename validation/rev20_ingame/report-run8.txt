@@ -1,0 +1,27 @@
+CSC visual test 2026-11-11T16:55:46.543647
+GL NVIDIA GeForce RTX 5060 Ti/PCIe/SSE2 / 4.6.0 NVIDIA 621.01
+scene desk: 62 fixtures: 16 x CSC LUMORA W19 (hung), 16 x CSC PULSESTRIKE M (hung), 10 x CSC VORTEX X1, 20 x CSC VORTEX X1 (hung),
+scene_foh_white: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 8,4 ms | fps 107
+scene_close_white: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 10,4 ms | fps 109
+scene_foh_colour_gobo: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 8,4 ms | fps 109
+scene_foh_colour_gobo_dense: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 8,7 ms | fps 90
+scene_side_colour_gobo_dense: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 8,8 ms | fps 94
+scene_roof_from_stage: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 8,9 ms | fps 115
+scene_roof_from_foh: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 8,8 ms | fps 112
+scene_tarp: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 8,9 ms | fps 112
+scene_roof_above: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 8,5 ms | fps 118
+scene_roof_under: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 8,4 ms | fps 99
+scene_tarp_behind: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 9,1 ms | fps 112
+scene_tarp_inside: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 9,9 ms | fps 112
+scene_red_haze_light: beams 46/160 | far beams 0/192 | beams in the haze 46/48 | projections 46/64 | auto level 3 | frame 17,2 ms | fps 57
+scene_red_haze_medium: beams 46/160 | far beams 0/192 | beams in the haze 46/48 | projections 46/64 | auto level 3 | frame 17,6 ms | fps 59
+scene_red_haze_dense: beams 46/160 | far beams 0/192 | beams in the haze 46/48 | projections 46/64 | auto level 3 | frame 17,5 ms | fps 40
+scene_red_haze_dense_foh: beams 46/160 | far beams 0/192 | beams in the haze 46/48 | projections 46/64 | auto level 3 | frame 8,6 ms | fps 99
+scene_drop_full_foh: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 10,5 ms | fps 103
+scene_drop_full_side: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 8,9 ms | fps 104
+scene fps hold: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 8,9 ms | fps 109
+scene_still_0: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 8,6 ms | fps 109
+scene_still_1: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 18,3 ms | fps 109
+scene_still_2: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 27,8 ms | fps 78
+scene_still_3: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 36,3 ms | fps 78
+DONE

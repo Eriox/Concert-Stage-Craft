@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Concert Stage Craft</Name>
+  <Version>1.2.0</Version>
+  <Author>Concert Stage Craft (generated from the game data)</Author>
+ </Creator>
+ <Manufacturer>Concert Stage Craft</Manufacturer>
+ <Model>PROFILE P1</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="Pan">
+  <Group Byte="0">Pan</Group>
+  <Capability Min="0" Max="255">Pan</Capability>
+ </Channel>
+ <Channel Name="Pan fine">
+  <Group Byte="1">Pan</Group>
+  <Capability Min="0" Max="255">Pan fine</Capability>
+ </Channel>
+ <Channel Name="Tilt">
+  <Group Byte="0">Tilt</Group>
+  <Capability Min="0" Max="255">Tilt</Capability>
+ </Channel>
+ <Channel Name="Tilt fine">
+  <Group Byte="1">Tilt</Group>
+  <Capability Min="0" Max="255">Tilt fine</Capability>
+ </Channel>
+ <Channel Name="Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer</Capability>
+ </Channel>
+ <Channel Name="Dimmer fine">
+  <Group Byte="1">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer fine</Capability>
+ </Channel>
+ <Channel Name="Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="7">Open</Capability>
+  <Capability Min="8" Max="255">Strobe 1 to 25 Hz</Capability>
+ </Channel>
+ <Channel Name="Red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red</Capability>
+ </Channel>
+ <Channel Name="Green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Green</Capability>
+ </Channel>
+ <Channel Name="Blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Blue</Capability>
+ </Channel>
+ <Channel Name="Zoom">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Zoom</Capability>
+ </Channel>
+ <Channel Name="Focus">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Focus</Capability>
+ </Channel>
+ <Channel Name="Iris">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Iris</Capability>
+ </Channel>
+ <Channel Name="Gobo">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="27">Open</Capability>
+  <Capability Min="28" Max="55" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_1.png">Gobo 1 Window</Capability>
+  <Capability Min="56" Max="83" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_2.png">Gobo 2 Leaves</Capability>
+  <Capability Min="84" Max="111" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_3.png">Gobo 3 Clouds</Capability>
+  <Capability Min="112" Max="139" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_4.png">Gobo 4 Blinds</Capability>
+  <Capability Min="140" Max="167" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_5.png">Gobo 5 Arch window</Capability>
+  <Capability Min="168" Max="195" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_6.png">Gobo 6 Star field</Capability>
+  <Capability Min="196" Max="223" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_7.png">Gobo 7 Water</Capability>
+  <Capability Min="224" Max="255" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_8.png">Gobo 8 Cells</Capability>
+ </Channel>
+ <Channel Name="Gobo rotation">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="123">Rotation one way, fast to slow</Capability>
+  <Capability Min="124" Max="131">Stop</Capability>
+  <Capability Min="132" Max="255">Rotation other way, slow to fast</Capability>
+ </Channel>
+ <Channel Name="Prism">
+  <Group Byte="0">Prism</Group>
+  <Capability Min="0" Max="127">Open</Capability>
+  <Capability Min="128" Max="255">3-facet prism</Capability>
+ </Channel>
+ <Channel Name="Prism rotation">
+  <Group Byte="0">Prism</Group>
+  <Capability Min="0" Max="123">Rotation one way, fast to slow</Capability>
+  <Capability Min="124" Max="131">Stop</Capability>
+  <Capability Min="132" Max="255">Rotation other way, slow to fast</Capability>
+ </Channel>
+ <Channel Name="Frost">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Frost</Capability>
+ </Channel>
+ <Channel Name="Blade 1">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Blade 1</Capability>
+ </Channel>
+ <Channel Name="Blade 2">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Blade 2</Capability>
+ </Channel>
+ <Channel Name="Blade 3">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Blade 3</Capability>
+ </Channel>
+ <Channel Name="Blade 4">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Blade 4</Capability>
+ </Channel>
+ <Channel Name="Frame rotation">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Frame rotation</Capability>
+ </Channel>
+ <Channel Name="Motor speed">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Motor speed</Capability>
+ </Channel>
+ <Channel Name="Strobe / iris / focus">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="7">Open</Capability>
+  <Capability Min="8" Max="127">Strobe</Capability>
+  <Capability Min="128" Max="191">Iris open to closed</Capability>
+  <Capability Min="192" Max="255">Focus</Capability>
+ </Channel>
+ <Channel Name="Gobo / rotation">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="27">Open</Capability>
+  <Capability Min="28" Max="32" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_1.png">Gobo 1 Window</Capability>
+  <Capability Min="33" Max="43" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_1.png">Gobo 1 Window rotating, slow to fast</Capability>
+  <Capability Min="44" Max="55" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_1.png">Gobo 1 Window rotating other way, slow to fast</Capability>
+  <Capability Min="56" Max="60" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_2.png">Gobo 2 Leaves</Capability>
+  <Capability Min="61" Max="71" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_2.png">Gobo 2 Leaves rotating, slow to fast</Capability>
+  <Capability Min="72" Max="83" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_2.png">Gobo 2 Leaves rotating other way, slow to fast</Capability>
+  <Capability Min="84" Max="88" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_3.png">Gobo 3 Clouds</Capability>
+  <Capability Min="89" Max="99" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_3.png">Gobo 3 Clouds rotating, slow to fast</Capability>
+  <Capability Min="100" Max="111" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_3.png">Gobo 3 Clouds rotating other way, slow to fast</Capability>
+  <Capability Min="112" Max="116" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_4.png">Gobo 4 Blinds</Capability>
+  <Capability Min="117" Max="127" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_4.png">Gobo 4 Blinds rotating, slow to fast</Capability>
+  <Capability Min="128" Max="139" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_4.png">Gobo 4 Blinds rotating other way, slow to fast</Capability>
+  <Capability Min="140" Max="144" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_5.png">Gobo 5 Arch window</Capability>
+  <Capability Min="145" Max="155" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_5.png">Gobo 5 Arch window rotating, slow to fast</Capability>
+  <Capability Min="156" Max="167" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_5.png">Gobo 5 Arch window rotating other way, slow to fast</Capability>
+  <Capability Min="168" Max="172" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_6.png">Gobo 6 Star field</Capability>
+  <Capability Min="173" Max="183" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_6.png">Gobo 6 Star field rotating, slow to fast</Capability>
+  <Capability Min="184" Max="195" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_6.png">Gobo 6 Star field rotating other way, slow to fast</Capability>
+  <Capability Min="196" Max="200" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_7.png">Gobo 7 Water</Capability>
+  <Capability Min="201" Max="211" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_7.png">Gobo 7 Water rotating, slow to fast</Capability>
+  <Capability Min="212" Max="223" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_7.png">Gobo 7 Water rotating other way, slow to fast</Capability>
+  <Capability Min="224" Max="228" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_8.png">Gobo 8 Cells</Capability>
+  <Capability Min="229" Max="239" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_8.png">Gobo 8 Cells rotating, slow to fast</Capability>
+  <Capability Min="240" Max="255" Preset="GoboMacro" Res1="ConcertStageCraft/gobo_profile_8.png">Gobo 8 Cells rotating other way, slow to fast</Capability>
+ </Channel>
+ <Mode Name="Full">
+  <Physical>
+   <Bulb Type="LED" Lumens="0" ColourTemperature="6500"/>
+   <Dimensions Weight="0" Width="902" Height="902" Depth="902"/>
+   <Lens Name="Other" DegreesMin="7" DegreesMax="50"/>
+   <Focus Type="Head" PanMax="540" TiltMax="270"/>
+   <Technical PowerConsumption="0" DmxConnector="Other"/>
+  </Physical>
+  <Channel Number="0">Pan</Channel>
+  <Channel Number="1">Pan fine</Channel>
+  <Channel Number="2">Tilt</Channel>
+  <Channel Number="3">Tilt fine</Channel>
+  <Channel Number="4">Dimmer</Channel>
+  <Channel Number="5">Dimmer fine</Channel>
+  <Channel Number="6">Strobe</Channel>
+  <Channel Number="7">Red</Channel>
+  <Channel Number="8">Green</Channel>
+  <Channel Number="9">Blue</Channel>
+  <Channel Number="10">Zoom</Channel>
+  <Channel Number="11">Focus</Channel>
+  <Channel Number="12">Iris</Channel>
+  <Channel Number="13">Gobo</Channel>
+  <Channel Number="14">Gobo rotation</Channel>
+  <Channel Number="15">Prism</Channel>
+  <Channel Number="16">Prism rotation</Channel>
+  <Channel Number="17">Frost</Channel>
+  <Channel Number="18">Blade 1</Channel>
+  <Channel Number="19">Blade 2</Channel>
+  <Channel Number="20">Blade 3</Channel>
+  <Channel Number="21">Blade 4</Channel>
+  <Channel Number="22">Frame rotation</Channel>
+  <Channel Number="23">Motor speed</Channel>
+ </Mode>
+ <Mode Name="Compact">
+  <Physical>
+   <Bulb Type="LED" Lumens="0" ColourTemperature="6500"/>
+   <Dimensions Weight="0" Width="902" Height="902" Depth="902"/>
+   <Lens Name="Other" DegreesMin="7" DegreesMax="50"/>
+   <Focus Type="Head" PanMax="540" TiltMax="270"/>
+   <Technical PowerConsumption="0" DmxConnector="Other"/>
+  </Physical>
+  <Channel Number="0">Pan</Channel>
+  <Channel Number="1">Tilt</Channel>
+  <Channel Number="2">Dimmer</Channel>
+  <Channel Number="3">Strobe / iris / focus</Channel>
+  <Channel Number="4">Red</Channel>
+  <Channel Number="5">Green</Channel>
+  <Channel Number="6">Blue</Channel>
+  <Channel Number="7">Zoom</Channel>
+  <Channel Number="8">Gobo / rotation</Channel>
+  <Channel Number="9">Gobo rotation</Channel>
+ </Mode>
+ <Mode Name="Ultra Compact">
+  <Physical>
+   <Bulb Type="LED" Lumens="0" ColourTemperature="6500"/>
+   <Dimensions Weight="0" Width="902" Height="902" Depth="902"/>
+   <Lens Name="Other" DegreesMin="7" DegreesMax="50"/>
+   <Focus Type="Head" PanMax="540" TiltMax="270"/>
+   <Technical PowerConsumption="0" DmxConnector="Other"/>
+  </Physical>
+  <Channel Number="0">Pan</Channel>
+  <Channel Number="1">Tilt</Channel>
+  <Channel Number="2">Dimmer</Channel>
+  <Channel Number="3">Red</Channel>
+  <Channel Number="4">Green</Channel>
+  <Channel Number="5">Blue</Channel>
+  <Channel Number="6">Strobe</Channel>
+  <Channel Number="7">Gobo / rotation</Channel>
+ </Mode>
+</FixtureDefinition>

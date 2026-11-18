@@ -1,0 +1,371 @@
+{
+ "unite": "16 u = 1 bloc",
+ "enveloppe_mat_chaine_chariot_u": 9.78,
+ "enveloppe_chariot_45deg_u": 13.84,
+ "portee_stabilisateurs_max_u": 21.9,
+ "volumes": [
+  {
+   "modele": "CSC_Tower_PassThrough_Scaffold",
+   "fichier": "Tower_PassThrough/Mast_Openings/CSC_Tower_PassThrough_Scaffold.bbmodel",
+   "axe_tour_u": [
+    24,
+    24
+   ],
+   "ouverture_u": {
+    "x": [
+     12.44,
+     35.56
+    ],
+    "z": [
+     12.44,
+     35.56
+    ],
+    "y": [
+     0,
+     null
+    ]
+   },
+   "ouverture_blocs": {
+    "x": [
+     0.7775,
+     2.2225
+    ],
+    "z": [
+     0.7775,
+     2.2225
+    ]
+   },
+   "placement": "bloc de la tour = bloc (1,1) de l’emprise"
+  },
+  {
+   "modele": "CSC_Tower_PassThrough_Scaffold_Sleeve",
+   "fichier": "Tower_PassThrough/Sleeve_Openings/CSC_Tower_PassThrough_Scaffold_Sleeve.bbmodel",
+   "axe_tour_u": [
+    40,
+    40
+   ],
+   "ouverture_u": {
+    "x": [
+     24.44,
+     55.56
+    ],
+    "z": [
+     24.44,
+     55.56
+    ],
+    "y": [
+     0,
+     null
+    ]
+   },
+   "ouverture_blocs": {
+    "x": [
+     1.5275,
+     3.4725
+    ],
+    "z": [
+     1.5275,
+     3.4725
+    ]
+   },
+   "placement": "bloc de la tour = bloc (2,2) de l’emprise"
+  },
+  {
+   "modele": "CSC_Tower_SidePass_Scaffold",
+   "fichier": "Tower_PassThrough/Side_Passages/CSC_Tower_SidePass_Scaffold.bbmodel",
+   "axe_tour_u": [
+    24,
+    -8
+   ],
+   "ouverture_u": {
+    "x": [
+     12.44,
+     35.56
+    ],
+    "z": [
+     -19.56,
+     3.56
+    ],
+    "y": [
+     0,
+     null
+    ]
+   },
+   "ouverture_blocs": {
+    "x": [
+     0.7775,
+     2.2225
+    ],
+    "z": [
+     -1.2225,
+     0.2225
+    ]
+   },
+   "placement": "bloc de la tour = (1, −1) depuis l’origine"
+  },
+  {
+   "modele": "CSC_Tower_SidePass_Scaffold_Sleeve",
+   "fichier": "Tower_PassThrough/Side_Passages/CSC_Tower_SidePass_Scaffold_Sleeve.bbmodel",
+   "axe_tour_u": [
+    40,
+    -8
+   ],
+   "ouverture_u": {
+    "x": [
+     24.44,
+     55.56
+    ],
+    "z": [
+     -23.56,
+     7.56
+    ],
+    "y": [
+     0,
+     null
+    ]
+   },
+   "ouverture_blocs": {
+    "x": [
+     1.5275,
+     3.4725
+    ],
+    "z": [
+     -1.4725,
+     0.4725
+    ]
+   },
+   "placement": "bloc de la tour = (2, −1)"
+  },
+  {
+   "modele": "CSC_Tower_CornerPass_Scaffold",
+   "fichier": "Tower_PassThrough/Corner_Passages/CSC_Tower_CornerPass_Scaffold.bbmodel",
+   "axe_tour_u": [
+    8,
+    8
+   ],
+   "ouverture_u": {
+    "x": [
+     -3.56,
+     19.56
+    ],
+    "z": [
+     -3.56,
+     19.56
+    ],
+    "y": [
+     0,
+     null
+    ]
+   },
+   "ouverture_blocs": {
+    "x": [
+     -0.2225,
+     1.2225
+    ],
+    "z": [
+     -0.2225,
+     1.2225
+    ]
+   },
+   "placement": "bloc de la tour = (0,0)"
+  },
+  {
+   "modele": "CSC_Tower_CornerPass_Scaffold_Sleeve",
+   "fichier": "Tower_PassThrough/Corner_Passages/CSC_Tower_CornerPass_Scaffold_Sleeve.bbmodel",
+   "axe_tour_u": [
+    8,
+    8
+   ],
+   "ouverture_u": {
+    "x": [
+     -7.56,
+     23.56
+    ],
+    "z": [
+     -7.56,
+     23.56
+    ],
+    "y": [
+     0,
+     null
+    ]
+   },
+   "ouverture_blocs": {
+    "x": [
+     -0.4725,
+     1.4725
+    ],
+    "z": [
+     -0.4725,
+     1.4725
+    ]
+   },
+   "placement": "bloc de la tour = (0,0)"
+  },
+  {
+   "modele": "CSC_StageDeck_Tower_Opening",
+   "fichier": "Tower_PassThrough/Mast_Openings/CSC_StageDeck_Tower_Opening.bbmodel",
+   "axe_tour_u": [
+    24,
+    24
+   ],
+   "ouverture_u": {
+    "x": [
+     12,
+     36
+    ],
+    "z": [
+     12,
+     36
+    ],
+    "y": [
+     0,
+     null
+    ]
+   },
+   "ouverture_blocs": {
+    "x": [
+     0.75,
+     2.25
+    ],
+    "z": [
+     0.75,
+     2.25
+    ]
+   },
+   "placement": "bloc de la tour = (1,1)"
+  },
+  {
+   "modele": "CSC_StageDeck_Tower_Frame",
+   "fichier": "Tower_PassThrough/Mast_Openings/CSC_StageDeck_Tower_Frame.bbmodel",
+   "axe_tour_u": [
+    24,
+    24
+   ],
+   "ouverture_u": {
+    "x": [
+     12,
+     36
+    ],
+    "z": [
+     12,
+     36
+    ],
+    "y": [
+     0,
+     null
+    ]
+   },
+   "ouverture_blocs": {
+    "x": [
+     0.75,
+     2.25
+    ],
+    "z": [
+     0.75,
+     2.25
+    ]
+   },
+   "placement": "bloc (1,1)"
+  },
+  {
+   "modele": "CSC_StageDeck_Sleeve_Opening",
+   "fichier": "Tower_PassThrough/Sleeve_Openings/CSC_StageDeck_Sleeve_Opening.bbmodel",
+   "axe_tour_u": [
+    40,
+    40
+   ],
+   "ouverture_u": {
+    "x": [
+     24,
+     56
+    ],
+    "z": [
+     24,
+     56
+    ],
+    "y": [
+     0,
+     null
+    ]
+   },
+   "ouverture_blocs": {
+    "x": [
+     1.5,
+     3.5
+    ],
+    "z": [
+     1.5,
+     3.5
+    ]
+   },
+   "placement": "bloc (2,2)"
+  },
+  {
+   "modele": "CSC_StageDeck_Tower_Side",
+   "fichier": "Tower_PassThrough/Side_Passages/CSC_StageDeck_Tower_Side.bbmodel",
+   "axe_tour_u": [
+    24,
+    -8
+   ],
+   "ouverture_u": {
+    "x": [
+     12,
+     36
+    ],
+    "z": [
+     -20,
+     4
+    ],
+    "y": [
+     0,
+     null
+    ]
+   },
+   "ouverture_blocs": {
+    "x": [
+     0.75,
+     2.25
+    ],
+    "z": [
+     -1.25,
+     0.25
+    ]
+   },
+   "placement": "bloc de la tour = (1, −1)"
+  },
+  {
+   "modele": "CSC_StageDeck_Tower_Corner",
+   "fichier": "Tower_PassThrough/Corner_Passages/CSC_StageDeck_Tower_Corner.bbmodel",
+   "axe_tour_u": [
+    -8,
+    -8
+   ],
+   "ouverture_u": {
+    "x": [
+     -20,
+     4
+    ],
+    "z": [
+     -20,
+     4
+    ],
+    "y": [
+     0,
+     null
+    ]
+   },
+   "ouverture_blocs": {
+    "x": [
+     -1.25,
+     0.25
+    ],
+    "z": [
+     -1.25,
+     0.25
+    ]
+   },
+   "placement": "bloc de la tour = (−1, −1)"
+  }
+ ]
+}

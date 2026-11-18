@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "tools",
+  "ingredients": [
+    {
+      "item": "concertstage:angle_tool"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    }
+  ],
+  "result": {
+    "item": "concertstage:platform_angle_tool",
+    "count": 1
+  }
+}

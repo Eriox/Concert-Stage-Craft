@@ -1,0 +1,29 @@
+# Gradle / IDE
+.gradle/
+**/build/
+**/out/
+.idea/
+.vscode/
+*.iml
+# Runtime / generated output
+run/
+**/run/
+logs/
+**/logs/
+crash-reports/
+**/crash-reports/
+*.log
+build-log-*.txt
+*.class
+*.jar
+# OS / editor
+.DS_Store
+Thumbs.db
+*.blend1
+*.blend2
+*.tmp
+*.bak
+# Credentials
+.env
+.env.*
+!*.env.example

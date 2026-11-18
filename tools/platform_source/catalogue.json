@@ -1,0 +1,794 @@
+[
+  {
+    "file": "stage_deck_2x1_h020.bbmodel",
+    "category": "Stage Deck",
+    "dimensions_m": [
+      2,
+      0.2,
+      1
+    ],
+    "cubes": 139,
+    "description": "Plateau 2 × 1 m, surface à 0.20 m.",
+    "connection_points": [
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          0.15000000000000002,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          0.15000000000000002,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          0.15000000000000002,
+          1
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          0.15000000000000002,
+          1
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          0,
+          0.15000000000000002,
+          0.5
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          2,
+          0.15000000000000002,
+          0.5
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "file": "stage_deck_2x1_h040.bbmodel",
+    "category": "Stage Deck",
+    "dimensions_m": [
+      2,
+      0.4,
+      1
+    ],
+    "cubes": 139,
+    "description": "Plateau 2 × 1 m, surface à 0.40 m.",
+    "connection_points": [
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          0.35000000000000003,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          0.35000000000000003,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          0.35000000000000003,
+          1
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          0.35000000000000003,
+          1
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          0,
+          0.35000000000000003,
+          0.5
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          2,
+          0.35000000000000003,
+          0.5
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "file": "stage_deck_2x1_h080.bbmodel",
+    "category": "Stage Deck",
+    "dimensions_m": [
+      2,
+      0.8,
+      1
+    ],
+    "cubes": 205,
+    "description": "Plateau 2 × 1 m, surface à 0.80 m.",
+    "connection_points": [
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          0.75,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          0.75,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          0.75,
+          1
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          0.75,
+          1
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          0,
+          0.75,
+          0.5
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          2,
+          0.75,
+          0.5
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "file": "stage_deck_2x1_without_legs.bbmodel",
+    "category": "Stage Deck",
+    "dimensions_m": [
+      2,
+      0.09,
+      1
+    ],
+    "cubes": 83,
+    "description": "Plateau seul, quatre logements sous cadre ; à poser sur un support.",
+    "connection_points": [
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          0.039999999999999994,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          0.039999999999999994,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          0.039999999999999994,
+          1
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          0.039999999999999994,
+          1
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          0,
+          0.039999999999999994,
+          0.5
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          2,
+          0.039999999999999994,
+          0.5
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "file": "raised_stage_platform_2x1_h120.bbmodel",
+    "category": "Raised Stage Platform",
+    "dimensions_m": [
+      2,
+      1.2,
+      1
+    ],
+    "cubes": 205,
+    "description": "Pieds télescopiques, cadre bas et contreventements.",
+    "connection_points": [
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          1.15,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          1.15,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          1.15,
+          1
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          1.15,
+          1
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          0,
+          1.15,
+          0.5
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          2,
+          1.15,
+          0.5
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "file": "drum_riser_4x2_h060.bbmodel",
+    "category": "Drum Riser",
+    "dimensions_m": [
+      4,
+      0.6,
+      2
+    ],
+    "cubes": 708,
+    "description": "Quatre decks reliés, traverses et pieds télescopiques ; aucune batterie factice.",
+    "connection_points": [],
+    "notes": []
+  },
+  {
+    "file": "musician_riser_2x1_h040.bbmodel",
+    "category": "Musician Riser",
+    "dimensions_m": [
+      2,
+      0.4,
+      1
+    ],
+    "cubes": 148,
+    "description": "Deck antidérapant avec chemin de câble fixé sous le cadre.",
+    "connection_points": [
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          0.35000000000000003,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          0.35000000000000003,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          0.35000000000000003,
+          1
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          0.35000000000000003,
+          1
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          0,
+          0.35000000000000003,
+          0.5
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          2,
+          0.35000000000000003,
+          0.5
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "file": "dj_platform_2x2_h080.bbmodel",
+    "category": "DJ Platform",
+    "dimensions_m": [
+      2,
+      1.798,
+      2
+    ],
+    "cubes": 482,
+    "description": "Base 80 cm, cabine et plan à 179,8 cm, zone arrière libre.",
+    "connection_points": [],
+    "notes": [
+      "L’espace arrière pour le DJ reste dégagé ; les platines et autres appareils ne sont pas inclus."
+    ]
+  },
+  {
+    "file": "stage_stairs_h040.bbmodel",
+    "category": "Stage Stairs",
+    "dimensions_m": [
+      1,
+      1.5,
+      0.64
+    ],
+    "cubes": 86,
+    "description": "Marches de 20 cm, girons de 30 cm et limons porteurs.",
+    "connection_points": [
+      {
+        "name": "arrivee_plateau",
+        "position": [
+          0.5,
+          0.4,
+          0.6
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "file": "stage_stairs_h080.bbmodel",
+    "category": "Stage Stairs",
+    "dimensions_m": [
+      1,
+      1.9000000000000001,
+      1.24
+    ],
+    "cubes": 118,
+    "description": "Marches de 20 cm, girons de 30 cm et limons porteurs.",
+    "connection_points": [
+      {
+        "name": "arrivee_plateau",
+        "position": [
+          0.5,
+          0.8,
+          1.2
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "file": "stage_stairs_h120.bbmodel",
+    "category": "Stage Stairs",
+    "dimensions_m": [
+      1,
+      2.3,
+      1.8399999999999999
+    ],
+    "cubes": 150,
+    "description": "Marches de 20 cm, girons de 30 cm et limons porteurs.",
+    "connection_points": [
+      {
+        "name": "arrivee_plateau",
+        "position": [
+          0.5,
+          1.2,
+          1.7999999999999998
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "file": "safety_railings_1m.bbmodel",
+    "category": "Safety Railings",
+    "dimensions_m": [
+      1,
+      1.196,
+      0.086
+    ],
+    "cubes": 37,
+    "description": "Hauteur 1,10 m au-dessus du plateau ; plinthe et étriers de rive.",
+    "connection_points": [
+      {
+        "name": "poteau_sur_rive",
+        "position": [
+          0.085,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "poteau_sur_rive",
+        "position": [
+          0.915,
+          0,
+          0
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "file": "safety_railings_2m.bbmodel",
+    "category": "Safety Railings",
+    "dimensions_m": [
+      2,
+      1.196,
+      0.086
+    ],
+    "cubes": 37,
+    "description": "Hauteur 1,10 m au-dessus du plateau ; plinthe et étriers de rive.",
+    "connection_points": [
+      {
+        "name": "poteau_sur_rive",
+        "position": [
+          0.085,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "poteau_sur_rive",
+        "position": [
+          1.915,
+          0,
+          0
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "file": "safety_railings_corner_1x1.bbmodel",
+    "category": "Safety Railings",
+    "dimensions_m": [
+      1,
+      1.196,
+      1
+    ],
+    "cubes": 90,
+    "description": "Angle de garde-corps en L ; deux branches de 1 m.",
+    "connection_points": [],
+    "notes": []
+  },
+  {
+    "file": "stage_support_structures_2x1_h111.bbmodel",
+    "category": "Stage Support Structures",
+    "dimensions_m": [
+      2,
+      1.11,
+      1
+    ],
+    "cubes": 192,
+    "description": "Cadre porteur sous deck, sans panneau ; contreventé et réglable.",
+    "connection_points": [
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          1.0779999999999998,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          1.0779999999999998,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          1.0779999999999998,
+          1
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          1.0779999999999998,
+          1
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          0,
+          1.0779999999999998,
+          0.5
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          2,
+          1.0779999999999998,
+          0.5
+        ]
+      }
+    ],
+    "notes": [
+      "Surface d’appui à 1,110 m : poser le deck sans pieds (épaisseur 90 mm), pour une surface finie à 1,200 m."
+    ]
+  },
+  {
+    "file": "adjustable_leg_h040.bbmodel",
+    "category": "Stage Support Structures",
+    "dimensions_m": [
+      0.1,
+      0.366,
+      0.1
+    ],
+    "cubes": 21,
+    "description": "Pied avec récepteur pour plateau de hauteur 0.40 m ; origine au sol.",
+    "connection_points": [],
+    "notes": []
+  },
+  {
+    "file": "adjustable_leg_h080.bbmodel",
+    "category": "Stage Support Structures",
+    "dimensions_m": [
+      0.1,
+      0.766,
+      0.1
+    ],
+    "cubes": 28,
+    "description": "Pied avec récepteur pour plateau de hauteur 0.80 m ; origine au sol.",
+    "connection_points": [],
+    "notes": []
+  },
+  {
+    "file": "adjustable_leg_h120.bbmodel",
+    "category": "Stage Support Structures",
+    "dimensions_m": [
+      0.1,
+      1.166,
+      0.1
+    ],
+    "cubes": 28,
+    "description": "Pied avec récepteur pour plateau de hauteur 1.20 m ; origine au sol.",
+    "connection_points": [],
+    "notes": []
+  },
+  {
+    "file": "stage_extension_1x1_h040.bbmodel",
+    "category": "Stage Extensions",
+    "dimensions_m": [
+      1,
+      0.4,
+      1
+    ],
+    "cubes": 131,
+    "description": "Module d’extension à hauteur 40 cm ; même système de rive.",
+    "connection_points": [
+      {
+        "name": "rive_longue",
+        "position": [
+          0.25,
+          0.35000000000000003,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          0.75,
+          0.35000000000000003,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          0.25,
+          0.35000000000000003,
+          1
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          0.75,
+          0.35000000000000003,
+          1
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          0,
+          0.35000000000000003,
+          0.5
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          1,
+          0.35000000000000003,
+          0.5
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "file": "stage_extension_2x0p5_h040.bbmodel",
+    "category": "Stage Extensions",
+    "dimensions_m": [
+      2,
+      0.4,
+      0.5
+    ],
+    "cubes": 139,
+    "description": "Module d’extension à hauteur 40 cm ; même système de rive.",
+    "connection_points": [
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          0.35000000000000003,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          0.35000000000000003,
+          0
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          0.5,
+          0.35000000000000003,
+          0.5
+        ]
+      },
+      {
+        "name": "rive_longue",
+        "position": [
+          1.5,
+          0.35000000000000003,
+          0.5
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          0,
+          0.35000000000000003,
+          0.25
+        ]
+      },
+      {
+        "name": "rive_courte",
+        "position": [
+          2,
+          0.35000000000000003,
+          0.25
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "file": "assembly_solo_stage_4x2_h040.bbmodel",
+    "category": "Assemblies",
+    "dimensions_m": [
+      4,
+      0.4,
+      2
+    ],
+    "cubes": 596,
+    "description": "Assemblage de démonstration ; modules séparés par groupes.",
+    "connection_points": [],
+    "notes": []
+  },
+  {
+    "file": "assembly_festival_stage_8x4_h120.bbmodel",
+    "category": "Assemblies",
+    "dimensions_m": [
+      8,
+      1.2,
+      4
+    ],
+    "cubes": 3520,
+    "description": "Assemblage de démonstration ; modules séparés par groupes.",
+    "connection_points": [],
+    "notes": []
+  }
+]

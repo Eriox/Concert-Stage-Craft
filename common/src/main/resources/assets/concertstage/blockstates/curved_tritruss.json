@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "concertstage:block/curved_truss_particle"
+  },
+  "facing=east": {
+   "model": "concertstage:block/curved_truss_particle"
+  },
+  "facing=south": {
+   "model": "concertstage:block/curved_truss_particle"
+  },
+  "facing=west": {
+   "model": "concertstage:block/curved_truss_particle"
+  }
+ }
+}

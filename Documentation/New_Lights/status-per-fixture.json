@@ -1,0 +1,379 @@
+[
+  {
+    "projecteur": "CSC PHANTOM S1",
+    "modele_3d": "Converti depuis le Blender fourni ; 3 LOD et empreinte source vérifiés ; affichage Minecraft non testé",
+    "animations": "PAN/TILT implémentés si motorisés, orientation manuelle commune sinon ; fonctionnement en jeu non testé",
+    "full": "Décodage et moteur hors jeu testés",
+    "compact": "Décodage hors jeu testé",
+    "ultra_compact": "Décodage hors jeu testé",
+    "virtual_matrix": "Intensité et émission hors jeu testées ; empreinte individuelle nulle",
+    "artnet": "Encodage / validation / fusion / décodage testés sur paquets en mémoire ; UDP en jeu non testé",
+    "sacn": "Même chaîne hors jeu testée ; univers 1 et 63999 acceptés, 0 rejeté ; UDP/multicast réel non testé",
+    "moteur": "Moteur CSC existant étendu ; shaders testés hors Minecraft sur Mesa ; rendu Minecraft non testé",
+    "autoshow": "Classification et génération des looks testées hors jeu ; spectacle Minecraft non testé",
+    "profils_externes": "MA2, dot2, GDTF/MA3 et QLC+ générés ; structure et canaux vérifiés ; aucune importation dans les logiciels",
+    "multijoueur": "Non testé dans Minecraft",
+    "performances": "Moteur CPU mesuré sur rigs mixtes ; FPS/GPU non mesurés",
+    "fonctions_implementees": "PAN/TILT 16 bits, CMY, shutter, deux roues de gobos rotatifs, animation, prismes, iris, zoom, focus.",
+    "limites": "Deux prismes : 3 ou 6 images, combinaison limitée à 8 images par le budget du masque ; pas une simulation physique de 18 images.",
+    "canaux": [
+      28,
+      13,
+      4,
+      0
+    ],
+    "triangles": {
+      "parts": 7888,
+      "lod_far": 1742,
+      "lod_low": 348
+    }
+  },
+  {
+    "projecteur": "CSC PROFILE P1",
+    "modele_3d": "Converti depuis le Blender fourni ; 3 LOD et empreinte source vérifiés ; affichage Minecraft non testé",
+    "animations": "PAN/TILT implémentés si motorisés, orientation manuelle commune sinon ; fonctionnement en jeu non testé",
+    "full": "Décodage et moteur hors jeu testés",
+    "compact": "Décodage hors jeu testé",
+    "ultra_compact": "Décodage hors jeu testé",
+    "virtual_matrix": "Intensité et émission hors jeu testées ; empreinte individuelle nulle",
+    "artnet": "Encodage / validation / fusion / décodage testés sur paquets en mémoire ; UDP en jeu non testé",
+    "sacn": "Même chaîne hors jeu testée ; univers 1 et 63999 acceptés, 0 rejeté ; UDP/multicast réel non testé",
+    "moteur": "Moteur CSC existant étendu ; shaders testés hors Minecraft sur Mesa ; rendu Minecraft non testé",
+    "autoshow": "Classification et génération des looks testées hors jeu ; spectacle Minecraft non testé",
+    "profils_externes": "MA2, dot2, GDTF/MA3 et QLC+ générés ; structure et canaux vérifiés ; aucune importation dans les logiciels",
+    "multijoueur": "Non testé dans Minecraft",
+    "performances": "Moteur CPU mesuré sur rigs mixtes ; FPS/GPU non mesurés",
+    "fonctions_implementees": "PAN/TILT, CMY/RGB, gobos, iris, zoom/focus, prisme, quatre couteaux et rotation du cadre dans le masque GLSL.",
+    "limites": "Aucune limite spécifique supplémentaire identifiée ; validation en jeu toujours requise",
+    "canaux": [
+      27,
+      13,
+      4,
+      0
+    ],
+    "triangles": {
+      "parts": 7840,
+      "lod_far": 1884,
+      "lod_low": 352
+    }
+  },
+  {
+    "projecteur": "CSC RAZOR B1",
+    "modele_3d": "Converti depuis le Blender fourni ; 3 LOD et empreinte source vérifiés ; affichage Minecraft non testé",
+    "animations": "PAN/TILT implémentés si motorisés, orientation manuelle commune sinon ; fonctionnement en jeu non testé",
+    "full": "Décodage et moteur hors jeu testés",
+    "compact": "Décodage hors jeu testé",
+    "ultra_compact": "Décodage hors jeu testé",
+    "virtual_matrix": "Intensité et émission hors jeu testées ; empreinte individuelle nulle",
+    "artnet": "Encodage / validation / fusion / décodage testés sur paquets en mémoire ; UDP en jeu non testé",
+    "sacn": "Même chaîne hors jeu testée ; univers 1 et 63999 acceptés, 0 rejeté ; UDP/multicast réel non testé",
+    "moteur": "Moteur CSC existant étendu ; shaders testés hors Minecraft sur Mesa ; rendu Minecraft non testé",
+    "autoshow": "Classification et génération des looks testées hors jeu ; spectacle Minecraft non testé",
+    "profils_externes": "MA2, dot2, GDTF/MA3 et QLC+ générés ; structure et canaux vérifiés ; aucune importation dans les logiciels",
+    "multijoueur": "Non testé dans Minecraft",
+    "performances": "Moteur CPU mesuré sur rigs mixtes ; FPS/GPU non mesurés",
+    "fonctions_implementees": "PAN/TILT, faisceau étroit, roue de couleurs, gobos, prisme huit facettes, frost et focus.",
+    "limites": "Aucune limite spécifique supplémentaire identifiée ; validation en jeu toujours requise",
+    "canaux": [
+      18,
+      11,
+      4,
+      0
+    ],
+    "triangles": {
+      "parts": 6616,
+      "lod_far": 1572,
+      "lod_low": 340
+    }
+  },
+  {
+    "projecteur": "CSC FLASHCORE FX",
+    "modele_3d": "Converti depuis le Blender fourni ; 3 LOD et empreinte source vérifiés ; affichage Minecraft non testé",
+    "animations": "PAN/TILT implémentés si motorisés, orientation manuelle commune sinon ; fonctionnement en jeu non testé",
+    "full": "Décodage et moteur hors jeu testés",
+    "compact": "Décodage hors jeu testé",
+    "ultra_compact": "Décodage hors jeu testé",
+    "virtual_matrix": "Intensité et émission hors jeu testées ; empreinte individuelle nulle",
+    "artnet": "Encodage / validation / fusion / décodage testés sur paquets en mémoire ; UDP en jeu non testé",
+    "sacn": "Même chaîne hors jeu testée ; univers 1 et 63999 acceptés, 0 rejeté ; UDP/multicast réel non testé",
+    "moteur": "Moteur CSC existant étendu ; shaders testés hors Minecraft sur Mesa ; rendu Minecraft non testé",
+    "autoshow": "Classification et génération des looks testées hors jeu ; spectacle Minecraft non testé",
+    "profils_externes": "MA2, dot2, GDTF/MA3 et QLC+ générés ; structure et canaux vérifiés ; aucune importation dans les logiciels",
+    "multijoueur": "Non testé dans Minecraft",
+    "performances": "Moteur CPU mesuré sur rigs mixtes ; FPS/GPU non mesurés",
+    "fonctions_implementees": "12 zones RGB + 12 segments blancs indépendants, tilt, dimmer et strobe.",
+    "limites": "Aucune limite spécifique supplémentaire identifiée ; validation en jeu toujours requise",
+    "canaux": [
+      60,
+      10,
+      3,
+      0
+    ],
+    "triangles": {
+      "parts": 7644,
+      "lod_far": 1080,
+      "lod_low": 192
+    }
+  },
+  {
+    "projecteur": "CSC PIXELBAR B16",
+    "modele_3d": "Converti depuis le Blender fourni ; 3 LOD et empreinte source vérifiés ; affichage Minecraft non testé",
+    "animations": "PAN/TILT implémentés si motorisés, orientation manuelle commune sinon ; fonctionnement en jeu non testé",
+    "full": "Décodage et moteur hors jeu testés",
+    "compact": "Décodage hors jeu testé",
+    "ultra_compact": "Décodage hors jeu testé",
+    "virtual_matrix": "Intensité et émission hors jeu testées ; empreinte individuelle nulle",
+    "artnet": "Encodage / validation / fusion / décodage testés sur paquets en mémoire ; UDP en jeu non testé",
+    "sacn": "Même chaîne hors jeu testée ; univers 1 et 63999 acceptés, 0 rejeté ; UDP/multicast réel non testé",
+    "moteur": "Moteur CSC existant étendu ; shaders testés hors Minecraft sur Mesa ; rendu Minecraft non testé",
+    "autoshow": "Classification et génération des looks testées hors jeu ; spectacle Minecraft non testé",
+    "profils_externes": "MA2, dot2, GDTF/MA3 et QLC+ générés ; structure et canaux vérifiés ; aucune importation dans les logiciels",
+    "multijoueur": "Non testé dans Minecraft",
+    "performances": "Moteur CPU mesuré sur rigs mixtes ; FPS/GPU non mesurés",
+    "fonctions_implementees": "16 pixels RGBW indépendants, tilt, zoom, effets de pixels existants.",
+    "limites": "Aucune limite spécifique supplémentaire identifiée ; validation en jeu toujours requise",
+    "canaux": [
+      75,
+      9,
+      3,
+      0
+    ],
+    "triangles": {
+      "parts": 8936,
+      "lod_far": 1416,
+      "lod_low": 64
+    }
+  },
+  {
+    "projecteur": "CSC PIXELTUBE T1",
+    "modele_3d": "Converti depuis le Blender fourni ; 3 LOD et empreinte source vérifiés ; affichage Minecraft non testé",
+    "animations": "PAN/TILT implémentés si motorisés, orientation manuelle commune sinon ; fonctionnement en jeu non testé",
+    "full": "Décodage et moteur hors jeu testés",
+    "compact": "Décodage hors jeu testé",
+    "ultra_compact": "Décodage hors jeu testé",
+    "virtual_matrix": "Intensité et émission hors jeu testées ; empreinte individuelle nulle",
+    "artnet": "Encodage / validation / fusion / décodage testés sur paquets en mémoire ; UDP en jeu non testé",
+    "sacn": "Même chaîne hors jeu testée ; univers 1 et 63999 acceptés, 0 rejeté ; UDP/multicast réel non testé",
+    "moteur": "Moteur CSC existant étendu ; shaders testés hors Minecraft sur Mesa ; rendu Minecraft non testé",
+    "autoshow": "Classification et génération des looks testées hors jeu ; spectacle Minecraft non testé",
+    "profils_externes": "MA2, dot2, GDTF/MA3 et QLC+ générés ; structure et canaux vérifiés ; aucune importation dans les logiciels",
+    "multijoueur": "Non testé dans Minecraft",
+    "performances": "Moteur CPU mesuré sur rigs mixtes ; FPS/GPU non mesurés",
+    "fonctions_implementees": "16 pixels RGB, CTO, strobe, diffuseur conservé, orientation manuelle commune.",
+    "limites": "Aucune limite spécifique supplémentaire identifiée ; validation en jeu toujours requise",
+    "canaux": [
+      55,
+      6,
+      2,
+      0
+    ],
+    "triangles": {
+      "parts": 3372,
+      "lod_far": 956,
+      "lod_low": 136
+    }
+  },
+  {
+    "projecteur": "CSC BLINDER X2",
+    "modele_3d": "Converti depuis le Blender fourni ; 3 LOD et empreinte source vérifiés ; affichage Minecraft non testé",
+    "animations": "PAN/TILT implémentés si motorisés, orientation manuelle commune sinon ; fonctionnement en jeu non testé",
+    "full": "Décodage et moteur hors jeu testés",
+    "compact": "Décodage hors jeu testé",
+    "ultra_compact": "Décodage hors jeu testé",
+    "virtual_matrix": "Intensité et émission hors jeu testées ; empreinte individuelle nulle",
+    "artnet": "Encodage / validation / fusion / décodage testés sur paquets en mémoire ; UDP en jeu non testé",
+    "sacn": "Même chaîne hors jeu testée ; univers 1 et 63999 acceptés, 0 rejeté ; UDP/multicast réel non testé",
+    "moteur": "Moteur CSC existant étendu ; shaders testés hors Minecraft sur Mesa ; rendu Minecraft non testé",
+    "autoshow": "Classification et génération des looks testées hors jeu ; spectacle Minecraft non testé",
+    "profils_externes": "MA2, dot2, GDTF/MA3 et QLC+ générés ; structure et canaux vérifiés ; aucune importation dans les logiciels",
+    "multijoueur": "Non testé dans Minecraft",
+    "performances": "Moteur CPU mesuré sur rigs mixtes ; FPS/GPU non mesurés",
+    "fonctions_implementees": "2 niveaux de cellules indépendants, dimmer, CTO, strobe, orientation manuelle commune.",
+    "limites": "Inertie thermique et courbe tungstène automatique non implémentées ; le CTO est disponible.",
+    "canaux": [
+      7,
+      4,
+      2,
+      0
+    ],
+    "triangles": {
+      "parts": 4008,
+      "lod_far": 1048,
+      "lod_low": 216
+    }
+  },
+  {
+    "projecteur": "CSC BLINDER X4",
+    "modele_3d": "Converti depuis le Blender fourni ; 3 LOD et empreinte source vérifiés ; affichage Minecraft non testé",
+    "animations": "PAN/TILT implémentés si motorisés, orientation manuelle commune sinon ; fonctionnement en jeu non testé",
+    "full": "Décodage et moteur hors jeu testés",
+    "compact": "Décodage hors jeu testé",
+    "ultra_compact": "Décodage hors jeu testé",
+    "virtual_matrix": "Intensité et émission hors jeu testées ; empreinte individuelle nulle",
+    "artnet": "Encodage / validation / fusion / décodage testés sur paquets en mémoire ; UDP en jeu non testé",
+    "sacn": "Même chaîne hors jeu testée ; univers 1 et 63999 acceptés, 0 rejeté ; UDP/multicast réel non testé",
+    "moteur": "Moteur CSC existant étendu ; shaders testés hors Minecraft sur Mesa ; rendu Minecraft non testé",
+    "autoshow": "Classification et génération des looks testées hors jeu ; spectacle Minecraft non testé",
+    "profils_externes": "MA2, dot2, GDTF/MA3 et QLC+ générés ; structure et canaux vérifiés ; aucune importation dans les logiciels",
+    "multijoueur": "Non testé dans Minecraft",
+    "performances": "Moteur CPU mesuré sur rigs mixtes ; FPS/GPU non mesurés",
+    "fonctions_implementees": "4 niveaux de cellules indépendants, dimmer, CTO, strobe, orientation manuelle commune.",
+    "limites": "Réglage manuel indépendant des deux rangées non implémenté ; les rangées restent à leur pose source, le tilt commun est réglable.",
+    "canaux": [
+      9,
+      4,
+      2,
+      0
+    ],
+    "triangles": {
+      "parts": 5888,
+      "lod_far": 1664,
+      "lod_low": 452
+    }
+  },
+  {
+    "projecteur": "CSC BLINDER X8",
+    "modele_3d": "Converti depuis le Blender fourni ; 3 LOD et empreinte source vérifiés ; affichage Minecraft non testé",
+    "animations": "PAN/TILT implémentés si motorisés, orientation manuelle commune sinon ; fonctionnement en jeu non testé",
+    "full": "Décodage et moteur hors jeu testés",
+    "compact": "Décodage hors jeu testé",
+    "ultra_compact": "Décodage hors jeu testé",
+    "virtual_matrix": "Intensité et émission hors jeu testées ; empreinte individuelle nulle",
+    "artnet": "Encodage / validation / fusion / décodage testés sur paquets en mémoire ; UDP en jeu non testé",
+    "sacn": "Même chaîne hors jeu testée ; univers 1 et 63999 acceptés, 0 rejeté ; UDP/multicast réel non testé",
+    "moteur": "Moteur CSC existant étendu ; shaders testés hors Minecraft sur Mesa ; rendu Minecraft non testé",
+    "autoshow": "Classification et génération des looks testées hors jeu ; spectacle Minecraft non testé",
+    "profils_externes": "MA2, dot2, GDTF/MA3 et QLC+ générés ; structure et canaux vérifiés ; aucune importation dans les logiciels",
+    "multijoueur": "Non testé dans Minecraft",
+    "performances": "Moteur CPU mesuré sur rigs mixtes ; FPS/GPU non mesurés",
+    "fonctions_implementees": "8 niveaux de cellules indépendants, dimmer, CTO, strobe, effets de pixels et orientation manuelle commune.",
+    "limites": "Aucune limite spécifique supplémentaire identifiée ; validation en jeu toujours requise",
+    "canaux": [
+      13,
+      4,
+      2,
+      0
+    ],
+    "triangles": {
+      "parts": 11048,
+      "lod_far": 3036,
+      "lod_low": 780
+    }
+  },
+  {
+    "projecteur": "CSC FOLLOWSPOT F1",
+    "modele_3d": "Converti depuis le Blender fourni ; 3 LOD et empreinte source vérifiés ; affichage Minecraft non testé",
+    "animations": "PAN/TILT implémentés si motorisés, orientation manuelle commune sinon ; fonctionnement en jeu non testé",
+    "full": "Décodage et moteur hors jeu testés",
+    "compact": "Décodage hors jeu testé",
+    "ultra_compact": "Décodage hors jeu testé",
+    "virtual_matrix": "Intensité et émission hors jeu testées ; empreinte individuelle nulle",
+    "artnet": "Encodage / validation / fusion / décodage testés sur paquets en mémoire ; UDP en jeu non testé",
+    "sacn": "Même chaîne hors jeu testée ; univers 1 et 63999 acceptés, 0 rejeté ; UDP/multicast réel non testé",
+    "moteur": "Moteur CSC existant étendu ; shaders testés hors Minecraft sur Mesa ; rendu Minecraft non testé",
+    "autoshow": "Classification et génération des looks testées hors jeu ; spectacle Minecraft non testé",
+    "profils_externes": "MA2, dot2, GDTF/MA3 et QLC+ générés ; structure et canaux vérifiés ; aucune importation dans les logiciels",
+    "multijoueur": "Non testé dans Minecraft",
+    "performances": "Moteur CPU mesuré sur rigs mixtes ; FPS/GPU non mesurés",
+    "fonctions_implementees": "Douser, iris, zoom/focus, filtres via palette CSC, PAN/TILT manuels, aucun moteur DMX fictif.",
+    "limites": "Les filtres utilisent les 17 couleurs CSC ; pas de simulation indépendante des six cadres physiques du modèle.",
+    "canaux": [
+      11,
+      7,
+      2,
+      0
+    ],
+    "triangles": {
+      "parts": 8660,
+      "lod_far": 2302,
+      "lod_low": 456
+    }
+  },
+  {
+    "projecteur": "CSC PIXELWASH W37",
+    "modele_3d": "Converti depuis le Blender fourni ; 3 LOD et empreinte source vérifiés ; affichage Minecraft non testé",
+    "animations": "PAN/TILT implémentés si motorisés, orientation manuelle commune sinon ; fonctionnement en jeu non testé",
+    "full": "Décodage et moteur hors jeu testés",
+    "compact": "Décodage hors jeu testé",
+    "ultra_compact": "Décodage hors jeu testé",
+    "virtual_matrix": "Intensité et émission hors jeu testées ; empreinte individuelle nulle",
+    "artnet": "Encodage / validation / fusion / décodage testés sur paquets en mémoire ; UDP en jeu non testé",
+    "sacn": "Même chaîne hors jeu testée ; univers 1 et 63999 acceptés, 0 rejeté ; UDP/multicast réel non testé",
+    "moteur": "Moteur CSC existant étendu ; shaders testés hors Minecraft sur Mesa ; rendu Minecraft non testé",
+    "autoshow": "Classification et génération des looks testées hors jeu ; spectacle Minecraft non testé",
+    "profils_externes": "MA2, dot2, GDTF/MA3 et QLC+ générés ; structure et canaux vérifiés ; aucune importation dans les logiciels",
+    "multijoueur": "Non testé dans Minecraft",
+    "performances": "Moteur CPU mesuré sur rigs mixtes ; FPS/GPU non mesurés",
+    "fonctions_implementees": "37 pixels RGBW indépendants, PAN/TILT, zoom, anneaux et diffusion Wash du moteur existant.",
+    "limites": "Aucune limite spécifique supplémentaire identifiée ; validation en jeu toujours requise",
+    "canaux": [
+      162,
+      12,
+      4,
+      0
+    ],
+    "triangles": {
+      "parts": 15586,
+      "lod_far": 2924,
+      "lod_low": 229
+    }
+  },
+  {
+    "projecteur": "CSC LASERCORE L1",
+    "modele_3d": "Converti depuis le Blender fourni ; 3 LOD et empreinte source vérifiés ; affichage Minecraft non testé",
+    "animations": "PAN/TILT implémentés si motorisés, orientation manuelle commune sinon ; fonctionnement en jeu non testé",
+    "full": "Décodage et moteur hors jeu testés",
+    "compact": "Décodage hors jeu testé",
+    "ultra_compact": "Décodage hors jeu testé",
+    "virtual_matrix": "Intensité et émission hors jeu testées ; empreinte individuelle nulle",
+    "artnet": "Encodage / validation / fusion / décodage testés sur paquets en mémoire ; UDP en jeu non testé",
+    "sacn": "Même chaîne hors jeu testée ; univers 1 et 63999 acceptés, 0 rejeté ; UDP/multicast réel non testé",
+    "moteur": "Moteur CSC existant étendu ; shaders testés hors Minecraft sur Mesa ; rendu Minecraft non testé",
+    "autoshow": "Classification et génération des looks testées hors jeu ; spectacle Minecraft non testé",
+    "profils_externes": "MA2, dot2, GDTF/MA3 et QLC+ générés ; structure et canaux vérifiés ; aucune importation dans les logiciels",
+    "multijoueur": "Non testé dans Minecraft",
+    "performances": "Moteur CPU mesuré sur rigs mixtes ; FPS/GPU non mesurés",
+    "fonctions_implementees": "Simulation RGB : point, éventail, cercle, croix et carré, vitesse/taille, rotation, douser.",
+    "limites": "Motifs analytiques dans le cône du moteur ; pas de scanner physique à six sorties indépendantes.",
+    "canaux": [
+      10,
+      5,
+      2,
+      0
+    ],
+    "triangles": {
+      "parts": 6208,
+      "lod_far": 1164,
+      "lod_low": 60
+    }
+  },
+  {
+    "projecteur": "CSC FLOODLIGHT F8",
+    "modele_3d": "Converti depuis le Blender fourni ; 3 LOD et empreinte source vérifiés ; affichage Minecraft non testé",
+    "animations": "PAN/TILT implémentés si motorisés, orientation manuelle commune sinon ; fonctionnement en jeu non testé",
+    "full": "Décodage et moteur hors jeu testés",
+    "compact": "Décodage hors jeu testé",
+    "ultra_compact": "Décodage hors jeu testé",
+    "virtual_matrix": "Intensité et émission hors jeu testées ; empreinte individuelle nulle",
+    "artnet": "Encodage / validation / fusion / décodage testés sur paquets en mémoire ; UDP en jeu non testé",
+    "sacn": "Même chaîne hors jeu testée ; univers 1 et 63999 acceptés, 0 rejeté ; UDP/multicast réel non testé",
+    "moteur": "Moteur CSC existant étendu ; shaders testés hors Minecraft sur Mesa ; rendu Minecraft non testé",
+    "autoshow": "Classification et génération des looks testées hors jeu ; spectacle Minecraft non testé",
+    "profils_externes": "MA2, dot2, GDTF/MA3 et QLC+ générés ; structure et canaux vérifiés ; aucune importation dans les logiciels",
+    "multijoueur": "Non testé dans Minecraft",
+    "performances": "Moteur CPU mesuré sur rigs mixtes ; FPS/GPU non mesurés",
+    "fonctions_implementees": "8 zones RGBW indépendantes, CTO, strobe, effets de pixels, distribution architecturale large.",
+    "limites": "Aucune limite spécifique supplémentaire identifiée ; validation en jeu toujours requise",
+    "canaux": [
+      40,
+      7,
+      2,
+      0
+    ],
+    "triangles": {
+      "parts": 15660,
+      "lod_far": 2676,
+      "lod_low": 60
+    }
+  }
+]

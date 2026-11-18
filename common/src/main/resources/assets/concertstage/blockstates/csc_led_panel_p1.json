@@ -1,0 +1,28 @@
+{
+ "variants": {
+  "facing=north,hanging=false": {
+   "model": "concertstage:block/csc_fixture_particle"
+  },
+  "facing=north,hanging=true": {
+   "model": "concertstage:block/csc_fixture_particle"
+  },
+  "facing=east,hanging=false": {
+   "model": "concertstage:block/csc_fixture_particle"
+  },
+  "facing=east,hanging=true": {
+   "model": "concertstage:block/csc_fixture_particle"
+  },
+  "facing=south,hanging=false": {
+   "model": "concertstage:block/csc_fixture_particle"
+  },
+  "facing=south,hanging=true": {
+   "model": "concertstage:block/csc_fixture_particle"
+  },
+  "facing=west,hanging=false": {
+   "model": "concertstage:block/csc_fixture_particle"
+  },
+  "facing=west,hanging=true": {
+   "model": "concertstage:block/csc_fixture_particle"
+  }
+ }
+}

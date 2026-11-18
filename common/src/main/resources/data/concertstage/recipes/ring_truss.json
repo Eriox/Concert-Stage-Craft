@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "TTT",
+    "T T",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "concertstage:truss_h1_l1"
+    }
+  },
+  "result": {
+    "item": "concertstage:ring_truss",
+    "count": 1
+  }
+}

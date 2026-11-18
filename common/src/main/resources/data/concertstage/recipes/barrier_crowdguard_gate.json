@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "concertstage:barrier_crowdguard_1m"
+    },
+    {
+      "item": "minecraft:iron_door"
+    }
+  ],
+  "result": {
+    "item": "concertstage:barrier_crowdguard_gate",
+    "count": 1
+  }
+}

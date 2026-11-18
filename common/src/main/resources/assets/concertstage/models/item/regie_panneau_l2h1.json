@@ -1,0 +1,107 @@
+{
+  "parent": "concertstage:block/regie_panneau_l2h1",
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        2.857,
+        0.0,
+        -2.857
+      ],
+      "scale": [
+        0.5051,
+        0.5051,
+        0.5051
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        -1.616,
+        3.0,
+        0.0
+      ],
+      "scale": [
+        0.202,
+        0.202,
+        0.202
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        -3.232,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.4041,
+        0.4041,
+        0.4041
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        -1.714,
+        2.5,
+        1.714
+      ],
+      "scale": [
+        0.303,
+        0.303,
+        0.303
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        -1.829,
+        0.0,
+        1.829
+      ],
+      "scale": [
+        0.3232,
+        0.3232,
+        0.3232
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        1.829,
+        0.0,
+        -1.829
+      ],
+      "scale": [
+        0.3232,
+        0.3232,
+        0.3232
+      ]
+    }
+  }
+}

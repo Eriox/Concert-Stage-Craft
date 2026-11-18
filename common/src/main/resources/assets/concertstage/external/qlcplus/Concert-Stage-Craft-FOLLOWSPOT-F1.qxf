@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Concert Stage Craft</Name>
+  <Version>1.2.0</Version>
+  <Author>Concert Stage Craft (generated from the game data)</Author>
+ </Creator>
+ <Manufacturer>Concert Stage Craft</Manufacturer>
+ <Model>FOLLOWSPOT F1</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer</Capability>
+ </Channel>
+ <Channel Name="Dimmer fine">
+  <Group Byte="1">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer fine</Capability>
+ </Channel>
+ <Channel Name="Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="7">Open</Capability>
+  <Capability Min="8" Max="255">Strobe 1 to 25 Hz</Capability>
+ </Channel>
+ <Channel Name="Red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red</Capability>
+ </Channel>
+ <Channel Name="Green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Green</Capability>
+ </Channel>
+ <Channel Name="Blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Blue</Capability>
+ </Channel>
+ <Channel Name="Zoom">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Zoom</Capability>
+ </Channel>
+ <Channel Name="Focus">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Focus</Capability>
+ </Channel>
+ <Channel Name="Iris">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Iris</Capability>
+ </Channel>
+ <Channel Name="Color wheel">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Color wheel</Capability>
+ </Channel>
+ <Channel Name="Douser">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Douser</Capability>
+ </Channel>
+ <Mode Name="Full">
+  <Physical>
+   <Bulb Type="LED" Lumens="0" ColourTemperature="6500"/>
+   <Dimensions Weight="0" Width="1551" Height="1551" Depth="1551"/>
+   <Lens Name="Other" DegreesMin="3" DegreesMax="20"/>
+   <Focus Type="Head" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="Other"/>
+  </Physical>
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Dimmer fine</Channel>
+  <Channel Number="2">Strobe</Channel>
+  <Channel Number="3">Red</Channel>
+  <Channel Number="4">Green</Channel>
+  <Channel Number="5">Blue</Channel>
+  <Channel Number="6">Zoom</Channel>
+  <Channel Number="7">Focus</Channel>
+  <Channel Number="8">Iris</Channel>
+  <Channel Number="9">Color wheel</Channel>
+  <Channel Number="10">Douser</Channel>
+ </Mode>
+ <Mode Name="Compact">
+  <Physical>
+   <Bulb Type="LED" Lumens="0" ColourTemperature="6500"/>
+   <Dimensions Weight="0" Width="1551" Height="1551" Depth="1551"/>
+   <Lens Name="Other" DegreesMin="3" DegreesMax="20"/>
+   <Focus Type="Head" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="Other"/>
+  </Physical>
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Strobe</Channel>
+  <Channel Number="2">Red</Channel>
+  <Channel Number="3">Green</Channel>
+  <Channel Number="4">Blue</Channel>
+  <Channel Number="5">Zoom</Channel>
+  <Channel Number="6">Iris</Channel>
+ </Mode>
+ <Mode Name="Ultra Compact">
+  <Physical>
+   <Bulb Type="LED" Lumens="0" ColourTemperature="6500"/>
+   <Dimensions Weight="0" Width="1551" Height="1551" Depth="1551"/>
+   <Lens Name="Other" DegreesMin="3" DegreesMax="20"/>
+   <Focus Type="Head" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="Other"/>
+  </Physical>
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Red</Channel>
+  <Channel Number="2">Green</Channel>
+  <Channel Number="3">Blue</Channel>
+ </Mode>
+</FixtureDefinition>

@@ -1,0 +1,107 @@
+{
+  "parent": "concertstage:block/regie_barriere_l1",
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        -0.018,
+        0.044,
+        -0.018
+      ],
+      "scale": [
+        0.3425,
+        0.3425,
+        0.3425
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0.0,
+        3.021,
+        0.0
+      ],
+      "scale": [
+        0.137,
+        0.137,
+        0.137
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0.0,
+        0.041,
+        0.0
+      ],
+      "scale": [
+        0.274,
+        0.274,
+        0.274
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0.021,
+        2.508,
+        0.021
+      ],
+      "scale": [
+        0.2055,
+        0.2055,
+        0.2055
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0.0,
+        0.033,
+        0.0
+      ],
+      "scale": [
+        0.2192,
+        0.2192,
+        0.2192
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0.0,
+        0.033,
+        0.0
+      ],
+      "scale": [
+        0.2192,
+        0.2192,
+        0.2192
+      ]
+    }
+  }
+}

@@ -1,0 +1,3766 @@
+[
+ {
+  "modele": "CSC_Tower_PassThrough_Scaffold",
+  "axe": [
+   24.0,
+   0.0,
+   24.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_Tower_PassThrough_Scaffold_LOD",
+  "axe": [
+   24.0,
+   0.0,
+   24.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_Tower_PassThrough_Scaffold_Sleeve",
+  "axe": [
+   40.0,
+   0.0,
+   40.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_Tower_PassThrough_Scaffold_Sleeve_LOD",
+  "axe": [
+   40.0,
+   0.0,
+   40.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_Tower_SidePass_Scaffold",
+  "axe": [
+   24.0,
+   0.0,
+   -8.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_Tower_SidePass_Scaffold_LOD",
+  "axe": [
+   24.0,
+   0.0,
+   -8.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_Tower_SidePass_Scaffold_Sleeve",
+  "axe": [
+   40.0,
+   0.0,
+   -8.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_Tower_SidePass_Scaffold_Sleeve_LOD",
+  "axe": [
+   40.0,
+   0.0,
+   -8.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_Tower_CornerPass_Scaffold",
+  "axe": [
+   8.0,
+   0.0,
+   8.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_Tower_CornerPass_Scaffold_LOD",
+  "axe": [
+   8.0,
+   0.0,
+   8.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_Tower_CornerPass_Scaffold_Sleeve",
+  "axe": [
+   8.0,
+   0.0,
+   8.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_Tower_CornerPass_Scaffold_Sleeve_LOD",
+  "axe": [
+   8.0,
+   0.0,
+   8.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Tower_Opening @ 0.8 m (+ pieds)",
+  "axe": [
+   24.0,
+   0.0,
+   24.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Tower_Opening @ 1.2 m (+ pieds)",
+  "axe": [
+   24.0,
+   0.0,
+   24.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Tower_Opening_LOD @ 0.8 m",
+  "axe": [
+   24.0,
+   0.0,
+   24.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Tower_Frame @ 0.8 m (+ pieds)",
+  "axe": [
+   24.0,
+   0.0,
+   24.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Tower_Frame @ 1.2 m (+ pieds)",
+  "axe": [
+   24.0,
+   0.0,
+   24.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Tower_Frame_LOD @ 0.8 m",
+  "axe": [
+   24.0,
+   0.0,
+   24.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Sleeve_Opening @ 0.8 m (+ pieds)",
+  "axe": [
+   40.0,
+   0.0,
+   40.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Sleeve_Opening @ 1.2 m (+ pieds)",
+  "axe": [
+   40.0,
+   0.0,
+   40.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Sleeve_Opening_LOD @ 0.8 m",
+  "axe": [
+   40.0,
+   0.0,
+   40.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Tower_Side @ 0.8 m (+ pieds)",
+  "axe": [
+   24.0,
+   0.0,
+   -8.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Tower_Side @ 1.2 m (+ pieds)",
+  "axe": [
+   24.0,
+   0.0,
+   -8.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Tower_Side_LOD @ 0.8 m",
+  "axe": [
+   24.0,
+   0.0,
+   -8.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Tower_Corner @ 0.8 m (+ pieds)",
+  "axe": [
+   -8.0,
+   0.0,
+   -8.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Tower_Corner @ 1.2 m (+ pieds)",
+  "axe": [
+   -8.0,
+   0.0,
+   -8.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CSC_StageDeck_Tower_Corner_LOD @ 0.8 m",
+  "axe": [
+   -8.0,
+   0.0,
+   -8.0
+  ],
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 0,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 90,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 180,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 112.23,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 288.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 176.24,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "rotation": 270,
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "course_chariot_u": 224.24,
+    "details": []
+   }
+  ],
+  "ok": true
+ },
+ {
+  "modele": "CONTRÔLE NÉGATIF (tour décalée de 6 u)",
+  "detecte": true,
+  "details": [
+   [
+    "Lisse O 1.57 m",
+    "Support du capteur bas",
+    "[14.66, 14.85, 1.25]"
+   ]
+  ]
+ }
+]

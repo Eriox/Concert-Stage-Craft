@@ -1,0 +1,124 @@
+{
+    "blend": {
+        "func": "add",
+        "srcrgb": "1",
+        "dstrgb": "1"
+    },
+    "vertex": "concertstage_light_composite",
+    "fragment": "concertstage_light_composite",
+    "attributes": [
+        "Position"
+    ],
+    "samplers": [
+        {
+            "name": "LightSampler"
+        }
+    ],
+    "uniforms": [
+        {
+            "name": "ModelViewMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0
+            ]
+        },
+        {
+            "name": "ProjMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0
+            ]
+        },
+        {
+            "name": "TargetSize",
+            "type": "float",
+            "count": 2,
+            "values": [
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "PassRoot",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.5
+            ]
+        },
+        {
+            "name": "AddMode",
+            "type": "float",
+            "count": 1,
+            "values": [
+                1.0
+            ]
+        },
+        {
+            "name": "AddK",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.06
+            ]
+        },
+        {
+            "name": "Gain",
+            "type": "float",
+            "count": 1,
+            "values": [
+                1.0
+            ]
+        },
+        {
+            "name": "DebugMode",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "AmbientTint",
+            "type": "float",
+            "count": 3,
+            "values": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ]
+}

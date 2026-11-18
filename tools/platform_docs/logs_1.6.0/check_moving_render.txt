@@ -1,0 +1,1 @@
+30 real renderer helper checks passed (API stand-ins, not Minecraft)

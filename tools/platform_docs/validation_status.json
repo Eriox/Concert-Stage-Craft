@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-31",
+  "target": "Minecraft Forge 1.20.1 / 47.2.0",
+  "source_version": "1.6.0",
+  "derived_blockbench_models_native_checked": 55,
+  "connection_assertions_api_standins": 1560,
+  "platform_assertions_api_standins": 71388,
+  "connection_asset_assertions": 1296702,
+  "platform_asset_assertions": 54161,
+  "java_syntax_files": 63,
+  "startup_cache_assertions_api_standins": 764,
+  "lift_sync_assertions": 34,
+  "moving_renderer_assertions": 30,
+  "rigging_math_assertions": 169630,
+  "rigging_renderer_assertions": 2313,
+  "rigging_asset_assertions": 3459275,
+  "forge_compile": "blocked before compileJava: ForgeGradle plugin resolution failed",
+  "validated_mod_jar": false,
+  "minecraft_runtime_tests": false,
+  "dedicated_server_tests": false,
+  "performance_benchmark": false,
+  "confirmed_user_freeze_cause": false
+}

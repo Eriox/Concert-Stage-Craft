@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="concertstage"
+version="1.2.1"
+displayName="Concert Stage Craft"
+description='''
+Professional modular stages, artist platforms, stairs, railings, trusses, motorised towers, chain hoists and curtains.
+'''
+
+[[dependencies.concertstage]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.concertstage]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

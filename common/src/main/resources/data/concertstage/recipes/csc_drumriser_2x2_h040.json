@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "concertstage_csc_v3",
+  "ingredients": [
+    {
+      "item": "concertstage:stage_deck_2x1_without_legs"
+    },
+    {
+      "item": "concertstage:stage_deck_2x1_without_legs"
+    },
+    {
+      "item": "concertstage:adjustable_leg_h040"
+    },
+    {
+      "item": "concertstage:adjustable_leg_h040"
+    },
+    {
+      "item": "concertstage:adjustable_leg_h040"
+    },
+    {
+      "item": "concertstage:adjustable_leg_h040"
+    }
+  ],
+  "result": {
+    "item": "concertstage:csc_drumriser_2x2_h040"
+  }
+}

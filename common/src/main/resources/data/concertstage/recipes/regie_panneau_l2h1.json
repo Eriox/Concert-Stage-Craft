@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "PBP",
+    "PIP"
+  ],
+  "key": {
+    "P": {
+      "item": "concertstage:regie_poteau_h1"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "concertstage:regie_panneau_l2h1",
+    "count": 1
+  }
+}

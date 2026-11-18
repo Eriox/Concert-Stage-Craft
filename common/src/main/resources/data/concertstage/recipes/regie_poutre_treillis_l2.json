@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "concertstage:regie_poutre_treillis_l1"
+    },
+    {
+      "item": "concertstage:regie_poutre_treillis_l1"
+    }
+  ],
+  "result": {
+    "item": "concertstage:regie_poutre_treillis_l2",
+    "count": 1
+  }
+}

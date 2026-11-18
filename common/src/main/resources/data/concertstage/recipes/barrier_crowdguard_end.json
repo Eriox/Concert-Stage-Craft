@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "concertstage:barrier_crowdguard_1m"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "concertstage:barrier_crowdguard_end",
+    "count": 1
+  }
+}

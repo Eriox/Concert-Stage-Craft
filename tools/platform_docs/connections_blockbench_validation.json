@@ -1,0 +1,1657 @@
+{
+  "application": "Blockbench",
+  "version": "5.2.2",
+  "runtime": "Official web application, local assets; Chromium headless + software WebGL",
+  "models": [
+    {
+      "cubes": 81,
+      "elements": 81,
+      "groups": 2,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 81,
+      "roundtrip_format": "5.0",
+      "file": "adapters/tower_stage_adapter_100.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 81,
+      "elements": 81,
+      "groups": 2,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 81,
+      "roundtrip_format": "5.0",
+      "file": "adapters/tower_stage_adapter_200.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 83,
+      "elements": 83,
+      "groups": 2,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 83,
+      "roundtrip_format": "5.0",
+      "file": "adapters/tower_stage_adapter_400.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 83,
+      "elements": 83,
+      "groups": 2,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 83,
+      "roundtrip_format": "5.0",
+      "file": "adapters/tower_stage_adapter_600.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 83,
+      "elements": 83,
+      "groups": 2,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 83,
+      "roundtrip_format": "5.0",
+      "file": "adapters/tower_stage_adapter_800.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 83,
+      "elements": 83,
+      "groups": 2,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 83,
+      "roundtrip_format": "5.0",
+      "file": "adapters/tower_stage_adapter_896.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 3520,
+      "elements": 3520,
+      "groups": 168,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 3520,
+      "roundtrip_format": "5.0",
+      "file": "assembly_festival_stage_8x4_h220.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 44,
+      "elements": 44,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 44,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_01.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 86,
+      "elements": 86,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 86,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_02.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 102,
+      "elements": 102,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 102,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_03.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 118,
+      "elements": 118,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 118,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_04.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 134,
+      "elements": 134,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 134,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_05.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 150,
+      "elements": 150,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 150,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_06.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 184,
+      "elements": 184,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 184,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_07.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 200,
+      "elements": 200,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 200,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_08.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 216,
+      "elements": 216,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 216,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_09.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 232,
+      "elements": 232,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 232,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_10.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 248,
+      "elements": 248,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 248,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_11.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 264,
+      "elements": 264,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 264,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_12.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 298,
+      "elements": 298,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 298,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_13.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 314,
+      "elements": 314,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 314,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_14.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 330,
+      "elements": 330,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 330,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_15.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 346,
+      "elements": 346,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 346,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_16.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 362,
+      "elements": 362,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 362,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_17.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 378,
+      "elements": 378,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 378,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_18.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 412,
+      "elements": 412,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 412,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_19.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 428,
+      "elements": 428,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 428,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_20.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 444,
+      "elements": 444,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 444,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_21.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 460,
+      "elements": 460,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 460,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_22.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 476,
+      "elements": 476,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 476,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_23.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 492,
+      "elements": 492,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 492,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_24.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 526,
+      "elements": 526,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 526,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_25.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 542,
+      "elements": 542,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 542,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_26.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 558,
+      "elements": 558,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 558,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_27.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 574,
+      "elements": 574,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 574,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_28.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 590,
+      "elements": 590,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 590,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_29.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 606,
+      "elements": 606,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 606,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_30.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 640,
+      "elements": 640,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 640,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_31.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 656,
+      "elements": 656,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 656,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_32.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 672,
+      "elements": 672,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 672,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_33.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 688,
+      "elements": 688,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 688,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_34.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 704,
+      "elements": 704,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 704,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_35.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 720,
+      "elements": 720,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 720,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_36.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 754,
+      "elements": 754,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 754,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_37.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 770,
+      "elements": 770,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 770,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_38.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 786,
+      "elements": 786,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 786,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_39.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 802,
+      "elements": 802,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 802,
+      "roundtrip_format": "5.0",
+      "file": "flights/connected_stairs_40.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 205,
+      "elements": 205,
+      "groups": 8,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 205,
+      "roundtrip_format": "5.0",
+      "file": "raised_stage_platform_2x1_h220.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 1773,
+      "elements": 1774,
+      "groups": 82,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1774,
+      "roundtrip_format": "5.0",
+      "file": "stage_structure_h300_est.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 1773,
+      "elements": 1774,
+      "groups": 82,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1774,
+      "roundtrip_format": "5.0",
+      "file": "stage_structure_h300_ouest.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 1773,
+      "elements": 1773,
+      "groups": 81,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1773,
+      "roundtrip_format": "5.0",
+      "file": "stage_structure_h300_sans_barrieres.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 1773,
+      "elements": 1774,
+      "groups": 82,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1774,
+      "roundtrip_format": "5.0",
+      "file": "stage_structure_h300_sud.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 1773,
+      "elements": 1774,
+      "groups": 82,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1774,
+      "roundtrip_format": "5.0",
+      "file": "stage_structure_h300_sud_est.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 1576,
+      "elements": 1577,
+      "groups": 73,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1577,
+      "roundtrip_format": "5.0",
+      "file": "stage_structure_h300_sud_est_tour.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 1576,
+      "elements": 1577,
+      "groups": 73,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1577,
+      "roundtrip_format": "5.0",
+      "file": "stage_structure_h300_sud_tour.bbmodel",
+      "new_errors": []
+    }
+  ]
+}

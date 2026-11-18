@@ -1,0 +1,8 @@
+== tools/rev19/run.sh: passed 222, failed 0 
+== tools/lightshow_tests/run.sh: passed 156, failed 0 
+== tools/lightshow_tests/run_external.sh: passed 371, failed 0 passed 27, failed 0 passed 756, failed 0 
+== tools/lightshow_tests/run_new_fixtures.sh: passed 3495, failed 0 
+== tools/lightshow_tests/run_optics.sh: passed 19, failed 0 
+== tools/lightshow_tests/run_new_optics.sh: passed 26 x 4096 points, failed 0; worst relative error 1.080930233001709E-4 
+== tools/rev18/run.sh: MountTest PASS FarViewTest PASS 
+== tools/rev21/run.sh: passed 171, failed 0 

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    " R ",
+    "IHI",
+    " I "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "H": {
+      "item": "minecraft:shears"
+    }
+  },
+  "result": {
+    "item": "concertstage:structure_manager_tool",
+    "count": 1
+  }
+}

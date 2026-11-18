@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "tools",
+  "ingredients": [
+    {
+      "item": "concertstage:lift_remote"
+    },
+    {
+      "item": "concertstage:truss_h1_l1"
+    }
+  ],
+  "result": {
+    "item": "concertstage:ring_truss_tool",
+    "count": 1
+  }
+}

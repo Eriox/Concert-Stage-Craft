@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "concertstage:csc_floodlight_f8"
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:survives_explosion"
+    }
+   ]
+  }
+ ]
+}

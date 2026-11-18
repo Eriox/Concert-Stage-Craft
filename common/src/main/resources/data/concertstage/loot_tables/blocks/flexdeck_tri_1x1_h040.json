@@ -1,0 +1,1 @@
+{"type": "minecraft:block", "pools": [{"rolls": 1, "entries": [{"type": "minecraft:item", "name": "concertstage:flexdeck_tri_1x1_h040"}], "conditions": [{"condition": "minecraft:survives_explosion"}]}]}

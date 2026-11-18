@@ -1,0 +1,114 @@
+{
+    "vertex": "concertstage_light_composite",
+    "fragment": "concertstage_light_tonemap",
+    "attributes": [
+        "Position"
+    ],
+    "samplers": [
+        {
+            "name": "LightSampler"
+        },
+        {
+            "name": "SceneSampler"
+        }
+    ],
+    "uniforms": [
+        {
+            "name": "ModelViewMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0
+            ]
+        },
+        {
+            "name": "ProjMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0
+            ]
+        },
+        {
+            "name": "TargetSize",
+            "type": "float",
+            "count": 2,
+            "values": [
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "AddK",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.06
+            ]
+        },
+        {
+            "name": "Gain",
+            "type": "float",
+            "count": 1,
+            "values": [
+                1.0
+            ]
+        },
+        {
+            "name": "DebugMode",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "Knee",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.65
+            ]
+        },
+        {
+            "name": "AmbientTint",
+            "type": "float",
+            "count": 3,
+            "values": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ]
+}

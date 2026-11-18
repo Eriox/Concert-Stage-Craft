@@ -1,0 +1,30 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "redstone",
+ "pattern": [
+  "RQR",
+  "NJN",
+  "III"
+ ],
+ "key": {
+  "R": {
+   "item": "minecraft:redstone"
+  },
+  "Q": {
+   "item": "minecraft:comparator"
+  },
+  "N": {
+   "item": "minecraft:note_block"
+  },
+  "J": {
+   "item": "minecraft:jukebox"
+  },
+  "I": {
+   "item": "minecraft:iron_ingot"
+  }
+ },
+ "result": {
+  "item": "concertstage:csc_audio_console",
+  "count": 1
+ }
+}

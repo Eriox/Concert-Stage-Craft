@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Concert Stage Craft</Name>
+  <Version>1.2.0</Version>
+  <Author>Concert Stage Craft (generated from the game data)</Author>
+ </Creator>
+ <Manufacturer>Concert Stage Craft</Manufacturer>
+ <Model>FLASHCORE FX</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="Tilt">
+  <Group Byte="0">Tilt</Group>
+  <Capability Min="0" Max="255">Tilt</Capability>
+ </Channel>
+ <Channel Name="Tilt fine">
+  <Group Byte="1">Tilt</Group>
+  <Capability Min="0" Max="255">Tilt fine</Capability>
+ </Channel>
+ <Channel Name="Motor speed">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Motor speed</Capability>
+ </Channel>
+ <Channel Name="Zoom">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Zoom</Capability>
+ </Channel>
+ <Channel Name="CTO (white)">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="255">CTO 6500 K to 2700 K</Capability>
+ </Channel>
+ <Channel Name="White bar dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">White bar dimmer</Capability>
+ </Channel>
+ <Channel Name="Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="7">Open</Capability>
+  <Capability Min="8" Max="255">Strobe 1 to 25 Hz</Capability>
+ </Channel>
+ <Channel Name="Top cell 1 red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Top cell 1 red</Capability>
+ </Channel>
+ <Channel Name="Top cell 1 green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Top cell 1 green</Capability>
+ </Channel>
+ <Channel Name="Top cell 1 blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Top cell 1 blue</Capability>
+ </Channel>
+ <Channel Name="Top cell 2 red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Top cell 2 red</Capability>
+ </Channel>
+ <Channel Name="Top cell 2 green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Top cell 2 green</Capability>
+ </Channel>
+ <Channel Name="Top cell 2 blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Top cell 2 blue</Capability>
+ </Channel>
+ <Channel Name="Top cell 3 red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Top cell 3 red</Capability>
+ </Channel>
+ <Channel Name="Top cell 3 green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Top cell 3 green</Capability>
+ </Channel>
+ <Channel Name="Top cell 3 blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Top cell 3 blue</Capability>
+ </Channel>
+ <Channel Name="Top cell 4 red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Top cell 4 red</Capability>
+ </Channel>
+ <Channel Name="Top cell 4 green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Top cell 4 green</Capability>
+ </Channel>
+ <Channel Name="Top cell 4 blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Top cell 4 blue</Capability>
+ </Channel>
+ <Channel Name="Top cell 5 red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Top cell 5 red</Capability>
+ </Channel>
+ <Channel Name="Top cell 5 green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Top cell 5 green</Capability>
+ </Channel>
+ <Channel Name="Top cell 5 blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Top cell 5 blue</Capability>
+ </Channel>
+ <Channel Name="Top cell 6 red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Top cell 6 red</Capability>
+ </Channel>
+ <Channel Name="Top cell 6 green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Top cell 6 green</Capability>
+ </Channel>
+ <Channel Name="Top cell 6 blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Top cell 6 blue</Capability>
+ </Channel>
+ <Channel Name="Centre segment 1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Centre segment 1</Capability>
+ </Channel>
+ <Channel Name="Centre segment 2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Centre segment 2</Capability>
+ </Channel>
+ <Channel Name="Centre segment 3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Centre segment 3</Capability>
+ </Channel>
+ <Channel Name="Centre segment 4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Centre segment 4</Capability>
+ </Channel>
+ <Channel Name="Centre segment 5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Centre segment 5</Capability>
+ </Channel>
+ <Channel Name="Centre segment 6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Centre segment 6</Capability>
+ </Channel>
+ <Channel Name="Centre segment 7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Centre segment 7</Capability>
+ </Channel>
+ <Channel Name="Centre segment 8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Centre segment 8</Capability>
+ </Channel>
+ <Channel Name="Centre segment 9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Centre segment 9</Capability>
+ </Channel>
+ <Channel Name="Centre segment 10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Centre segment 10</Capability>
+ </Channel>
+ <Channel Name="Centre segment 11">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Centre segment 11</Capability>
+ </Channel>
+ <Channel Name="Centre segment 12">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Centre segment 12</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 1 red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Bottom cell 1 red</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 1 green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Bottom cell 1 green</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 1 blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Bottom cell 1 blue</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 2 red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Bottom cell 2 red</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 2 green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Bottom cell 2 green</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 2 blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Bottom cell 2 blue</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 3 red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Bottom cell 3 red</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 3 green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Bottom cell 3 green</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 3 blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Bottom cell 3 blue</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 4 red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Bottom cell 4 red</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 4 green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Bottom cell 4 green</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 4 blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Bottom cell 4 blue</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 5 red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Bottom cell 5 red</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 5 green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Bottom cell 5 green</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 5 blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Bottom cell 5 blue</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 6 red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Bottom cell 6 red</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 6 green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Bottom cell 6 green</Capability>
+ </Channel>
+ <Channel Name="Bottom cell 6 blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Bottom cell 6 blue</Capability>
+ </Channel>
+ <Channel Name="LED bars dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">LED bars dimmer</Capability>
+ </Channel>
+ <Channel Name="LED bars red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">LED bars red</Capability>
+ </Channel>
+ <Channel Name="LED bars green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">LED bars green</Capability>
+ </Channel>
+ <Channel Name="LED bars blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">LED bars blue</Capability>
+ </Channel>
+ <Channel Name="LED bars strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="7">Open</Capability>
+  <Capability Min="8" Max="255">Strobe 1 to 25 Hz</Capability>
+ </Channel>
+ <Channel Name="White bar strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="7">Open</Capability>
+  <Capability Min="8" Max="255">Strobe 1 to 25 Hz</Capability>
+ </Channel>
+ <Channel Name="Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer</Capability>
+ </Channel>
+ <Channel Name="Red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red</Capability>
+ </Channel>
+ <Channel Name="Green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Green</Capability>
+ </Channel>
+ <Channel Name="Blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Blue</Capability>
+ </Channel>
+ <Mode Name="Full">
+  <Physical>
+   <Bulb Type="LED" Lumens="0" ColourTemperature="6500"/>
+   <Dimensions Weight="0" Width="1129" Height="1129" Depth="1129"/>
+   <Lens Name="Other" DegreesMin="30" DegreesMax="80"/>
+   <Focus Type="Head" PanMax="0" TiltMax="190"/>
+   <Technical PowerConsumption="0" DmxConnector="Other"/>
+  </Physical>
+  <Channel Number="0">Tilt</Channel>
+  <Channel Number="1">Tilt fine</Channel>
+  <Channel Number="2">Motor speed</Channel>
+  <Channel Number="3">Zoom</Channel>
+  <Channel Number="4">CTO (white)</Channel>
+  <Channel Number="5">White bar dimmer</Channel>
+  <Channel Number="6">Strobe</Channel>
+  <Channel Number="7">Top cell 1 red</Channel>
+  <Channel Number="8">Top cell 1 green</Channel>
+  <Channel Number="9">Top cell 1 blue</Channel>
+  <Channel Number="10">Top cell 2 red</Channel>
+  <Channel Number="11">Top cell 2 green</Channel>
+  <Channel Number="12">Top cell 2 blue</Channel>
+  <Channel Number="13">Top cell 3 red</Channel>
+  <Channel Number="14">Top cell 3 green</Channel>
+  <Channel Number="15">Top cell 3 blue</Channel>
+  <Channel Number="16">Top cell 4 red</Channel>
+  <Channel Number="17">Top cell 4 green</Channel>
+  <Channel Number="18">Top cell 4 blue</Channel>
+  <Channel Number="19">Top cell 5 red</Channel>
+  <Channel Number="20">Top cell 5 green</Channel>
+  <Channel Number="21">Top cell 5 blue</Channel>
+  <Channel Number="22">Top cell 6 red</Channel>
+  <Channel Number="23">Top cell 6 green</Channel>
+  <Channel Number="24">Top cell 6 blue</Channel>
+  <Channel Number="25">Centre segment 1</Channel>
+  <Channel Number="26">Centre segment 2</Channel>
+  <Channel Number="27">Centre segment 3</Channel>
+  <Channel Number="28">Centre segment 4</Channel>
+  <Channel Number="29">Centre segment 5</Channel>
+  <Channel Number="30">Centre segment 6</Channel>
+  <Channel Number="31">Centre segment 7</Channel>
+  <Channel Number="32">Centre segment 8</Channel>
+  <Channel Number="33">Centre segment 9</Channel>
+  <Channel Number="34">Centre segment 10</Channel>
+  <Channel Number="35">Centre segment 11</Channel>
+  <Channel Number="36">Centre segment 12</Channel>
+  <Channel Number="37">Bottom cell 1 red</Channel>
+  <Channel Number="38">Bottom cell 1 green</Channel>
+  <Channel Number="39">Bottom cell 1 blue</Channel>
+  <Channel Number="40">Bottom cell 2 red</Channel>
+  <Channel Number="41">Bottom cell 2 green</Channel>
+  <Channel Number="42">Bottom cell 2 blue</Channel>
+  <Channel Number="43">Bottom cell 3 red</Channel>
+  <Channel Number="44">Bottom cell 3 green</Channel>
+  <Channel Number="45">Bottom cell 3 blue</Channel>
+  <Channel Number="46">Bottom cell 4 red</Channel>
+  <Channel Number="47">Bottom cell 4 green</Channel>
+  <Channel Number="48">Bottom cell 4 blue</Channel>
+  <Channel Number="49">Bottom cell 5 red</Channel>
+  <Channel Number="50">Bottom cell 5 green</Channel>
+  <Channel Number="51">Bottom cell 5 blue</Channel>
+  <Channel Number="52">Bottom cell 6 red</Channel>
+  <Channel Number="53">Bottom cell 6 green</Channel>
+  <Channel Number="54">Bottom cell 6 blue</Channel>
+  <Head>
+   <Channel>37</Channel>
+   <Channel>38</Channel>
+   <Channel>39</Channel>
+  </Head>
+  <Head>
+   <Channel>40</Channel>
+   <Channel>41</Channel>
+   <Channel>42</Channel>
+  </Head>
+  <Head>
+   <Channel>43</Channel>
+   <Channel>44</Channel>
+   <Channel>45</Channel>
+  </Head>
+  <Head>
+   <Channel>46</Channel>
+   <Channel>47</Channel>
+   <Channel>48</Channel>
+  </Head>
+  <Head>
+   <Channel>49</Channel>
+   <Channel>50</Channel>
+   <Channel>51</Channel>
+  </Head>
+  <Head>
+   <Channel>52</Channel>
+   <Channel>53</Channel>
+   <Channel>54</Channel>
+  </Head>
+  <Head>
+   <Channel>7</Channel>
+   <Channel>8</Channel>
+   <Channel>9</Channel>
+  </Head>
+  <Head>
+   <Channel>10</Channel>
+   <Channel>11</Channel>
+   <Channel>12</Channel>
+  </Head>
+  <Head>
+   <Channel>13</Channel>
+   <Channel>14</Channel>
+   <Channel>15</Channel>
+  </Head>
+  <Head>
+   <Channel>16</Channel>
+   <Channel>17</Channel>
+   <Channel>18</Channel>
+  </Head>
+  <Head>
+   <Channel>19</Channel>
+   <Channel>20</Channel>
+   <Channel>21</Channel>
+  </Head>
+  <Head>
+   <Channel>22</Channel>
+   <Channel>23</Channel>
+   <Channel>24</Channel>
+  </Head>
+  <Head>
+   <Channel>25</Channel>
+  </Head>
+  <Head>
+   <Channel>26</Channel>
+  </Head>
+  <Head>
+   <Channel>27</Channel>
+  </Head>
+  <Head>
+   <Channel>28</Channel>
+  </Head>
+  <Head>
+   <Channel>29</Channel>
+  </Head>
+  <Head>
+   <Channel>30</Channel>
+  </Head>
+  <Head>
+   <Channel>31</Channel>
+  </Head>
+  <Head>
+   <Channel>32</Channel>
+  </Head>
+  <Head>
+   <Channel>33</Channel>
+  </Head>
+  <Head>
+   <Channel>34</Channel>
+  </Head>
+  <Head>
+   <Channel>35</Channel>
+  </Head>
+  <Head>
+   <Channel>36</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="Compact">
+  <Physical>
+   <Bulb Type="LED" Lumens="0" ColourTemperature="6500"/>
+   <Dimensions Weight="0" Width="1129" Height="1129" Depth="1129"/>
+   <Lens Name="Other" DegreesMin="30" DegreesMax="80"/>
+   <Focus Type="Head" PanMax="0" TiltMax="190"/>
+   <Technical PowerConsumption="0" DmxConnector="Other"/>
+  </Physical>
+  <Channel Number="0">Tilt</Channel>
+  <Channel Number="1">Zoom</Channel>
+  <Channel Number="2">LED bars dimmer</Channel>
+  <Channel Number="3">LED bars red</Channel>
+  <Channel Number="4">LED bars green</Channel>
+  <Channel Number="5">LED bars blue</Channel>
+  <Channel Number="6">LED bars strobe</Channel>
+  <Channel Number="7">White bar dimmer</Channel>
+  <Channel Number="8">White bar strobe</Channel>
+  <Head>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+  </Head>
+  <Head>
+   <Channel>7</Channel>
+   <Channel>8</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="Ultra Compact">
+  <Physical>
+   <Bulb Type="LED" Lumens="0" ColourTemperature="6500"/>
+   <Dimensions Weight="0" Width="1129" Height="1129" Depth="1129"/>
+   <Lens Name="Other" DegreesMin="30" DegreesMax="80"/>
+   <Focus Type="Head" PanMax="0" TiltMax="190"/>
+   <Technical PowerConsumption="0" DmxConnector="Other"/>
+  </Physical>
+  <Channel Number="0">Tilt</Channel>
+  <Channel Number="1">Dimmer</Channel>
+  <Channel Number="2">Red</Channel>
+  <Channel Number="3">Green</Channel>
+  <Channel Number="4">Blue</Channel>
+ </Mode>
+</FixtureDefinition>

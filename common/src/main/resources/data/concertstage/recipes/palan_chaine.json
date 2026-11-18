@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "III",
+    "RPR",
+    " C "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "item": "concertstage:palan_chaine",
+    "count": 1
+  }
+}

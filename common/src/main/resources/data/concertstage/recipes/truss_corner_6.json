@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BIB",
+    "III",
+    "BIB"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "concertstage:truss_corner_6",
+    "count": 1
+  }
+}

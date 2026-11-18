@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "concertstage:item/csc_led_hang_bar"
+ }
+}

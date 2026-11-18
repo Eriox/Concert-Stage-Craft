@@ -1,0 +1,24 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "redstone",
+ "pattern": [
+  "  G",
+  " R ",
+  "I  "
+ ],
+ "key": {
+  "G": {
+   "item": "minecraft:glowstone_dust"
+  },
+  "R": {
+   "item": "minecraft:redstone"
+  },
+  "I": {
+   "item": "minecraft:iron_ingot"
+  }
+ },
+ "result": {
+  "item": "concertstage:csc_light_patch_tool",
+  "count": 1
+ }
+}

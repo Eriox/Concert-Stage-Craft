@@ -1,0 +1,236 @@
+[
+  {
+    "id": "csc_orvane_lx12",
+    "dimensions_m": [
+      2.0,
+      0.78,
+      1.1
+    ],
+    "near_triangles": 2730,
+    "near_bounds": [
+      -1.0,
+      0.0,
+      -1.1,
+      1.0,
+      0.78,
+      -0.0
+    ],
+    "far_triangles": 1514,
+    "far_bounds": [
+      -1.0,
+      0.0,
+      -1.1,
+      1.0,
+      0.78,
+      -0.0
+    ]
+  },
+  {
+    "id": "csc_orvane_lx8",
+    "dimensions_m": [
+      1.6,
+      0.6,
+      0.9
+    ],
+    "near_triangles": 2718,
+    "near_bounds": [
+      -0.8,
+      0.0,
+      -0.9,
+      0.8,
+      0.6,
+      -0.0
+    ],
+    "far_triangles": 1502,
+    "far_bounds": [
+      -0.8,
+      0.0,
+      -0.9,
+      0.8,
+      0.6,
+      -0.0
+    ]
+  },
+  {
+    "id": "csc_orvane_sb28",
+    "dimensions_m": [
+      1.8,
+      1.2,
+      1.35
+    ],
+    "near_triangles": 2856,
+    "near_bounds": [
+      -0.9,
+      0.0,
+      -1.35,
+      0.9,
+      1.2,
+      -0.0
+    ],
+    "far_triangles": 1640,
+    "far_bounds": [
+      -0.9,
+      0.0,
+      -1.35,
+      0.9,
+      1.2,
+      -0.0
+    ]
+  },
+  {
+    "id": "csc_veyra_a1",
+    "dimensions_m": [
+      1.18,
+      0.42,
+      0.62
+    ],
+    "near_triangles": 3350,
+    "near_bounds": [
+      -0.59,
+      0.0,
+      -0.62,
+      0.59,
+      0.42,
+      0.0
+    ],
+    "far_triangles": 1694,
+    "far_bounds": [
+      -0.59,
+      0.0,
+      -0.62,
+      0.59,
+      0.42,
+      0.0
+    ]
+  },
+  {
+    "id": "csc_veyra_a2",
+    "dimensions_m": [
+      1.24,
+      0.4,
+      0.58
+    ],
+    "near_triangles": 3350,
+    "near_bounds": [
+      -0.62,
+      0.0,
+      -0.58,
+      0.62,
+      0.4,
+      0.0
+    ],
+    "far_triangles": 1694,
+    "far_bounds": [
+      -0.62,
+      0.0,
+      -0.58,
+      0.62,
+      0.4,
+      0.0
+    ]
+  },
+  {
+    "id": "csc_veyra_b2",
+    "dimensions_m": [
+      1.12,
+      0.82,
+      0.88
+    ],
+    "near_triangles": 4766,
+    "near_bounds": [
+      -0.56,
+      0.0,
+      -0.88,
+      0.56,
+      0.82,
+      0.0
+    ],
+    "far_triangles": 3502,
+    "far_bounds": [
+      -0.56,
+      0.0,
+      -0.88,
+      0.56,
+      0.82,
+      0.0
+    ]
+  },
+  {
+    "id": "csc_noryx_a1",
+    "dimensions_m": [
+      0.88,
+      0.32,
+      0.47
+    ],
+    "near_triangles": 3334,
+    "near_bounds": [
+      -0.44,
+      0.0,
+      -0.47,
+      0.44,
+      0.32,
+      0.0
+    ],
+    "far_triangles": 1678,
+    "far_bounds": [
+      -0.44,
+      0.0,
+      -0.47,
+      0.44,
+      0.32,
+      0.0
+    ]
+  },
+  {
+    "id": "csc_noryx_a2",
+    "dimensions_m": [
+      0.94,
+      0.305,
+      0.445
+    ],
+    "near_triangles": 3366,
+    "near_bounds": [
+      -0.47,
+      0.0,
+      -0.445,
+      0.47,
+      0.305,
+      0.0
+    ],
+    "far_triangles": 1710,
+    "far_bounds": [
+      -0.47,
+      0.0,
+      -0.445,
+      0.47,
+      0.305,
+      0.0
+    ]
+  },
+  {
+    "id": "csc_noryx_b1",
+    "dimensions_m": [
+      0.86,
+      0.64,
+      0.72
+    ],
+    "near_triangles": 2348,
+    "near_bounds": [
+      -0.43,
+      0.0,
+      -0.72,
+      0.43,
+      0.64,
+      0.0
+    ],
+    "far_triangles": 1700,
+    "far_bounds": [
+      -0.43,
+      0.0,
+      -0.72,
+      0.43,
+      0.64,
+      0.0
+    ]
+  }
+]

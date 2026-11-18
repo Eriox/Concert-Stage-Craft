@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:item/handheld",
+ "textures": {
+  "layer0": "concertstage:item/csc_light_patch_tool"
+ }
+}

@@ -1,0 +1,107 @@
+[
+ {
+  "demo": "CSC_Demo_Tower_Surround_Scaffold",
+  "tests": [
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "axe": [
+     24,
+     24
+    ],
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "details": []
+   }
+  ]
+ },
+ {
+  "demo": "CSC_Demo_Sleeve_Through_Opening",
+  "tests": [
+   {
+    "tour": "LiftTower 22M (corner6 h2)",
+    "axe": [
+     40,
+     40
+    ],
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "details": []
+   }
+  ]
+ },
+ {
+  "demo": "CSC_Demo_Tower_Through_Deck",
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "axe": [
+     24,
+     24
+    ],
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "details": []
+   }
+  ]
+ },
+ {
+  "demo": "CSC_Demo_SidePass",
+  "tests": [
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "axe": [
+     24,
+     -8
+    ],
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "details": []
+   }
+  ]
+ },
+ {
+  "demo": "CSC_Demo_Four_Towers_Stage",
+  "tests": [
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "axe": [
+     24,
+     24
+    ],
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 10M (corner3)",
+    "axe": [
+     184,
+     24
+    ],
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 18M (corner3 h2)",
+    "axe": [
+     24,
+     168
+    ],
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "details": []
+   },
+   {
+    "tour": "LiftTower 14M (corner6)",
+    "axe": [
+     184,
+     152
+    ],
+    "mat_et_pied": true,
+    "chariot_balaye": true,
+    "details": []
+   }
+  ]
+ }
+]

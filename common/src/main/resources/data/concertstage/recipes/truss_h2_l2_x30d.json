@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "concertstage:truss_h2_l2"
+    },
+    {
+      "item": "concertstage:truss_x30d_l2"
+    }
+  ],
+  "result": {
+    "item": "concertstage:truss_h2_l2_x30d",
+    "count": 1
+  }
+}

@@ -1,0 +1,177 @@
+{
+    "blend": {
+        "func": "add",
+        "srcrgb": "1",
+        "dstrgb": "1"
+    },
+    "vertex": "concertstage_light_projector",
+    "fragment": "concertstage_light_spill",
+    "attributes": [
+        "Position"
+    ],
+    "samplers": [
+        {
+            "name": "DepthSampler"
+        }
+    ],
+    "uniforms": [
+        {
+            "name": "ModelViewMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "name": "ProjMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "name": "InvProjMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "name": "TargetSize",
+            "type": "float",
+            "count": 2,
+            "values": [
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Gain",
+            "type": "float",
+            "count": 1,
+            "values": [
+                1.0
+            ]
+        },
+        {
+            "name": "DebugMode",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "SpillA",
+            "type": "float",
+            "count": 3,
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "SpillB",
+            "type": "float",
+            "count": 3,
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "SpillLight",
+            "type": "float",
+            "count": 4,
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "SpillShape",
+            "type": "float",
+            "count": 4,
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "SpillPlane",
+            "type": "float",
+            "count": 4,
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "SpillFloor",
+            "type": "float",
+            "count": 4,
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ]
+}

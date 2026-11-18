@@ -1,0 +1,158 @@
+"""Traductions FR / EN du système son 1.1.0, fusionnées dans en_us.json et fr_fr.json (relancer met à jour)."""
+import json, pathlib
+
+L = pathlib.Path(__file__).resolve().parents[1] / 'common/src/main/resources/assets/concertstage/lang'
+
+T = {
+    # items, blocks, tab
+    'itemGroup.concertstage.audio': ('Concert Stage – Sound', 'Concert Stage – Son'),
+    'item.concertstage.csc_veyra_a1': ('CSC Veyra A1 (line array)', 'CSC Veyra A1 (line array)'),
+    'item.concertstage.csc_veyra_a2': ('CSC Veyra A2 (line array, 90°)', 'CSC Veyra A2 (line array, 90°)'),
+    'item.concertstage.csc_veyra_b2': ('CSC Veyra B2 (subwoofer)', 'CSC Veyra B2 (caisson de basses)'),
+    'item.concertstage.csc_noryx_a1': ('CSC Noryx A1 (compact line array)', 'CSC Noryx A1 (line array compact)'),
+    'item.concertstage.csc_noryx_a2': ('CSC Noryx A2 (compact line array, 90°)', 'CSC Noryx A2 (line array compact, 90°)'),
+    'item.concertstage.csc_noryx_b1': ('CSC Noryx B1 (compact subwoofer)', 'CSC Noryx B1 (caisson compact)'),
+    'block.concertstage.csc_speaker': ('CSC Speaker Array', 'Système d\'enceintes CSC'),
+    'block.concertstage.csc_audio_console': ('CSC Audio Console', 'Console audio CSC'),
+    'item.concertstage.csc_array_tool': ('CSC Array Tool', 'CSC Array Tool (calage)'),
+    'item.concertstage.csc_audio_link_tool': ('CSC Audio Link Tool', 'CSC Audio Link Tool (liaison)'),
+    'subtitles.concertstage.speaker_stream': ('Speakers play', 'Les enceintes jouent'),
+    # tooltips
+    'tooltip.concertstage.csc_veyra_a1': ('Large-format line array element, 110° wide', 'Élément de line array grand format, 110° de large'),
+    'tooltip.concertstage.csc_veyra_a2': ('Large-format line array element, 90° wide (long throw)', 'Élément de line array grand format, 90° de large (longue portée)'),
+    'tooltip.concertstage.csc_veyra_b2': ('Double 18" style subwoofer', 'Caisson de basses type double 18"'),
+    'tooltip.concertstage.csc_noryx_a1': ('Compact line array element, 110° wide', 'Élément de line array compact, 110° de large'),
+    'tooltip.concertstage.csc_noryx_a2': ('Compact line array element, 90° wide', 'Élément de line array compact, 90° de large'),
+    'tooltip.concertstage.csc_noryx_b1': ('Compact subwoofer', 'Caisson de basses compact'),
+    'tooltip.concertstage.speaker_line': ('Dispersion %s° · splay up to %s° per cabinet', 'Dispersion %s° · angle jusqu\'à %s° par enceinte'),
+    'tooltip.concertstage.speaker_sub': ('Stacks on the ground or flies under a truss', 'S\'empile au sol ou s\'accroche sous un truss'),
+    'tooltip.concertstage.speaker_use': ('Under a truss: flown array · on the ground: stack · on an array of the same family: adds a cabinet',
+                                         'Sous un truss : line array accroché · au sol : stack · sur un système de la même famille : ajoute une enceinte'),
+    'tooltip.concertstage.array_tool': ('Right click an array: yaw, tilt and splay of each cabinet', 'Clic droit sur un système : orientation, inclinaison et angle de chaque enceinte'),
+    'tooltip.concertstage.link_mode': ('Group: %s', 'Groupe : %s'),
+    'tooltip.concertstage.link_console': ('Console: %s %s %s', 'Console : %s %s %s'),
+    'tooltip.concertstage.link_no_console': ('No console selected (right click one)', 'Aucune console choisie (clic droit sur une console)'),
+    'tooltip.concertstage.link_use': ('Click arrays to link · sneak + click: unlink · sneak + use: group · use: diagnostics',
+                                      'Clic sur un système : relier · accroupi + clic : délier · accroupi + utiliser : groupe · utiliser : diagnostic'),
+    # groups
+    'audio.concertstage.group.auto': ('Auto', 'Auto'),
+    'audio.concertstage.group.main_left': ('Main Left', 'Main gauche'),
+    'audio.concertstage.group.main_right': ('Main Right', 'Main droite'),
+    'audio.concertstage.group.subs': ('Subwoofers', 'Caissons de basses'),
+    'audio.concertstage.group.front_fill': ('Front Fill', 'Front fill'),
+    'audio.concertstage.group.delay': ('Delay Towers', 'Tours de délai'),
+    'audio.concertstage.group.custom': ('Custom', 'Personnalisé'),
+    'gui.concertstage.group_short.master': ('MST', 'MST'),
+    'gui.concertstage.group_short.main_left': ('L', 'G'),
+    'gui.concertstage.group_short.main_right': ('R', 'D'),
+    'gui.concertstage.group_short.subs': ('SUB', 'SUB'),
+    'gui.concertstage.group_short.front_fill': ('FF', 'FF'),
+    'gui.concertstage.group_short.delay': ('DLY', 'DÉL'),
+    'gui.concertstage.group_short.custom': ('CUS', 'PER'),
+    # speaker messages
+    'message.concertstage.speaker_added': ('Cabinet added (%s in the array)', 'Enceinte ajoutée (%s dans le système)'),
+    'message.concertstage.speaker_full': ('This array is full', 'Ce système est complet'),
+    'message.concertstage.speaker_mismatch': ('Only cabinets of the same family fit (%s)', 'Seules les enceintes de la même famille s\'assemblent (%s)'),
+    'message.concertstage.speaker_last': ('Last cabinet: break the block to take the array down', 'Dernière enceinte : casser le bloc pour démonter le système'),
+    'message.concertstage.speaker_flown': ('Flown array (hang more cabinets under it)', 'Line array accroché (ajouter des enceintes dessous)'),
+    'message.concertstage.speaker_stacked': ('Ground stack (add cabinets on top)', 'Stack au sol (ajouter des enceintes dessus)'),
+    'message.concertstage.array_hint': ('Right click a speaker array', 'Clic droit sur un système d\'enceintes'),
+    # link tool
+    'message.concertstage.link_console': ('Console selected (%s %s %s): now click the arrays', 'Console choisie (%s %s %s) : cliquer maintenant sur les systèmes'),
+    'message.concertstage.link_select_first': ('Right click a CSC Audio Console first', 'Faire d\'abord un clic droit sur une console audio CSC'),
+    'message.concertstage.link_far': ('Too far from the console (%s blocks at most)', 'Trop loin de la console (%s blocs au plus)'),
+    'message.concertstage.link_console_gone': ('The selected console is not there (or not loaded)', 'La console choisie n\'est plus là (ou pas chargée)'),
+    'message.concertstage.link_full': ('This console already drives %s arrays', 'Cette console pilote déjà %s systèmes'),
+    'message.concertstage.link_done': ('Linked: %s (%s arrays on this console)', 'Relié : %s (%s systèmes sur cette console)'),
+    'message.concertstage.link_removed': ('Unlinked', 'Délié'),
+    'message.concertstage.link_none': ('This array is not linked', 'Ce système n\'est relié à rien'),
+    'message.concertstage.link_mode': ('Link group: %s', 'Groupe de liaison : %s'),
+    'message.concertstage.diag_title': ('Console %s %s %s: %s arrays, %s cabinets', 'Console %s %s %s : %s systèmes, %s enceintes'),
+    'message.concertstage.diag_unloaded': ('%s arrays are in chunks that are not loaded', '%s systèmes sont dans des chunks non chargés'),
+    'message.concertstage.diag_dead': ('%s dead links removed (arrays broken or linked elsewhere)', '%s liens morts retirés (systèmes cassés ou reliés ailleurs)'),
+    'message.concertstage.diag_mono': ('Only one side of the main system is linked: the mix plays on one side only',
+                                       'Un seul côté du système principal est relié : le mix ne joue que d\'un côté'),
+    'message.concertstage.diag_playing': ('Playing: %s', 'Lecture : %s'),
+    'message.concertstage.diag_idle': ('Stopped (%s tracks in the playlist)', 'À l\'arrêt (%s titres dans la playlist)'),
+    # array screen
+    'gui.concertstage.array_title': ('CSC Array Tool', 'CSC Array Tool'),
+    'gui.concertstage.array_subtitle_flown': ('Flown line array · splay between cabinets', 'Line array accroché · angles entre enceintes'),
+    'gui.concertstage.array_subtitle_stack': ('Ground stack · splay between cabinets', 'Stack au sol · angles entre enceintes'),
+    'gui.concertstage.array_stack': ('ground stack', 'stack au sol'),
+    'gui.concertstage.array_cabinets': ('Cabinets', 'Enceintes'),
+    'gui.concertstage.array_splay': ('Splay (selected)', 'Angle (sélection)'),
+    'gui.concertstage.array_common': ('Same angle for all', 'Angle commun'),
+    'gui.concertstage.array_yaw': ('Yaw', 'Orientation'),
+    'gui.concertstage.array_tilt': ('Tilt of the array', 'Inclinaison du système'),
+    'gui.concertstage.array_reset': ('Reset', 'Annuler les modifs'),
+    'gui.concertstage.array_apply': ('Apply', 'Appliquer'),
+    'gui.concertstage.array_side': ('Side view · coverage', 'Vue de côté · couverture'),
+    'gui.concertstage.array_spread': ('Vertical spread %s°', 'Ouverture verticale %s°'),
+    'gui.concertstage.array_drag': ('drag: turn · wheel: zoom', 'glisser : tourner · molette : zoom'),
+    'gui.concertstage.cancel': ('Cancel', 'Annuler'),
+    'gui.concertstage.back': ('Back', 'Retour'),
+    # console screen
+    'gui.concertstage.console_title': ('CSC Audio Console', 'Console audio CSC'),
+    'gui.concertstage.console_subtitle': ('%s %s %s · %s arrays linked · %s heard here', '%s %s %s · %s systèmes reliés · %s entendus ici'),
+    'gui.concertstage.console_playlist': ('Playlist %s/%s', 'Playlist %s/%s'),
+    'gui.concertstage.console_empty': ('Empty: import an MP3 or WAV file', 'Vide : importer un fichier MP3 ou WAV'),
+    'gui.concertstage.console_import': ('Import MP3 / WAV…', 'Importer MP3 / WAV…'),
+    'gui.concertstage.console_mixer': ('Mixer', 'Mixage'),
+    'gui.concertstage.console_eq': ('EQ (3 bands)', 'Égaliseur (3 bandes)'),
+    'gui.concertstage.eq_low': ('Low 120 Hz', 'Graves 120 Hz'),
+    'gui.concertstage.eq_mid': ('Mid 1 kHz', 'Médiums 1 kHz'),
+    'gui.concertstage.eq_high': ('High 6 kHz', 'Aigus 6 kHz'),
+    'gui.concertstage.console_arrays': ('Linked arrays (%s)', 'Systèmes reliés (%s)'),
+    'gui.concertstage.console_no_arrays': ('Link arrays with the Audio Link Tool', 'Relier des systèmes avec l\'Audio Link Tool'),
+    'gui.concertstage.console_far': ('not loaded', 'non chargé'),
+    'gui.concertstage.console_receiving': ('receiving the file…', 'réception du fichier…'),
+    'gui.concertstage.console_no_download': ('downloads are off', 'téléchargements désactivés'),
+    'gui.concertstage.console_files': ('Music folder: %s', 'Dossier musique : %s'),
+    'gui.concertstage.console_no_files': ('No MP3 or WAV file in the music folder.', 'Aucun fichier MP3 ou WAV dans le dossier musique.'),
+    'gui.concertstage.console_drop': ('Put files there, use "Browse…", or drop a file on this window.',
+                                      'Y mettre des fichiers, utiliser « Parcourir… » ou déposer un fichier sur cette fenêtre.'),
+    'gui.concertstage.console_folder': ('Open folder', 'Ouvrir le dossier'),
+    'gui.concertstage.console_browse': ('Browse…', 'Parcourir…'),
+    'gui.concertstage.console_rights': ('Only import music you have the right to play: it is sent to the players who hear it.',
+                                        'N\'importer que de la musique que vous avez le droit de diffuser : elle est envoyée aux joueurs qui l\'entendent.'),
+    # import / transfers
+    'audio.concertstage.import_checking': ('Checking %s…', 'Vérification de %s…'),
+    'audio.concertstage.import_sending': ('Sending %s to the server…', 'Envoi de %s au serveur…'),
+    'audio.concertstage.import_server_check': ('The server checks %s…', 'Le serveur vérifie %s…'),
+    'audio.concertstage.import_done': ('%s added to the playlist', '%s ajouté à la playlist'),
+    'audio.concertstage.import_busy': ('An import is already in progress', 'Un import est déjà en cours'),
+    'audio.concertstage.import_cancelled': ('Import cancelled', 'Import annulé'),
+    'audio.concertstage.err_permission': ('You may not import music on this server', 'Vous n\'avez pas le droit d\'importer de la musique sur ce serveur'),
+    'audio.concertstage.err_size': ('File too big (%s MB at most)', 'Fichier trop gros (%s Mo au plus)'),
+    'audio.concertstage.err_format': ('Not a readable MP3 or WAV file', 'Ce n\'est pas un fichier MP3 ou WAV lisible'),
+    'audio.concertstage.err_io': ('The file could not be read or written', 'Le fichier n\'a pas pu être lu ou écrit'),
+    'audio.concertstage.err_transfer': ('Transfer error: try again', 'Erreur de transfert : réessayer'),
+    'audio.concertstage.err_console': ('Stand closer to the console', 'Se rapprocher de la console'),
+    'audio.concertstage.err_library_full': ('The music library of the server is full', 'La bibliothèque musicale du serveur est pleine'),
+    'audio.concertstage.err_playlist_full': ('The playlist is full', 'La playlist est pleine'),
+    # audio settings
+    'gui.concertstage.audio_settings': ('Sound settings', 'Réglages du son'),
+    'gui.concertstage.audio_settings_sub': ('Concert Stage speakers on this computer', 'Enceintes Concert Stage sur cet ordinateur'),
+    'gui.concertstage.audio_volume': ('Speaker volume', 'Volume des enceintes'),
+    'gui.concertstage.audio_streams': ('Arrays heard at once', 'Systèmes entendus en même temps'),
+    'gui.concertstage.audio_cache': ('Music cache', 'Cache musique'),
+    'gui.concertstage.audio_downloads': ('Receive the music played on servers', 'Recevoir la musique jouée sur les serveurs'),
+    'gui.concertstage.audio_downloads_on': ('Receive music', 'Recevoir la musique'),
+    'gui.concertstage.audio_downloads_off': ('Do not receive', 'Ne pas recevoir'),
+    'gui.concertstage.audio_open_cache': ('Open the cache', 'Ouvrir le cache'),
+    'gui.concertstage.audio_note': ('Also follows the "Jukebox/Note Blocks" slider.', 'Suit aussi le curseur « Juke-box/Blocs musicaux ».'),
+}
+
+
+def main():
+    for f, k in (('en_us.json', 0), ('fr_fr.json', 1)):
+        p = L / f
+        d = json.loads(p.read_text(encoding='utf-8'))
+        for key, v in T.items():
+            d[key] = v[k]
+        p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding='utf-8')
+    print(len(T), 'keys')
+
+
+if __name__ == '__main__':
+    main()

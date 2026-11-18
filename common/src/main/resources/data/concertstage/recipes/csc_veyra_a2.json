@@ -1,0 +1,27 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "redstone",
+ "pattern": [
+  "III",
+  "NJN",
+  "ICI"
+ ],
+ "key": {
+  "I": {
+   "item": "minecraft:iron_ingot"
+  },
+  "N": {
+   "item": "minecraft:note_block"
+  },
+  "J": {
+   "item": "minecraft:jukebox"
+  },
+  "C": {
+   "item": "minecraft:copper_ingot"
+  }
+ },
+ "result": {
+  "item": "concertstage:csc_veyra_a2",
+  "count": 2
+ }
+}

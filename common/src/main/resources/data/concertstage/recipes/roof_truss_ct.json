@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "concertstage:roof_truss"
+    },
+    {
+      "item": "concertstage:roof_truss"
+    },
+    {
+      "item": "concertstage:roof_truss"
+    },
+    {
+      "item": "concertstage:roof_truss"
+    },
+    {
+      "item": "concertstage:roof_truss"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:iron_block"
+    }
+  ],
+  "result": {
+    "item": "concertstage:roof_truss_ct",
+    "count": 1
+  }
+}

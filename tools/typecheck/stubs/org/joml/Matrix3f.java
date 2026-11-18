@@ -1,0 +1,1 @@
+package org.joml; public class Matrix3f implements Matrix3fc { public Matrix3f(){} public Matrix3f(Matrix3fc m){} public Matrix3f(Matrix4fc m){} public Vector3f transform(Vector3f v){return v;} public Matrix3f rotate(Quaternionfc q){return this;} public Matrix3f scale(float a,float b,float c){return this;}}

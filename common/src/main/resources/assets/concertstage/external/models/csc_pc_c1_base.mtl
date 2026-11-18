@@ -1,0 +1,16 @@
+newmtl csc_232427
+Kd 0.1373 0.1412 0.1529
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+
+newmtl csc_3d3e42
+Kd 0.2392 0.2431 0.2588
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+Ns 40
+d 1
+illum 2
+

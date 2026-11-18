@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "concertstage:regie_poteau_h1"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "result": {
+    "item": "concertstage:regie_poteau_pied_h1",
+    "count": 1
+  }
+}

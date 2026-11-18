@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "III",
+    "IBI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "result": {
+    "item": "concertstage:regie_flight_case",
+    "count": 1
+  }
+}

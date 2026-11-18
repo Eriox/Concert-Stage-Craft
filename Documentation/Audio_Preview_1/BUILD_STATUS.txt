@@ -1,0 +1,10 @@
+BUILD SUCCESSFUL
+Forge build + reobfJar: 7 tasks (5 executed, 2 up-to-date on final build), Gradle 8.8, Java 17, ForgeGradle 6.0.36.
+Forge 1.20.1-47.2.0.
+JAR ZIP/CRC and required classes/resources: PASS.
+JAR filename: concertstage-forge-1.20.1-1.1.0-audio-preview.1.jar
+JAR SHA256: bfcdfce4c12d1de77cdbdc7664c0845a9a30e2818d4d9f559c834c9aa1441ce7
+
+Audio/Array Tool preview, not the complete requested update. Embedded mod version: 1.1.0.
+Published JAR MixerTest: PASS.
+No Minecraft client/server runtime or subjective listening test performed.

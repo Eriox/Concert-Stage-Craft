@@ -1,0 +1,30 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "redstone",
+ "pattern": [
+  "GCG",
+  "RQR",
+  "III"
+ ],
+ "key": {
+  "G": {
+   "item": "minecraft:black_stained_glass_pane"
+  },
+  "C": {
+   "item": "minecraft:comparator"
+  },
+  "R": {
+   "item": "minecraft:redstone"
+  },
+  "Q": {
+   "item": "minecraft:repeater"
+  },
+  "I": {
+   "item": "minecraft:iron_ingot"
+  }
+ },
+ "result": {
+  "item": "concertstage:csc_lumicore_x1",
+  "count": 1
+ }
+}

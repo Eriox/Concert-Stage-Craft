@@ -1,0 +1,76 @@
+// CSC 1.2.1 — FFmpeg built into the mod (LED walls: videos, GIF, images).
+// The program and its libraries come from the LGPL build of the JavaCPP Presets for FFmpeg (org.bytedeco:ffmpeg, NOT the -gpl
+// artifact). Only the files of each platform's folder are kept (no JNI glue, no ffprobe), packed as csc_ffmpeg/<platform>.zip
+// in the jar; the game unpacks the one of its platform the first time a video is shown (MediaLibrary.Ffmpeg).
+// -PcscFfmpegPlatforms=windows-x86_64 limits the platforms (default: the four below); -PcscNoFfmpeg leaves FFmpeg out.
+
+def cscFfmpegVersion = '6.1.1-1.5.10'
+def cscFfmpegPlatforms = (project.findProperty('cscFfmpegPlatforms') ?: 'windows-x86_64,linux-x86_64,macosx-x86_64,macosx-arm64')
+    .toString().split(',').collect { it.trim() }.findAll { it }
+
+if (!project.hasProperty('cscNoFfmpeg')) {
+    repositories { mavenCentral() }
+    configurations { cscFfmpeg { transitive = false; canBeConsumed = false } }
+    dependencies { cscFfmpegPlatforms.each { cscFfmpeg "org.bytedeco:ffmpeg:${cscFfmpegVersion}:${it}" } }
+
+    def bundleDir = layout.buildDirectory.dir('csc-ffmpeg')
+    def zips = cscFfmpegPlatforms.collect { plat ->
+        tasks.register("cscFfmpeg_${plat.replace('-', '_')}", Zip) {
+            archiveFileName = "${plat}.zip"
+            destinationDirectory = bundleDir.map { it.dir('csc_ffmpeg') }
+            def prefix = "org/bytedeco/ffmpeg/${plat}/"
+            from({ configurations.cscFfmpeg.files.findAll { it.name.endsWith("-${plat}.jar") }.collect { zipTree(it) } }) {
+                include "${prefix}**"
+                exclude '**/jni*', '**/*jnijavacpp*', '**/ffprobe*', '**/*.lib', '**/*.h', '**/pkgconfig/**'
+                eachFile { it.path = it.path.substring(prefix.length()) }
+            }
+            includeEmptyDirs = false
+            preserveFileTimestamps = false
+            reproducibleFileOrder = true
+            doLast {
+                def z = archiveFile.get().asFile
+                def names = new java.util.zip.ZipFile(z).withCloseable { f -> f.entries().collect { it.name } }
+                def exe = plat.startsWith('windows') ? 'ffmpeg.exe' : 'ffmpeg'
+                if (!names.contains(exe)) throw new GradleException("CSC: ${exe} missing from org.bytedeco:ffmpeg:${cscFfmpegVersion}:${plat} (${names.take(20)})")
+                logger.lifecycle("CSC FFmpeg ${plat}: ${names.size()} files, ${(z.length() / 1048576).round(1)} MB")
+            }
+        }
+    }
+    // FFmpeg's build has --enable-version3: LGPL v3 (which adds to the GPL v3). Their texts go next to the program in the jar:
+    // from tools/licenses when present, else downloaded once from gnu.org (kept in tools/licenses for the next builds).
+    def licenses = tasks.register('cscFfmpegLicenses') {
+        def out = bundleDir.map { it.dir('csc_ffmpeg') }
+        outputs.dir(out)
+        doLast {
+            def keep = rootProject.file('../tools/licenses')
+            keep.mkdirs()
+            ['lgpl-3.0.txt', 'gpl-3.0.txt'].each { n ->
+                def kept = new File(keep, n)
+                if (!kept.isFile()) {
+                    // FFmpeg's own copies (tag n6.1.1), else gnu.org
+                    def ff = n.startsWith('lgpl') ? 'COPYING.LGPLv3' : 'COPYING.GPLv3'
+                    def urls = ["https://raw.githubusercontent.com/FFmpeg/FFmpeg/n6.1.1/${ff}", "https://www.gnu.org/licenses/${n}"]
+                    def err = null
+                    for (u in urls) {
+                        try {
+                            def c = new URL(u).openConnection()
+                            c.setRequestProperty('User-Agent', 'Mozilla/5.0 (CSC build)')
+                            def t = c.inputStream.getText('UTF-8')
+                            if (t.contains('GNU') && t.length() > 5000) { kept.text = t; break }
+                        } catch (Exception e) { err = e }
+                    }
+                    if (!kept.isFile()) throw new GradleException("CSC: ${n} missing in tools/licenses and not downloadable (${err})")
+                }
+                def dst = new File(out.get().asFile, "LICENSE-FFmpeg-${n.replace('.txt', '').toUpperCase()}.txt")
+                dst.parentFile.mkdirs()
+                dst.text = kept.getText('UTF-8')
+            }
+        }
+    }
+    zips.each { z -> z.configure { mustRunAfter licenses } }
+    tasks.named('processResources') { dependsOn licenses }
+    tasks.matching { it.name == 'sourcesJar' }.configureEach { dependsOn licenses }
+    sourceSets.main.resources.srcDir(bundleDir)
+    tasks.named('processResources') { dependsOn zips }
+    tasks.matching { it.name == 'sourcesJar' }.configureEach { dependsOn zips; exclude 'csc_ffmpeg/**' }
+}

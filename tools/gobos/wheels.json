@@ -1,0 +1,127 @@
+{
+ "vortex": {
+  "fixtures": [
+   "csc_vortex_x1"
+  ],
+  "files": [
+   "gobo_1",
+   "gobo_2",
+   "gobo_3",
+   "gobo_4",
+   "gobo_5",
+   "gobo_6",
+   "gobo_7",
+   "gobo_8"
+  ],
+  "names": [
+   "Flower",
+   "Dots",
+   "Swirl",
+   "Target",
+   "Starburst",
+   "Bars",
+   "Waves",
+   "Clover"
+  ]
+ },
+ "phantom": {
+  "fixtures": [
+   "csc_phantom_s1"
+  ],
+  "files": [
+   "gobo_phantom_1",
+   "gobo_phantom_2",
+   "gobo_phantom_3",
+   "gobo_phantom_4",
+   "gobo_phantom_5",
+   "gobo_phantom_6",
+   "gobo_phantom_7",
+   "gobo_phantom_8"
+  ],
+  "names": [
+   "Tunnel",
+   "Sun",
+   "Honeycomb",
+   "Orbit",
+   "Flames",
+   "Half moon",
+   "Propeller",
+   "Triangles"
+  ]
+ },
+ "profile": {
+  "fixtures": [
+   "csc_profile_p1"
+  ],
+  "files": [
+   "gobo_profile_1",
+   "gobo_profile_2",
+   "gobo_profile_3",
+   "gobo_profile_4",
+   "gobo_profile_5",
+   "gobo_profile_6",
+   "gobo_profile_7",
+   "gobo_profile_8"
+  ],
+  "names": [
+   "Window",
+   "Leaves",
+   "Clouds",
+   "Blinds",
+   "Arch window",
+   "Star field",
+   "Water",
+   "Cells"
+  ]
+ },
+ "razor": {
+  "fixtures": [
+   "csc_razor_b1"
+  ],
+  "files": [
+   "gobo_razor_1",
+   "gobo_razor_2",
+   "gobo_razor_3",
+   "gobo_razor_4",
+   "gobo_razor_5",
+   "gobo_razor_6",
+   "gobo_razor_7",
+   "gobo_razor_8"
+  ],
+  "names": [
+   "Pinhole",
+   "Ring",
+   "Triangle",
+   "Three dots",
+   "Star",
+   "Slit",
+   "Double ring",
+   "Six dots"
+  ]
+ },
+ "phantom_2": {
+  "fixtures": [
+   "csc_phantom_s1"
+  ],
+  "files": [
+   "gobo_2_1",
+   "gobo_2_2",
+   "gobo_2_3",
+   "gobo_2_4",
+   "gobo_2_5",
+   "gobo_2_6",
+   "gobo_2_7",
+   "gobo_2_8"
+  ],
+  "names": [
+   "Six rays",
+   "Ring",
+   "Cross",
+   "Bars",
+   "Fine star",
+   "Square",
+   "Diagonals",
+   "Rings"
+  ]
+ }
+}

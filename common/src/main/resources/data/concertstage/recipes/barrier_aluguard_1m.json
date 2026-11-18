@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:light_weighted_pressure_plate"
+    }
+  ],
+  "result": {
+    "item": "concertstage:barrier_aluguard_1m",
+    "count": 1
+  }
+}

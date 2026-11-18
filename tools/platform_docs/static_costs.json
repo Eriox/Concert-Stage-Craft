@@ -1,0 +1,335 @@
+{
+  "scope": "Geometry/cell counts; not measured frame times or an in-game benchmark.",
+  "models": [
+    {
+      "id": "stage_deck_2x1_h020",
+      "source_cubes": 139,
+      "source_quads": 834,
+      "baked_chunk_quads": 894,
+      "base_occupied_cells": 2,
+      "reserved_grid": [
+        2,
+        2,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 48,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "stage_deck_2x1_h040",
+      "source_cubes": 139,
+      "source_quads": 834,
+      "baked_chunk_quads": 894,
+      "base_occupied_cells": 2,
+      "reserved_grid": [
+        2,
+        2,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 48,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "stage_deck_2x1_h080",
+      "source_cubes": 205,
+      "source_quads": 1230,
+      "baked_chunk_quads": 1338,
+      "base_occupied_cells": 2,
+      "reserved_grid": [
+        2,
+        2,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 133,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "stage_deck_2x1_without_legs",
+      "source_cubes": 83,
+      "source_quads": 498,
+      "baked_chunk_quads": 558,
+      "base_occupied_cells": 2,
+      "reserved_grid": [
+        2,
+        2,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 36,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "raised_stage_platform_2x1_h120",
+      "source_cubes": 205,
+      "source_quads": 1230,
+      "baked_chunk_quads": 1426,
+      "base_occupied_cells": 4,
+      "reserved_grid": [
+        2,
+        3,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 103,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "drum_riser_4x2_h060",
+      "source_cubes": 708,
+      "source_quads": 4248,
+      "baked_chunk_quads": 4520,
+      "base_occupied_cells": 8,
+      "reserved_grid": [
+        4,
+        2,
+        2
+      ],
+      "maximum_collision_boxes_per_cell": 53,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "musician_riser_2x1_h040",
+      "source_cubes": 148,
+      "source_quads": 888,
+      "baked_chunk_quads": 960,
+      "base_occupied_cells": 2,
+      "reserved_grid": [
+        2,
+        2,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 52,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "dj_platform_2x2_h080",
+      "source_cubes": 482,
+      "source_quads": 2892,
+      "baked_chunk_quads": 3256,
+      "base_occupied_cells": 8,
+      "reserved_grid": [
+        2,
+        2,
+        2
+      ],
+      "maximum_collision_boxes_per_cell": 139,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "stage_stairs_h040",
+      "source_cubes": 86,
+      "source_quads": 516,
+      "baked_chunk_quads": 580,
+      "base_occupied_cells": 2,
+      "reserved_grid": [
+        1,
+        2,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 38,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "stage_stairs_h080",
+      "source_cubes": 118,
+      "source_quads": 708,
+      "baked_chunk_quads": 824,
+      "base_occupied_cells": 4,
+      "reserved_grid": [
+        1,
+        2,
+        2
+      ],
+      "maximum_collision_boxes_per_cell": 64,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "stage_stairs_h120",
+      "source_cubes": 150,
+      "source_quads": 900,
+      "baked_chunk_quads": 1064,
+      "base_occupied_cells": 5,
+      "reserved_grid": [
+        1,
+        3,
+        2
+      ],
+      "maximum_collision_boxes_per_cell": 62,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "safety_railings_1m",
+      "source_cubes": 37,
+      "source_quads": 222,
+      "baked_chunk_quads": 254,
+      "base_occupied_cells": 2,
+      "reserved_grid": [
+        1,
+        2,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 6,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "safety_railings_2m",
+      "source_cubes": 37,
+      "source_quads": 222,
+      "baked_chunk_quads": 290,
+      "base_occupied_cells": 4,
+      "reserved_grid": [
+        2,
+        2,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 4,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "safety_railings_corner_1x1",
+      "source_cubes": 90,
+      "source_quads": 540,
+      "baked_chunk_quads": 604,
+      "base_occupied_cells": 2,
+      "reserved_grid": [
+        1,
+        2,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 29,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "stage_support_structures_2x1_h111",
+      "source_cubes": 192,
+      "source_quads": 1152,
+      "baked_chunk_quads": 1312,
+      "base_occupied_cells": 4,
+      "reserved_grid": [
+        2,
+        3,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 103,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "adjustable_leg_h040",
+      "source_cubes": 21,
+      "source_quads": 126,
+      "baked_chunk_quads": 126,
+      "base_occupied_cells": 1,
+      "reserved_grid": [
+        1,
+        1,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 8,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "adjustable_leg_h080",
+      "source_cubes": 28,
+      "source_quads": 168,
+      "baked_chunk_quads": 168,
+      "base_occupied_cells": 1,
+      "reserved_grid": [
+        1,
+        1,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 9,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "adjustable_leg_h120",
+      "source_cubes": 28,
+      "source_quads": 168,
+      "baked_chunk_quads": 184,
+      "base_occupied_cells": 2,
+      "reserved_grid": [
+        1,
+        2,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 7,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "stage_extension_1x1_h040",
+      "source_cubes": 131,
+      "source_quads": 786,
+      "baked_chunk_quads": 786,
+      "base_occupied_cells": 1,
+      "reserved_grid": [
+        1,
+        2,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 80,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "stage_extension_2x0p5_h040",
+      "source_cubes": 139,
+      "source_quads": 834,
+      "baked_chunk_quads": 894,
+      "base_occupied_cells": 2,
+      "reserved_grid": [
+        2,
+        2,
+        1
+      ],
+      "maximum_collision_boxes_per_cell": 48,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "assembly_solo_stage_4x2_h040",
+      "source_cubes": 596,
+      "source_quads": 3576,
+      "baked_chunk_quads": 3848,
+      "base_occupied_cells": 8,
+      "reserved_grid": [
+        4,
+        2,
+        2
+      ],
+      "maximum_collision_boxes_per_cell": 51,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    },
+    {
+      "id": "assembly_festival_stage_8x4_h120",
+      "source_cubes": 3520,
+      "source_quads": 21120,
+      "baked_chunk_quads": 24448,
+      "base_occupied_cells": 64,
+      "reserved_grid": [
+        8,
+        3,
+        4
+      ],
+      "maximum_collision_boxes_per_cell": 103,
+      "base_ticking_entities": 0,
+      "base_dynamic_renderers": 0
+    }
+  ]
+}

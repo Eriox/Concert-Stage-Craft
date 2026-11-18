@@ -1,0 +1,75 @@
+newmtl lit_20
+Ka 0 0 0
+Kd 0.40 0.40 0.40
+Ks 0 0 0
+map_Kd #detail
+newmtl lit_23
+Ka 0 0 0
+Kd 0.46 0.46 0.46
+Ks 0 0 0
+map_Kd #detail
+newmtl lit_24
+Ka 0 0 0
+Kd 0.48 0.48 0.48
+Ks 0 0 0
+map_Kd #detail
+newmtl lit_25
+Ka 0 0 0
+Kd 0.50 0.50 0.50
+Ks 0 0 0
+map_Kd #detail
+newmtl lit_26
+Ka 0 0 0
+Kd 0.52 0.52 0.52
+Ks 0 0 0
+map_Kd #detail
+newmtl lit_27
+Ka 0 0 0
+Kd 0.54 0.54 0.54
+Ks 0 0 0
+map_Kd #detail
+newmtl lit_32
+Ka 0 0 0
+Kd 0.64 0.64 0.64
+Ks 0 0 0
+map_Kd #detail
+newmtl lit_37
+Ka 0 0 0
+Kd 0.74 0.74 0.74
+Ks 0 0 0
+map_Kd #detail
+newmtl lit_38
+Ka 0 0 0
+Kd 0.76 0.76 0.76
+Ks 0 0 0
+map_Kd #detail
+newmtl lit_41
+Ka 0 0 0
+Kd 0.82 0.82 0.82
+Ks 0 0 0
+map_Kd #detail
+newmtl lit_44
+Ka 0 0 0
+Kd 0.88 0.88 0.88
+Ks 0 0 0
+map_Kd #detail
+newmtl lit_45
+Ka 0 0 0
+Kd 0.90 0.90 0.90
+Ks 0 0 0
+map_Kd #detail
+newmtl lit_46
+Ka 0 0 0
+Kd 0.92 0.92 0.92
+Ks 0 0 0
+map_Kd #detail
+newmtl lit_47
+Ka 0 0 0
+Kd 0.94 0.94 0.94
+Ks 0 0 0
+map_Kd #detail
+newmtl lit_50
+Ka 0 0 0
+Kd 1.00 1.00 1.00
+Ks 0 0 0
+map_Kd #detail

@@ -1,0 +1,92 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '6.0.36'
+}
+
+group = 'com.concertstage'
+version = '1.2.1'
+base { archivesName = 'concertstage-forge-1.20.1' }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+// Shared code and assets live in ../common
+sourceSets.main.java.srcDir '../common/src/main/java'
+sourceSets.main.resources.srcDir '../common/src/main/resources'
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'debug'
+            mods { concertstage { source sourceSets.main } }
+        }
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'debug'
+            args '--nogui'
+            mods { concertstage { source sourceSets.main } }
+        }
+    }
+}
+
+repositories {
+    maven { name = 'MinecraftLibraries'; url = 'https://libraries.minecraft.net/'; metadataSources { mavenPom(); artifact() } }
+    mavenCentral()
+    maven { name = 'MinecraftForge'; url = 'https://maven.minecraftforge.net/' }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.28'
+}
+
+apply from: '../tools/ffmpeg-bundle.gradle'   // 1.2.1: FFmpeg (LGPL) built in
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+jar.finalizedBy('reobfJar')
+
+// Automated in-world audio/rigging/collision regression tests.
+minecraft.runs {
+    gameTestServer {
+        workingDirectory project.file('gametest-run')
+        property 'forge.enabledGameTestNamespaces', 'concertstage'
+        mods { concertstage { source sourceSets.main } }
+    }
+}
+
+tasks.named("processResources") {
+    exclude "**/.*"
+    if (System.getenv('CSC_MIRRORED_WORKSPACE') == '1') doNotTrackState('Workspace resource files are mirrored atomically during execution')
+}
+
+// Development-only automated client smoke test; never part of the published JAR.
+if (project.hasProperty('cscSmoke')) {
+    sourceSets.main.java.srcDir 'src/smoke/java'
+    minecraft.runs.client {
+        property 'csc.smoke', 'true'
+        args '--quickPlaySingleplayer', 'CSC_Audio_Review', '--width', '1280', '--height', '900'
+    }
+}
+
+// Development-only lighting visual test (scenes + screenshots in run/csc-visual); never part of the published JAR.
+if (project.hasProperty('cscVisual')) {
+    sourceSets.main.java.srcDir 'src/visual/java'
+    minecraft.runs.client {
+        property 'csc.visual', 'true'
+        property 'csc.visual.only', project.findProperty('cscVisualOnly') ?: ''
+        property 'csc.visual.stay', project.findProperty('cscVisualStay') ?: 'false'
+        property 'csc.visual.world', project.findProperty('cscVisualWorld') ?: ''
+        args '--width', '1600', '--height', '900'
+    }
+}
+
+tasks.named('jar') { exclude '**/.*' }
+tasks.named('wrapper') {
+    gradleVersion = '8.8'
+    distributionUrl = 'https://downloads.gradle.org/distributions/gradle-8.8-bin.zip'
+    distributionSha256Sum = 'a4b4158601f8636cdeeab09bd76afb640030bb5b144aafe261a5e8af027dc612'
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.5.1",
+  "observed_user_screen": "Minecraft 1.20.1 / Forge 47.4.28, OBJECT_HOLDERS running",
+  "logs_received": false,
+  "cause_confirmed": false,
+  "identified_source_cost": "eager detailed collisions for compatibility stage blocks",
+  "deferred_constructor_collision_provider_calls": 0,
+  "constructor_and_cache_assertions": 764,
+  "platform_assertions": 39424,
+  "java_syntax_files": 57,
+  "visual_model_changes": false,
+  "forge_or_game_runtime_verified": false
+}

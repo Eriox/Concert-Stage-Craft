@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "concertstage_flexdeck",
+  "ingredients": [
+    {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:black_carpet"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    }
+  ],
+  "result": {
+    "item": "concertstage:flexdeck_2x1_h100",
+    "count": 1
+  }
+}

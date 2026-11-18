@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "concertstage_csc_v3",
+  "ingredients": [
+    {
+      "item": "concertstage:stage_deck_2x1_without_legs"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "concertstage:csc_keyboard_riser_2x1_h020"
+  }
+}

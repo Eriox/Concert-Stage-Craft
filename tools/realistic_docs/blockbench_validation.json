@@ -1,0 +1,1922 @@
+{
+  "application": "Blockbench",
+  "version": "5.2.2",
+  "runtime": "Official web application, local assets; Chromium software WebGL",
+  "models": [
+    {
+      "elements": 72,
+      "meshes": 72,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 72,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "carriages/carriage_corner3.bbmodel",
+      "sha256": "1c89e8caab1d992760569d20147b5f2d0076641d2c72a02ab65d5ca39052ce10",
+      "new_errors": []
+    },
+    {
+      "elements": 120,
+      "meshes": 120,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 120,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "carriages/carriage_corner3_h2.bbmodel",
+      "sha256": "0466e7fe857eb6af218e8b5e981f5afc6d9f387c58d8e0b2337ebf31f6f7404a",
+      "new_errors": []
+    },
+    {
+      "elements": 120,
+      "meshes": 120,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 120,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "carriages/carriage_corner3_h2_noir.bbmodel",
+      "sha256": "0da3a45a1f9972b9b95c428870b6f76685980c40d8180aa96a42b4a91b9725fc",
+      "new_errors": []
+    },
+    {
+      "elements": 72,
+      "meshes": 72,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 72,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "carriages/carriage_corner3_noir.bbmodel",
+      "sha256": "469f50722e28331d18aa8bccf6a10179cace9cc34f81835a3cfb8948933483a8",
+      "new_errors": []
+    },
+    {
+      "elements": 112,
+      "meshes": 112,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 112,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "carriages/carriage_corner6.bbmodel",
+      "sha256": "f1f5ac58c206e2cc6e2987407655cf3821bcd3090999a1e2ea0f3f34f0a70793",
+      "new_errors": []
+    },
+    {
+      "elements": 200,
+      "meshes": 200,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 200,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "carriages/carriage_corner6_h2.bbmodel",
+      "sha256": "ac59ae4203a45a7c3f624d683568c32ce5c88916deb84f05714dc8eee16d6242",
+      "new_errors": []
+    },
+    {
+      "elements": 200,
+      "meshes": 200,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 200,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "carriages/carriage_corner6_h2_noir.bbmodel",
+      "sha256": "f4560d632cf8ad11a4787c486677958da333d4fc0322509831c6d07251403364",
+      "new_errors": []
+    },
+    {
+      "elements": 112,
+      "meshes": 112,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 112,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "carriages/carriage_corner6_noir.bbmodel",
+      "sha256": "888f69702dac0c9654c26b4b3951fd61033451f2a48879c2f0188179e736ad45",
+      "new_errors": []
+    },
+    {
+      "elements": 757,
+      "meshes": 757,
+      "groups": 198,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 757,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 7
+        },
+        {
+          "name": "descendre",
+          "length": 7
+        }
+      ],
+      "motion": [
+        {
+          "animation": "monter",
+          "f": 0,
+          "y": 16
+        },
+        {
+          "animation": "monter",
+          "f": 0.5,
+          "y": 72
+        },
+        {
+          "animation": "monter",
+          "f": 1,
+          "y": 128
+        },
+        {
+          "animation": "descendre",
+          "f": 0,
+          "y": 128
+        },
+        {
+          "animation": "descendre",
+          "f": 0.5,
+          "y": 72
+        },
+        {
+          "animation": "descendre",
+          "f": 1,
+          "y": 16
+        }
+      ],
+      "file": "towers/motor_tower_10_corner3.bbmodel",
+      "sha256": "0b9f633486baf394d67a791a4d143fe865578206ad7de8b71d4e6f25df055a8b",
+      "new_errors": []
+    },
+    {
+      "elements": 784,
+      "meshes": 784,
+      "groups": 177,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 784,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 6
+        },
+        {
+          "name": "descendre",
+          "length": 6
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_10_corner3_h2.bbmodel",
+      "sha256": "75735a8fcad5039a786bfb19648beb36391a0e5c7ff5da799c0e3ac957c72ac3",
+      "new_errors": []
+    },
+    {
+      "elements": 784,
+      "meshes": 784,
+      "groups": 177,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 784,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 6
+        },
+        {
+          "name": "descendre",
+          "length": 6
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_10_corner3_h2_noir.bbmodel",
+      "sha256": "61b64cdcb3059251dccce63f4d93d52525fa90a9c1da9e02e3b30425c6f6fcbc",
+      "new_errors": []
+    },
+    {
+      "elements": 757,
+      "meshes": 757,
+      "groups": 198,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 757,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 7
+        },
+        {
+          "name": "descendre",
+          "length": 7
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_10_corner3_noir.bbmodel",
+      "sha256": "0db2e5f3edf81ae649cf793969ef4be0238a269ea255ce040e900172f21b7cc8",
+      "new_errors": []
+    },
+    {
+      "elements": 797,
+      "meshes": 797,
+      "groups": 198,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 797,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 7
+        },
+        {
+          "name": "descendre",
+          "length": 7
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_10_corner6.bbmodel",
+      "sha256": "7aed0208c5129e8e9dc43f605a468d4fb3e50c9939a3b7583bc7ebffbe21fee8",
+      "new_errors": []
+    },
+    {
+      "elements": 864,
+      "meshes": 864,
+      "groups": 177,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 864,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 6
+        },
+        {
+          "name": "descendre",
+          "length": 6
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_10_corner6_h2.bbmodel",
+      "sha256": "91e047010f5148d6efe9900c78eddbae50d15912f2868a255ad92a7221be90b5",
+      "new_errors": []
+    },
+    {
+      "elements": 864,
+      "meshes": 864,
+      "groups": 177,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 864,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 6
+        },
+        {
+          "name": "descendre",
+          "length": 6
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_10_corner6_h2_noir.bbmodel",
+      "sha256": "ce3c8a19a782ebe64b967c854d7fb4b4ca70c0601270271447d4964983278d44",
+      "new_errors": []
+    },
+    {
+      "elements": 797,
+      "meshes": 797,
+      "groups": 198,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 797,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 7
+        },
+        {
+          "name": "descendre",
+          "length": 7
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_10_corner6_noir.bbmodel",
+      "sha256": "957615ba60ee137b76e99542f9d7db4212b3527a8b3b4113b475fcbf8bf10c5f",
+      "new_errors": []
+    },
+    {
+      "elements": 1039,
+      "meshes": 1039,
+      "groups": 291,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1039,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 11
+        },
+        {
+          "name": "descendre",
+          "length": 11
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_14_corner3.bbmodel",
+      "sha256": "e3ef8742a5eb87fa703118a16a7d69144f495980b250a0950fab17c7c2ad6ca7",
+      "new_errors": []
+    },
+    {
+      "elements": 1066,
+      "meshes": 1066,
+      "groups": 270,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1066,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 10
+        },
+        {
+          "name": "descendre",
+          "length": 10
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_14_corner3_h2.bbmodel",
+      "sha256": "5f66fb58ba65b7004ca5d74e088bfa23e8c4b9c175f72d9e4da7f1ad3bed4228",
+      "new_errors": []
+    },
+    {
+      "elements": 1066,
+      "meshes": 1066,
+      "groups": 270,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1066,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 10
+        },
+        {
+          "name": "descendre",
+          "length": 10
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_14_corner3_h2_noir.bbmodel",
+      "sha256": "713969a91bdd1e0cf034bf50ccb0349e752de07a9a5dfb5ff43242afe0d47ef5",
+      "new_errors": []
+    },
+    {
+      "elements": 1039,
+      "meshes": 1039,
+      "groups": 291,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1039,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 11
+        },
+        {
+          "name": "descendre",
+          "length": 11
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_14_corner3_noir.bbmodel",
+      "sha256": "6b36eb2fe93387150c4d72d505e89675e8a561389167f75a06084f330a7f845b",
+      "new_errors": []
+    },
+    {
+      "elements": 1079,
+      "meshes": 1079,
+      "groups": 291,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1079,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 11
+        },
+        {
+          "name": "descendre",
+          "length": 11
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_14_corner6.bbmodel",
+      "sha256": "3025c520a7907eeeb537fe3b1e2ac6a746b2a9fa4e0a6829408ad4affbcb4d17",
+      "new_errors": []
+    },
+    {
+      "elements": 1146,
+      "meshes": 1146,
+      "groups": 270,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1146,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 10
+        },
+        {
+          "name": "descendre",
+          "length": 10
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_14_corner6_h2.bbmodel",
+      "sha256": "9efdd3f0b514f4153549874fe28a54e4ab62f24a1d54ce9bcf90354d94da638a",
+      "new_errors": []
+    },
+    {
+      "elements": 1146,
+      "meshes": 1146,
+      "groups": 270,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1146,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 10
+        },
+        {
+          "name": "descendre",
+          "length": 10
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_14_corner6_h2_noir.bbmodel",
+      "sha256": "ed0a5cbd5dfc8dabb6095b40a732cd41bbba613401256ecdc9fc772690a9f65f",
+      "new_errors": []
+    },
+    {
+      "elements": 1079,
+      "meshes": 1079,
+      "groups": 291,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1079,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 11
+        },
+        {
+          "name": "descendre",
+          "length": 11
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_14_corner6_noir.bbmodel",
+      "sha256": "2c980db7c5001bb58c3288c224abd849426f21358983a172b78e7c720fde7d05",
+      "new_errors": []
+    },
+    {
+      "elements": 1323,
+      "meshes": 1323,
+      "groups": 385,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1323,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 15
+        },
+        {
+          "name": "descendre",
+          "length": 15
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_18_corner3.bbmodel",
+      "sha256": "bc92ab2646ffb423be88d57412b3ca9f2310a70d69619359b618ce7729f2b854",
+      "new_errors": []
+    },
+    {
+      "elements": 1349,
+      "meshes": 1349,
+      "groups": 363,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1349,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 14
+        },
+        {
+          "name": "descendre",
+          "length": 14
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_18_corner3_h2.bbmodel",
+      "sha256": "e4cba7ff3a16f87f0c1f4d5e7d2480573c936e4bd34653a3525a817bed0a780e",
+      "new_errors": []
+    },
+    {
+      "elements": 1349,
+      "meshes": 1349,
+      "groups": 363,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1349,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 14
+        },
+        {
+          "name": "descendre",
+          "length": 14
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_18_corner3_h2_noir.bbmodel",
+      "sha256": "34a8507c29e9bfb9fbabb2c80b3f4222f9b00c89e07a29b9930657daea7432ad",
+      "new_errors": []
+    },
+    {
+      "elements": 1323,
+      "meshes": 1323,
+      "groups": 385,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1323,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 15
+        },
+        {
+          "name": "descendre",
+          "length": 15
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_18_corner3_noir.bbmodel",
+      "sha256": "ad6fcdd909811949f61f399867f8772eff79a6d63bae4fb4569072eebf2faf2a",
+      "new_errors": []
+    },
+    {
+      "elements": 1363,
+      "meshes": 1363,
+      "groups": 385,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1363,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 15
+        },
+        {
+          "name": "descendre",
+          "length": 15
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_18_corner6.bbmodel",
+      "sha256": "42940c01ee38565aa957bd49142130dbd578900d24c4f40680e7573dd64896d7",
+      "new_errors": []
+    },
+    {
+      "elements": 1429,
+      "meshes": 1429,
+      "groups": 363,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1429,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 14
+        },
+        {
+          "name": "descendre",
+          "length": 14
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_18_corner6_h2.bbmodel",
+      "sha256": "d14a4cd698e8cfddfcc63efa88b2038133f31b083b31e9498fac9d6f949c973a",
+      "new_errors": []
+    },
+    {
+      "elements": 1429,
+      "meshes": 1429,
+      "groups": 363,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1429,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 14
+        },
+        {
+          "name": "descendre",
+          "length": 14
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_18_corner6_h2_noir.bbmodel",
+      "sha256": "afc9920e0a94569e0e385c964521706e93e24ed12b0445dbdd7bd120f1fdf36d",
+      "new_errors": []
+    },
+    {
+      "elements": 1363,
+      "meshes": 1363,
+      "groups": 385,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1363,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 15
+        },
+        {
+          "name": "descendre",
+          "length": 15
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_18_corner6_noir.bbmodel",
+      "sha256": "3d43a52f944ddef2698b414df7d328c152fd69a3e27d2471be27cf07f9b22b04",
+      "new_errors": []
+    },
+    {
+      "elements": 1605,
+      "meshes": 1605,
+      "groups": 478,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1605,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 19
+        },
+        {
+          "name": "descendre",
+          "length": 19
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_22_corner3.bbmodel",
+      "sha256": "a3252d3d8b1b46b016f46b8a46b193a10c73047c03f6f28a4584b5cd0fd62dfd",
+      "new_errors": []
+    },
+    {
+      "elements": 1632,
+      "meshes": 1632,
+      "groups": 457,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1632,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 18
+        },
+        {
+          "name": "descendre",
+          "length": 18
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_22_corner3_h2.bbmodel",
+      "sha256": "ddfddf9dfb053938b4f3c0108bdf0c8c1044c2f51357b15b06b2fcd69d3b9f52",
+      "new_errors": []
+    },
+    {
+      "elements": 1632,
+      "meshes": 1632,
+      "groups": 457,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1632,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 18
+        },
+        {
+          "name": "descendre",
+          "length": 18
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_22_corner3_h2_noir.bbmodel",
+      "sha256": "500cce5a5602044a7d65b3a350edbe4c9a401e9250f2a81dd1fe99bea8af015e",
+      "new_errors": []
+    },
+    {
+      "elements": 1605,
+      "meshes": 1605,
+      "groups": 478,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1605,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 19
+        },
+        {
+          "name": "descendre",
+          "length": 19
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_22_corner3_noir.bbmodel",
+      "sha256": "c57af26a28266b4eae12c65e1bb9eb7ce66bc008d6c51109b55c073683ce5598",
+      "new_errors": []
+    },
+    {
+      "elements": 1645,
+      "meshes": 1645,
+      "groups": 478,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1645,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 19
+        },
+        {
+          "name": "descendre",
+          "length": 19
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_22_corner6.bbmodel",
+      "sha256": "e2ea5a5db88e8fcfdbbe5b14570c61448128b05b7140a5dd2a2fa1105d159146",
+      "new_errors": []
+    },
+    {
+      "elements": 1712,
+      "meshes": 1712,
+      "groups": 457,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1712,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 18
+        },
+        {
+          "name": "descendre",
+          "length": 18
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_22_corner6_h2.bbmodel",
+      "sha256": "b457fd679ee4e630ce955f3e334e6390574d0043e746fdf2aab133d7449470f7",
+      "new_errors": []
+    },
+    {
+      "elements": 1712,
+      "meshes": 1712,
+      "groups": 457,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1712,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 18
+        },
+        {
+          "name": "descendre",
+          "length": 18
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_22_corner6_h2_noir.bbmodel",
+      "sha256": "0ec36d793dbe814551dfddacb041901b3766e29a9f8e309c4632fb95449a6d50",
+      "new_errors": []
+    },
+    {
+      "elements": 1645,
+      "meshes": 1645,
+      "groups": 478,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 1645,
+      "roundtrip_format": "5.0",
+      "animations": [
+        {
+          "name": "monter",
+          "length": 19
+        },
+        {
+          "name": "descendre",
+          "length": 19
+        }
+      ],
+      "motion": [],
+      "file": "towers/motor_tower_22_corner6_noir.bbmodel",
+      "sha256": "3faff12ca9729dab3738c721d48ed920ef393c1820e97add6c261a756602bdbc",
+      "new_errors": []
+    },
+    {
+      "elements": 77,
+      "meshes": 77,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 77,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_base_v2.bbmodel",
+      "sha256": "1eebd441c5d4a7e1db8196b44e67565aacef1dab693f4ad378a48c9e263cef5a",
+      "new_errors": []
+    },
+    {
+      "elements": 77,
+      "meshes": 77,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 77,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_base_v2_noir.bbmodel",
+      "sha256": "f7deb6ce2aa9705f6c6e8ba3cec3e3208d5d0e87bf01b9a49b817649c227ff40",
+      "new_errors": []
+    },
+    {
+      "elements": 90,
+      "meshes": 90,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 90,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_corner_3.bbmodel",
+      "sha256": "f081028c8950a0f89e4c4c12834b8fa3781df6600e6e06ef7426d00489f551b5",
+      "new_errors": []
+    },
+    {
+      "elements": 90,
+      "meshes": 90,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 90,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_corner_3_h2.bbmodel",
+      "sha256": "9caecd42feb06b6ef1d160eed18251dfad71543ff2fb95275fc0fe211aaeecd7",
+      "new_errors": []
+    },
+    {
+      "elements": 90,
+      "meshes": 90,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 90,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_corner_3_h2_noir.bbmodel",
+      "sha256": "b11342eb4bb531a20143dfabca7b15287fbd82e99b216d0356d22b48420b1b15",
+      "new_errors": []
+    },
+    {
+      "elements": 90,
+      "meshes": 90,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 90,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_corner_3_noir.bbmodel",
+      "sha256": "29a8ebc70afd7dac7d3dca494de9fd4fc20e407602f5bf164ed530d9bc54c200",
+      "new_errors": []
+    },
+    {
+      "elements": 150,
+      "meshes": 150,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 150,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_corner_6.bbmodel",
+      "sha256": "91f4ea64c605af29959ba869f566a5c890a3a193a527418c88a85d2eca65d1bd",
+      "new_errors": []
+    },
+    {
+      "elements": 150,
+      "meshes": 150,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 150,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_corner_6_h2.bbmodel",
+      "sha256": "ddadb3b14d314f8a4cf81e02a5cf080ff26b05aeb4815464300510a81e26cd15",
+      "new_errors": []
+    },
+    {
+      "elements": 150,
+      "meshes": 150,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 150,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_corner_6_h2_noir.bbmodel",
+      "sha256": "7b50a5e11c495bf09691ddfd0c0927f269a1370b5790fabb5b8647741afdce13",
+      "new_errors": []
+    },
+    {
+      "elements": 150,
+      "meshes": 150,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 150,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_corner_6_noir.bbmodel",
+      "sha256": "ab08fbba8dd6680a1bb9a01768e158fe8c7456f534a73a82496ffaef221220e9",
+      "new_errors": []
+    },
+    {
+      "elements": 72,
+      "meshes": 72,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 72,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_h1_l1.bbmodel",
+      "sha256": "b7e7558acbc58a48b0bcc119cea7747db49fa4bebf762e877c683206f5bc77f6",
+      "new_errors": []
+    },
+    {
+      "elements": 72,
+      "meshes": 72,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 72,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_h1_l1_noir.bbmodel",
+      "sha256": "3cba9893598e0e3a416db6bb13b4c6bf4decb614832d64a16478a4eee794f95f",
+      "new_errors": []
+    },
+    {
+      "elements": 96,
+      "meshes": 96,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 96,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_h1_l2.bbmodel",
+      "sha256": "33f053f36a18d3516abbf24a73444408370e9c41323adcee7a9273cdba8ba92a",
+      "new_errors": []
+    },
+    {
+      "elements": 96,
+      "meshes": 96,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 96,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_h1_l2_noir.bbmodel",
+      "sha256": "b024ba676532e5c0f7f550aad3cd24a97eda7b8cefb7b18a702d09f2647dff55",
+      "new_errors": []
+    },
+    {
+      "elements": 96,
+      "meshes": 96,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 96,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_h1_l2_petit.bbmodel",
+      "sha256": "b23e2198b6994a36f181e9c7d637ed6f3458a25a5375f269e72d732096006937",
+      "new_errors": []
+    },
+    {
+      "elements": 96,
+      "meshes": 96,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 96,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_h1_l2_petit_noir.bbmodel",
+      "sha256": "27ba6bb2d078fbe6bba6097c88c227ca055c789b6cbe792e9dc1bf922a0268c1",
+      "new_errors": []
+    },
+    {
+      "elements": 96,
+      "meshes": 96,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 96,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_h2_l2.bbmodel",
+      "sha256": "c47237f838f0d1a1fd4513c0623242556d5e61fe2ae1e365789b824e9d221a8d",
+      "new_errors": []
+    },
+    {
+      "elements": 96,
+      "meshes": 96,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 96,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_h2_l2_noir.bbmodel",
+      "sha256": "79f2e11be02a270d1cfd000509af59b811085d242396f6c013f1ef8acf8e76a8",
+      "new_errors": []
+    },
+    {
+      "elements": 184,
+      "meshes": 184,
+      "groups": 7,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 184,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_h2_l2_x30d.bbmodel",
+      "sha256": "f8a4a656e76956d543621112f613c0d2a2c45ea318dd7d302af2defb669555a0",
+      "new_errors": []
+    },
+    {
+      "elements": 184,
+      "meshes": 184,
+      "groups": 7,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 184,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_h2_l2_x30d_noir.bbmodel",
+      "sha256": "91ea40bbc2e6ff4aa8eec32c3ccfbb2dad7ac5fd5daed35a4e2d5e6183880b31",
+      "new_errors": []
+    },
+    {
+      "elements": 70,
+      "meshes": 70,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 70,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_junction_90.bbmodel",
+      "sha256": "8bd2e8bcc6ded80d86eea5c87291d1415a4135ae1fcf5b5a6266a42489d39122",
+      "new_errors": []
+    },
+    {
+      "elements": 70,
+      "meshes": 70,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 70,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_junction_90_noir.bbmodel",
+      "sha256": "62543fc5ec1a25dd32c00e7bbc92491ea4bbaf921f266bd771922283fae137ff",
+      "new_errors": []
+    },
+    {
+      "elements": 110,
+      "meshes": 110,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 110,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_junction_cross.bbmodel",
+      "sha256": "6123cc08fd15cdad5366076c3f2d2926b8181ec001cd2566ab1459670211a5f2",
+      "new_errors": []
+    },
+    {
+      "elements": 110,
+      "meshes": 110,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 110,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_junction_cross_noir.bbmodel",
+      "sha256": "fcde24844aa6723e1638ef6b16f631436b17cdaafcd2e9ce613103ca6fa0607c",
+      "new_errors": []
+    },
+    {
+      "elements": 90,
+      "meshes": 90,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 90,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_junction_t.bbmodel",
+      "sha256": "edf1fa677e1536350e1295760f0f3ceb3f5e14bcedb0fa3064570c48d0a9af36",
+      "new_errors": []
+    },
+    {
+      "elements": 90,
+      "meshes": 90,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 90,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_junction_t_noir.bbmodel",
+      "sha256": "7e0fc840dcf4d0d22abba91e2014999f140358720c5c1ebe4d33cd867d33a42f",
+      "new_errors": []
+    },
+    {
+      "elements": 30,
+      "meshes": 30,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 30,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_ladder_l1.bbmodel",
+      "sha256": "72306f60a575e5320c622a8d32bb63e6965fb933f0c900ebe78400f3eb50e440",
+      "new_errors": []
+    },
+    {
+      "elements": 30,
+      "meshes": 30,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 30,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_ladder_l1_noir.bbmodel",
+      "sha256": "dc2ca10cfd9ec988e3ba8b3a181149d3003e4bf2b8132c13522daf8b2d4dec7c",
+      "new_errors": []
+    },
+    {
+      "elements": 42,
+      "meshes": 42,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 42,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_ladder_l2.bbmodel",
+      "sha256": "5aed466ff8e8b29b5af91e3e540995c4ce0438917b92e95168c3db449a265540",
+      "new_errors": []
+    },
+    {
+      "elements": 42,
+      "meshes": 42,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 42,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_ladder_l2_noir.bbmodel",
+      "sha256": "119e631dae3ab8484d78f609e45880df85ee4c259180e969e273e895cb9d9b5b",
+      "new_errors": []
+    },
+    {
+      "elements": 42,
+      "meshes": 42,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 42,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_ladder_v2.bbmodel",
+      "sha256": "8cc7bef58bdc980e67d41f729657f55e85d58113e8dbabfc19368af148d44622",
+      "new_errors": []
+    },
+    {
+      "elements": 42,
+      "meshes": 42,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 42,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_ladder_v2_noir.bbmodel",
+      "sha256": "888958eb731558fe5fc8c49c93cffe8df95d2775a161a32996391d88ccb8db1a",
+      "new_errors": []
+    },
+    {
+      "elements": 96,
+      "meshes": 96,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 96,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_v2_h2.bbmodel",
+      "sha256": "b77cd5cff41ced42bd9e6e97e16bfb5423142276fceb25a0efa6ccd716cf347d",
+      "new_errors": []
+    },
+    {
+      "elements": 96,
+      "meshes": 96,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 96,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_v2_h2_noir.bbmodel",
+      "sha256": "de7c227754d641046711553b159996ffe4bb0c26b291076d848f4e2382968236",
+      "new_errors": []
+    },
+    {
+      "elements": 72,
+      "meshes": 72,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 72,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_x30d_l2.bbmodel",
+      "sha256": "ae23db12f23c46818dc8b79a0400c84cefd75f149af02a39a55d2641a7a5cedb",
+      "new_errors": []
+    },
+    {
+      "elements": 72,
+      "meshes": 72,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "rigging_detail_noir.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 72,
+      "roundtrip_format": "5.0",
+      "animations": [],
+      "motion": [],
+      "file": "trusses/truss_x30d_l2_noir.bbmodel",
+      "sha256": "363460a7f8f8e620349b455d58d4f4d70f287daac9a54b28dab1517b67111907",
+      "new_errors": []
+    }
+  ]
+}

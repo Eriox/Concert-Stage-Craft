@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "concertstage:motor_tower_18_corner3_h2"
+    },
+    {
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "result": {
+    "item": "concertstage:motor_tower_18_corner3_h2_noir",
+    "count": 1
+  }
+}

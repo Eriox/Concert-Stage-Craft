@@ -1,0 +1,590 @@
+[
+  {
+    "path": "CHANGES_1.1.1-preview.2.md",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Orvane_Preview_2/BUILD_STATUS.txt",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Orvane_Preview_2/Minecraft_Previews/01_world_overview.png",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Orvane_Preview_2/Minecraft_Previews/02_array_tool.png",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Orvane_Preview_2/Minecraft_Previews/03_array_tool_edited.png",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Orvane_Preview_2/Minecraft_Previews/04_orvane_closeup.png",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Orvane_Preview_2/Minecraft_Previews/05_console_screen.png",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Orvane_Preview_2/Minecraft_Previews/06_remote_console_audio.png",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Orvane_Preview_2/README_FR.md",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Orvane_Preview_2/audio-tests.log",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Orvane_Preview_2/build-summary.log",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Orvane_Preview_2/client-summary.log",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Orvane_Preview_2/gametest-summary.log",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Orvane_Preview_2/speaker_geometry_audit.json",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Orvane_Preview_2/validation_blender.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/StageContent.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/AudioConsoleBlock.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/AudioConsoleBlockEntity.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/SpeakerBlock.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/SpeakerBlockEntity.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/SpeakerFrameItem.java",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/SpeakerFrames.java",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/SpeakerItem.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/SpeakerModels.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/core/Acoustics.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/core/ConsoleMixer.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/core/OutputLimiter.java",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/net/AudioContinuity.java",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/net/AudioNet.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/net/AudioServer.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/ArrayScreen.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/AudioConsoleRenderer.java",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/AudioRenderGeometry.java",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/AudioSettings.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/ClientAudio.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/ConsoleScreen.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/RemoteConsoles.java",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/SpeakerAudioStream.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/SpeakerRenderer.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/Transfers.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/lang/en_us.json",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/lang/fr_fr.json",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/item/csc_audio_console.json",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/item/csc_audio_console_mesh.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/item/csc_chain_link.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/item/csc_fader_cap.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/item/csc_noryx_flying_frame.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/item/csc_noryx_ground_frame.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/item/csc_orvane_flying_frame.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/item/csc_orvane_ground_frame.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/item/csc_orvane_lx12.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/item/csc_orvane_lx8.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/item/csc_orvane_sb28.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/item/csc_rig_link.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/item/csc_veyra_flying_frame.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/item/csc_veyra_ground_frame.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/speakers/csc_audio_console_mesh.obj",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/speakers/csc_chain_link.obj",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/speakers/csc_fader_cap.obj",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/speakers/csc_noryx_flying_frame.obj",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/speakers/csc_noryx_ground_frame.obj",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/speakers/csc_orvane_flying_frame.obj",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/speakers/csc_orvane_ground_frame.obj",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/speakers/csc_orvane_lx12.obj",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/speakers/csc_orvane_lx8.obj",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/speakers/csc_orvane_sb28.obj",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/speakers/csc_rig_link.obj",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/speakers/csc_veyra_flying_frame.obj",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/models/speakers/csc_veyra_ground_frame.obj",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/speakers/csc_audio_console_mesh.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/speakers/csc_chain_link.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/speakers/csc_fader_cap.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/speakers/csc_noryx_flying_frame.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/speakers/csc_noryx_ground_frame.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/speakers/csc_orvane_flying_frame.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/speakers/csc_orvane_ground_frame.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/speakers/csc_orvane_lx12.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/speakers/csc_orvane_lx8.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/speakers/csc_orvane_sb28.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/speakers/csc_rig_link.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/speakers/csc_veyra_flying_frame.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/speakers/csc_veyra_ground_frame.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/textures/block/speakers_atlas.png",
+    "status": "modified"
+  },
+  {
+    "path": "fabric/src/main/java/com/concertstage/fabric/ConcertStageFabricClient.java",
+    "status": "modified"
+  },
+  {
+    "path": "forge/build.gradle",
+    "status": "modified"
+  },
+  {
+    "path": "forge/gradle/wrapper/gradle-wrapper.jar",
+    "status": "added"
+  },
+  {
+    "path": "forge/gradle/wrapper/gradle-wrapper.properties",
+    "status": "added"
+  },
+  {
+    "path": "forge/gradlew",
+    "status": "added"
+  },
+  {
+    "path": "forge/gradlew.bat",
+    "status": "added"
+  },
+  {
+    "path": "forge/src/main/java/com/concertstage/forge/CSCAudioGameTests.java",
+    "status": "added"
+  },
+  {
+    "path": "forge/src/main/java/com/concertstage/forge/ForgeClientEvents.java",
+    "status": "modified"
+  },
+  {
+    "path": "forge/src/main/resources/META-INF/mods.toml",
+    "status": "modified"
+  },
+  {
+    "path": "forge/src/main/resources/data/concertstage/structures/audio_empty.nbt",
+    "status": "added"
+  },
+  {
+    "path": "forge/src/smoke/java/com/concertstage/client/audio/CSCSmokeClient.java",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_tests/LimiterTest.java",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_tests/check_speaker_assets.py",
+    "status": "modified"
+  },
+  {
+    "path": "tools/audio_tests/run.sh",
+    "status": "modified"
+  },
+  {
+    "path": "tools/audio_v2/CSC_Orvane_Installation_Demo.blend",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Minecraft_Previews/01_world_overview.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Minecraft_Previews/02_array_tool.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Minecraft_Previews/03_array_tool_edited.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Minecraft_Previews/04_orvane_closeup.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Minecraft_Previews/05_console_screen.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Minecraft_Previews/06_remote_console_audio.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_audio_console_mesh.blend",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_audio_console_mesh.glb",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_chain_link.blend",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_chain_link.glb",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_fader_cap.blend",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_fader_cap.glb",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_noryx_flying_frame.blend",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_noryx_flying_frame.glb",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_noryx_ground_frame.blend",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_noryx_ground_frame.glb",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_orvane_flying_frame.blend",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_orvane_flying_frame.glb",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_orvane_ground_frame.blend",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_orvane_ground_frame.glb",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_orvane_lx12.blend",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_orvane_lx12.glb",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_orvane_lx8.blend",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_orvane_lx8.glb",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_orvane_sb28.blend",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_orvane_sb28.glb",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_rig_link.blend",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_rig_link.glb",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_veyra_flying_frame.blend",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_veyra_flying_frame.glb",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_veyra_ground_frame.blend",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Models/csc_veyra_ground_frame.glb",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/README_FR.md",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Renders/CSC_Orvane_Installation_Demo.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Renders/CSC_Orvane_Relay_Overview_EN.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Renders/CSC_Relay_24_6_console.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Renders/csc_orvane_lx12_front.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Renders/csc_orvane_lx12_perspective.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Renders/csc_orvane_lx8_front.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Renders/csc_orvane_lx8_perspective.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Renders/csc_orvane_sb28_front.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Renders/csc_orvane_sb28_perspective.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/Textures/speakers_atlas.png",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/build_models.py",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/make_overview.py",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/prepare_atlas.py",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/run_smoke_test.py",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/validate_and_render.py",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_v2/validation_blender.json",
+    "status": "added"
+  }
+]

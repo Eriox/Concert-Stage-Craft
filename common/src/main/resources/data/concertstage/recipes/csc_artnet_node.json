@@ -1,0 +1,15 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "redstone",
+ "pattern": [
+  "GRG",
+  "IQI"
+ ],
+ "key": {
+  "G": {"item": "minecraft:glowstone_dust"},
+  "R": {"item": "minecraft:redstone"},
+  "Q": {"item": "minecraft:comparator"},
+  "I": {"item": "minecraft:iron_ingot"}
+ },
+ "result": {"item": "concertstage:csc_artnet_node", "count": 1}
+}

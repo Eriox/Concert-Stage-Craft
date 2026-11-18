@@ -1,0 +1,10 @@
+CSC_Broadcast_B1.blend -> broadcast_b1 : tris LOD0-3 [6172, 1524, 512, 100], 15 materials, 17 objects
+CSC_CAM_PTZ_P1.blend -> cam_ptz_p1 : tris LOD0-3 [4064, 1146, 394, 88], 13 materials, 16 objects
+CSC_Crane_C1.blend -> crane_c1 : tris LOD0-3 [3928, 1258, 560, 96], 10 materials, 22 objects
+CSC_Curved_QuadTruss.blend -> curved_quadtruss : tris LOD0-3 [16160, 8448, 2992, 704], 3 materials, 30 objects
+CSC_Curved_TriTruss.blend -> curved_tritruss : tris LOD0-3 [12120, 6336, 2244, 528], 3 materials, 30 objects
+CSC_LED_Accessories.blend -> led_accessories : tris LOD0-3 [4756, 848, 252, 36], 6 materials, 12 objects
+CSC_LED_Panel_P1.blend -> led_panel_p1 : tris LOD0-3 [3168, 760, 84, 12], 14 materials, 6 objects
+CSC_Remote_R1.blend -> remote_r1 : tris LOD0-3 [2968, 676, 268, 44], 14 materials, 12 objects
+CSC_Truss_Circular_Rework.blend -> truss_circular_rework : tris LOD0-3 [119520, 59360, 19600, 5624], 3 materials, 35 objects
+CSC_Vision_Processor_VP1.blend -> vision_processor_vp1 : tris LOD0-3 [6672, 1156, 36, 12], 17 materials, 6 objects

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "concertstage:regie_lisse_l1",
+    "count": 3
+  }
+}

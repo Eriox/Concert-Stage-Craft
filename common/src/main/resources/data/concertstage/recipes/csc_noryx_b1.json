@@ -1,0 +1,30 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "redstone",
+ "pattern": [
+  "ICI",
+  "NJN",
+  "IBI"
+ ],
+ "key": {
+  "I": {
+   "item": "minecraft:iron_ingot"
+  },
+  "N": {
+   "item": "minecraft:note_block"
+  },
+  "J": {
+   "item": "minecraft:jukebox"
+  },
+  "C": {
+   "item": "minecraft:copper_ingot"
+  },
+  "B": {
+   "item": "minecraft:iron_block"
+  }
+ },
+ "result": {
+  "item": "concertstage:csc_noryx_b1",
+  "count": 1
+ }
+}

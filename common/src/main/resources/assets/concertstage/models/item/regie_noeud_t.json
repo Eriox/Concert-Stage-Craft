@@ -1,0 +1,107 @@
+{
+  "parent": "concertstage:block/regie_noeud_t",
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        1.263,
+        1.031,
+        1.263
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0.0,
+        3.0,
+        -0.825
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -1.65
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        -0.226,
+        3.695,
+        -0.226
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        -0.933,
+        0.0,
+        -0.933
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0.933,
+        0.0,
+        0.933
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  }
+}

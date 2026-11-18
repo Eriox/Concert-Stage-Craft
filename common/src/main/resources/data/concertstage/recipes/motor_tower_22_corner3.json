@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "concertstage:truss_corner_3"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "concertstage:truss_base_v2"
+    },
+    {
+      "item": "concertstage:truss_v2_h2"
+    },
+    {
+      "item": "concertstage:truss_v2_h2"
+    },
+    {
+      "item": "concertstage:truss_v2_h2"
+    },
+    {
+      "item": "concertstage:truss_v2_h2"
+    },
+    {
+      "item": "concertstage:truss_v2_h2"
+    },
+    {
+      "item": "concertstage:truss_v2_h2"
+    }
+  ],
+  "result": {
+    "item": "concertstage:motor_tower_22_corner3",
+    "count": 1
+  }
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"concertstage:assembly_solo_stage_4x2_h040"}],"conditions":[{"condition":"minecraft:survives_explosion"}]}]}

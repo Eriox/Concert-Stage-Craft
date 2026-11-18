@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "concertstage:regie_poteau_h1"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "concertstage:regie_noeud_angle",
+    "count": 1
+  }
+}

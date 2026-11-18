@@ -1,0 +1,12 @@
+{
+ "loader": "forge:obj",
+ "model": "concertstage:models/lightshow/csc_lumicore_x1.obj",
+ "flip_v": true,
+ "automatic_culling": false,
+ "shade_quads": true,
+ "textures": {
+  "palette": "concertstage:block/lightshow_palette",
+  "particle": "concertstage:block/lightshow_palette"
+ },
+ "render_type": "minecraft:cutout"
+}

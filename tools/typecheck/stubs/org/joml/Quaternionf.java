@@ -1,0 +1,1 @@
+package org.joml; public class Quaternionf implements Quaternionfc { public Quaternionf(){} public Quaternionf rotateZ(float a){return this;} public Quaternionf rotateX(float a){return this;} public Quaternionf rotateY(float a){return this;} public Quaternionf mul(Quaternionfc q){return this;} public Quaternionf(float a,float b,float c,float d){}}

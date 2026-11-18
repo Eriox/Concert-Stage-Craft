@@ -1,0 +1,62 @@
+[
+  {
+    "id": "csc_aurex_flying_frame",
+    "blender_glb_import": "pass",
+    "meshes": 35,
+    "minecraft_lods": {
+      "near": 1348,
+      "far": 892,
+      "box": 220
+    }
+  },
+  {
+    "id": "csc_aurex_m12",
+    "blender_glb_import": "pass",
+    "meshes": 62,
+    "minecraft_lods": {
+      "near": 4534,
+      "far": 3806,
+      "box": 332
+    }
+  },
+  {
+    "id": "csc_aurex_m15_w",
+    "blender_glb_import": "pass",
+    "meshes": 50,
+    "minecraft_lods": {
+      "near": 4154,
+      "far": 3426,
+      "box": 428
+    }
+  },
+  {
+    "id": "csc_aurex_main_flying_frame",
+    "blender_glb_import": "pass",
+    "meshes": 23,
+    "minecraft_lods": {
+      "near": 820,
+      "far": 540,
+      "box": 220
+    }
+  },
+  {
+    "id": "csc_aurex_s218_f",
+    "blender_glb_import": "pass",
+    "meshes": 80,
+    "minecraft_lods": {
+      "near": 6532,
+      "far": 5228,
+      "box": 332
+    }
+  },
+  {
+    "id": "csc_aurex_truss_coupler",
+    "blender_glb_import": "pass",
+    "meshes": 5,
+    "minecraft_lods": {
+      "near": 208,
+      "far": 124,
+      "box": 96
+    }
+  }
+]

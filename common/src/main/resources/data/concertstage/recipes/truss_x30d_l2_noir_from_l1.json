@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "concertstage:truss_x30d_l1_noir"
+    },
+    {
+      "item": "concertstage:truss_x30d_l1_noir"
+    }
+  ],
+  "result": {
+    "item": "concertstage:truss_x30d_l2_noir"
+  }
+}

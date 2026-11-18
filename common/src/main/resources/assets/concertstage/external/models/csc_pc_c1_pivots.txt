@@ -1,0 +1,4 @@
+CSC PC C1 - pivots and axes (metres, as drawn in Minecraft = model x 2.00; Minecraft / glTF frame: Y up, front -Z)
+base:  origin = bottom centre of the base (standing fixture); hung under a truss the whole fixture is turned 180 degrees about Z
+head:  tilt pivot (0.0000, 0.3800, 0.0000) (in the base frame), tilt = rotation about +X, 0 degrees in total, positive raises the beam; head OBJ vertices are relative to this pivot
+beam:  origin (0.0000, 0.0000, -0.3360) (head frame), axis (0.0000, 0.0000, -1.0000), lens radius 0.2000, zoom 30-30 degrees

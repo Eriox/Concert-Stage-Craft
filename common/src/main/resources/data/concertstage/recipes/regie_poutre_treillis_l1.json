@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "III",
+    "B B",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "concertstage:regie_poutre_treillis_l1",
+    "count": 2
+  }
+}

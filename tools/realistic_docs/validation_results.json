@@ -1,0 +1,58 @@
+{
+  "native_blockbench": {
+    "version": "5.2.2",
+    "opened_edited_roundtripped": 76,
+    "prototype_animation": [
+      {
+        "animation": "monter",
+        "f": 0,
+        "y": 16
+      },
+      {
+        "animation": "monter",
+        "f": 0.5,
+        "y": 72
+      },
+      {
+        "animation": "monter",
+        "f": 1,
+        "y": 128
+      },
+      {
+        "animation": "descendre",
+        "f": 0,
+        "y": 128
+      },
+      {
+        "animation": "descendre",
+        "f": 0.5,
+        "y": 72
+      },
+      {
+        "animation": "descendre",
+        "f": 1,
+        "y": 16
+      }
+    ]
+  },
+  "asset_and_compatibility_assertions": 3459490,
+  "real_lift_math_assertions": 169630,
+  "production_mesh_renderer_assertions": 2313,
+  "lift_sync_assertions": 34,
+  "moving_attachment_renderer_assertions": 30,
+  "java_test_scope": "Real production classes/methods; real Gson; small Minecraft API stand-ins. No Minecraft world/GPU runtime.",
+  "old_world_scope": "Source, identifiers, dimensions, resources and saved-data/control class comparisons; no actual old-world load.",
+  "forge_build": {
+    "status": "blocked_before_mod_compilation",
+    "java": "17.0.21",
+    "gradle": "8.8",
+    "forge": "47.2.0",
+    "exit_code": 1,
+    "reason": "Minecraft client download denied by network proxy: HTTP 403 Forbidden; mapped Forge dependency cannot be prepared.",
+    "installable_jar_provided": false
+  },
+  "minecraft_gameplay": {
+    "status": "not_run",
+    "fps_measured": false
+  }
+}

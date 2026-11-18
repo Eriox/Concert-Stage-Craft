@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-31",
+  "target": "Minecraft Forge 1.20.1 / 47.2.0",
+  "source_version": "1.5.1",
+  "blockbench_models": 22,
+  "resource_assertions": 26619,
+  "production_platform_assertions_with_api_standins": 39424,
+  "java_syntax_files": 57,
+  "lift_sync_assertions": 34,
+  "moving_renderer_assertions": 30,
+  "rigging_math_assertions": 169630,
+  "rigging_renderer_assertions": 2313,
+  "rigging_assets_and_baseline_assertions": 3459510,
+  "forge_compile": "1.5.1 not compiled; previous build blocked resolving Forge dependencies (HTTP 403)",
+  "validated_mod_jar": false,
+  "minecraft_runtime_tests": false,
+  "performance_benchmark": false,
+  "startup_cache_assertions_with_api_standins": 764,
+  "confirmed_user_freeze_cause": false
+}

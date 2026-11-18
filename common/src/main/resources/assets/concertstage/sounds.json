@@ -1,0 +1,11 @@
+{
+ "speaker_stream": {
+  "sounds": [
+   {
+    "name": "concertstage:empty",
+    "stream": true
+   }
+  ],
+  "subtitle": "subtitles.concertstage.speaker_stream"
+ }
+}

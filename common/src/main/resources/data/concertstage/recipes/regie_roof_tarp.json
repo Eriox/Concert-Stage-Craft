@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "concertstage_regie",
+  "ingredients": [
+    {
+      "item": "minecraft:black_wool"
+    },
+    {
+      "item": "minecraft:black_wool"
+    },
+    {
+      "item": "minecraft:black_wool"
+    },
+    {
+      "item": "minecraft:black_wool"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "item": "concertstage:regie_roof_tarp",
+    "count": 1
+  }
+}

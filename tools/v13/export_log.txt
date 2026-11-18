@@ -1,0 +1,26 @@
+00:01.640  blend            | Read blend: "C:\Users\kylia\Documents\Minecraft\Mes MODS\Concert Stage Mod 1.20.1\Version en cours\CSC_1_2_0_New_Lights_Development\source-assets\livevision_1_3_0\Blender\CSC_Broadcast_B1.blend"
+C:\Users\kylia\Documents\Minecraft\Mes MODS\Concert Stage Mod 1.20.1\Version en cours\CSC_1_2_0_New_Lights_Development\tools\v13\export_vision_blender.py:96: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if m.use_nodes and m.node_tree:
+00:01.828  blend            | Read blend: "C:\Users\kylia\Documents\Minecraft\Mes MODS\Concert Stage Mod 1.20.1\Version en cours\CSC_1_2_0_New_Lights_Development\source-assets\livevision_1_3_0\Blender\CSC_CAM_PTZ_P1.blend"
+00:01.953  blend            | Read blend: "C:\Users\kylia\Documents\Minecraft\Mes MODS\Concert Stage Mod 1.20.1\Version en cours\CSC_1_2_0_New_Lights_Development\source-assets\livevision_1_3_0\Blender\CSC_Crane_C1.blend"
+00:02.094  blend            | Read blend: "C:\Users\kylia\Documents\Minecraft\Mes MODS\Concert Stage Mod 1.20.1\Version en cours\CSC_1_2_0_New_Lights_Development\source-assets\livevision_1_3_0\Blender\CSC_Curved_QuadTruss.blend"
+00:02.672  blend            | Read blend: "C:\Users\kylia\Documents\Minecraft\Mes MODS\Concert Stage Mod 1.20.1\Version en cours\CSC_1_2_0_New_Lights_Development\source-assets\livevision_1_3_0\Blender\CSC_Curved_TriTruss.blend"
+00:03.109  blend            | Read blend: "C:\Users\kylia\Documents\Minecraft\Mes MODS\Concert Stage Mod 1.20.1\Version en cours\CSC_1_2_0_New_Lights_Development\source-assets\livevision_1_3_0\Blender\CSC_LED_Accessories.blend"
+00:03.250  blend            | Read blend: "C:\Users\kylia\Documents\Minecraft\Mes MODS\Concert Stage Mod 1.20.1\Version en cours\CSC_1_2_0_New_Lights_Development\source-assets\livevision_1_3_0\Blender\CSC_LED_Panel_P1.blend"
+00:03.359  blend            | Read blend: "C:\Users\kylia\Documents\Minecraft\Mes MODS\Concert Stage Mod 1.20.1\Version en cours\CSC_1_2_0_New_Lights_Development\source-assets\livevision_1_3_0\Blender\CSC_Remote_R1.blend"
+00:03.453  blend            | Read blend: "C:\Users\kylia\Documents\Minecraft\Mes MODS\Concert Stage Mod 1.20.1\Version en cours\CSC_1_2_0_New_Lights_Development\source-assets\livevision_1_3_0\Blender\CSC_Truss_Circular_Rework.blend"
+00:07.437  blend            | Read blend: "C:\Users\kylia\Documents\Minecraft\Mes MODS\Concert Stage Mod 1.20.1\Version en cours\CSC_1_2_0_New_Lights_Development\source-assets\livevision_1_3_0\Blender\CSC_Vision_Processor_VP1.blend"
+CSC_Broadcast_B1.blend -> broadcast_b1 : tris LOD0-3 [6172, 1524, 512, 100], 15 materials, 17 objects
+CSC_CAM_PTZ_P1.blend -> cam_ptz_p1 : tris LOD0-3 [4064, 1146, 394, 88], 13 materials, 16 objects
+CSC_Crane_C1.blend -> crane_c1 : tris LOD0-3 [3928, 1258, 560, 96], 10 materials, 22 objects
+CSC_Curved_QuadTruss.blend -> curved_quadtruss : tris LOD0-3 [16160, 8448, 2992, 704], 3 materials, 30 objects
+CSC_Curved_TriTruss.blend -> curved_tritruss : tris LOD0-3 [12120, 6336, 2244, 528], 3 materials, 30 objects
+CSC_LED_Accessories.blend -> led_accessories : tris LOD0-3 [4756, 848, 252, 36], 6 materials, 12 objects
+CSC_LED_Panel_P1.blend -> led_panel_p1 : tris LOD0-3 [3168, 760, 84, 12], 14 materials, 6 objects
+CSC_Remote_R1.blend -> remote_r1 : tris LOD0-3 [2968, 676, 268, 44], 14 materials, 12 objects
+CSC_Truss_Circular_Rework.blend -> truss_circular_rework : tris LOD0-3 [119520, 59360, 19600, 5624], 3 materials, 35 objects
+CSC_Vision_Processor_VP1.blend -> vision_processor_vp1 : tris LOD0-3 [6672, 1156, 36, 12], 17 materials, 6 objects
+Blender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)
+
+Blender quit
+exit 0 

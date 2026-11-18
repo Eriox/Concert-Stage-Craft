@@ -1,0 +1,22 @@
+{
+  "core": [
+    "passed 156, failed 0"
+  ],
+  "external": [
+    "passed 148, failed 0",
+    "passed 27, failed 0",
+    "passed 756, failed 0"
+  ],
+  "new-fixtures": [
+    "passed 2812, failed 0"
+  ],
+  "optics": [
+    "passed 19, failed 0"
+  ],
+  "new-optics": [
+    "passed 26 x 4096 points, failed 0; worst relative error 1.080930233001709E-4"
+  ],
+  "audio": "complete standalone script exit 0",
+  "forge": "failed before compileJava, ForgeGradle dependency fetch HTTP 403",
+  "jar_produced": false
+}

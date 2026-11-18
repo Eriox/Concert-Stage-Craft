@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "concertstage:barrier_cityline_2m"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

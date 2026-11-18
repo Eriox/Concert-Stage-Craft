@@ -1,0 +1,10 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "redstone",
+ "ingredients": [
+  {"item": "minecraft:paper"},
+  {"item": "minecraft:redstone"},
+  {"item": "minecraft:gold_nugget"}
+ ],
+ "result": {"item": "concertstage:csc_config_card", "count": 1}
+}

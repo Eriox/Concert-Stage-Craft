@@ -1,0 +1,274 @@
+[
+  {
+    "id": "csc_aurex_flying_frame",
+    "units_m": 1.0,
+    "nominal_dimensions": [
+      1.8,
+      0.12,
+      1.1
+    ],
+    "lods": {
+      "HIGH_DETAIL": {
+        "triangles": 4212,
+        "min": [
+          -0.9169999957084656,
+          -0.03500000014901161,
+          0.0
+        ],
+        "max": [
+          0.9169999957084656,
+          1.097000002861023,
+          0.11800000071525574
+        ]
+      },
+      "GAME_READY": {
+        "triangles": 1348,
+        "min": [
+          -0.9169999957084656,
+          -0.03500000014901161,
+          0.0
+        ],
+        "max": [
+          0.9169999957084656,
+          1.097000002861023,
+          0.11800000071525574
+        ]
+      }
+    },
+    "glb_valid": true,
+    "attach_points": [
+      "CSC_Attach_Cabinet_Left.001",
+      "CSC_Attach_Cabinet_Right.001",
+      "CSC_Attach_Hoist_Left.001",
+      "CSC_Attach_Hoist_Right.001",
+      "CSC_Attach_Top.001",
+      "CSC_Attach_Bottom.001",
+      "CSC_Attach_Hoist_L.001",
+      "CSC_Attach_Hoist_R.001"
+    ]
+  },
+  {
+    "id": "csc_aurex_m12",
+    "units_m": 1.0,
+    "nominal_dimensions": [
+      1.6,
+      0.6,
+      0.9
+    ],
+    "lods": {
+      "HIGH_DETAIL": {
+        "triangles": 183694,
+        "min": [
+          -0.800000011920929,
+          0.0005000000237487257,
+          0.0
+        ],
+        "max": [
+          0.800000011920929,
+          0.8999999761581421,
+          0.6000000238418579
+        ]
+      },
+      "GAME_READY": {
+        "triangles": 4534,
+        "min": [
+          -0.800000011920929,
+          0.0010000000474974513,
+          0.0
+        ],
+        "max": [
+          0.800000011920929,
+          0.8999999761581421,
+          0.6000000238418579
+        ]
+      }
+    },
+    "glb_valid": true,
+    "attach_points": [
+      "CSC_Attach_Cabinet_-0.782_-0.001",
+      "CSC_Attach_Cabinet_-0.782_-0.002",
+      "CSC_Attach_Cabinet_0.782_-0.001",
+      "CSC_Attach_Cabinet_0.782_-0.002",
+      "CSC_Attach_Stand.001"
+    ]
+  },
+  {
+    "id": "csc_aurex_m15_w",
+    "units_m": 1.0,
+    "nominal_dimensions": [
+      0.78,
+      0.46,
+      0.7
+    ],
+    "lods": {
+      "HIGH_DETAIL": {
+        "triangles": 110930,
+        "min": [
+          -0.38999998569488525,
+          0.0038137640804052353,
+          0.0
+        ],
+        "max": [
+          0.38999998569488525,
+          0.699999988079071,
+          0.46581384539604187
+        ]
+      },
+      "GAME_READY": {
+        "triangles": 4154,
+        "min": [
+          -0.38999998569488525,
+          0.006020613480359316,
+          0.0
+        ],
+        "max": [
+          0.38999998569488525,
+          0.699999988079071,
+          0.46529242396354675
+        ]
+      }
+    },
+    "glb_valid": true,
+    "attach_points": [
+      "CSC_Monitor_Aim.001",
+      "CSC_Floor_Angle_0.001",
+      "CSC_Floor_Angle_15.001"
+    ]
+  },
+  {
+    "id": "csc_aurex_main_flying_frame",
+    "units_m": 1.0,
+    "nominal_dimensions": [
+      1.6,
+      0.12,
+      0.9
+    ],
+    "lods": {
+      "HIGH_DETAIL": {
+        "triangles": 2532,
+        "min": [
+          -0.8169999718666077,
+          -0.03500000014901161,
+          0.0
+        ],
+        "max": [
+          0.8169999718666077,
+          0.8849999904632568,
+          0.11800000071525574
+        ]
+      },
+      "GAME_READY": {
+        "triangles": 820,
+        "min": [
+          -0.8169999718666077,
+          -0.03500000014901161,
+          0.0
+        ],
+        "max": [
+          0.8169999718666077,
+          0.8849999904632568,
+          0.11800000071525574
+        ]
+      }
+    },
+    "glb_valid": true,
+    "attach_points": [
+      "CSC_Attach_Cabinet_Left.001",
+      "CSC_Attach_Cabinet_Right.001",
+      "CSC_Attach_Hoist_Left.001",
+      "CSC_Attach_Hoist_Right.001",
+      "CSC_Attach_Top.001",
+      "CSC_Attach_Bottom.001"
+    ]
+  },
+  {
+    "id": "csc_aurex_s218_f",
+    "units_m": 1.0,
+    "nominal_dimensions": [
+      1.8,
+      1.15,
+      1.1
+    ],
+    "lods": {
+      "HIGH_DETAIL": {
+        "triangles": 367132,
+        "min": [
+          -0.8999999761581421,
+          0.001500000013038516,
+          0.0
+        ],
+        "max": [
+          0.8999999761581421,
+          1.100000023841858,
+          1.149999976158142
+        ]
+      },
+      "GAME_READY": {
+        "triangles": 6532,
+        "min": [
+          -0.8999999761581421,
+          0.0020000000949949026,
+          0.0
+        ],
+        "max": [
+          0.8999999761581421,
+          1.100000023841858,
+          1.149999976158142
+        ]
+      }
+    },
+    "glb_valid": true,
+    "attach_points": [
+      "CSC_Attach_Bottom_L_Front.001",
+      "CSC_Attach_Top_L_Front.001",
+      "CSC_Attach_Bottom_L_Rear.001",
+      "CSC_Attach_Top_L_Rear.001",
+      "CSC_Attach_Bottom_R_Front.001",
+      "CSC_Attach_Top_R_Front.001",
+      "CSC_Attach_Bottom_R_Rear.001",
+      "CSC_Attach_Top_R_Rear.001"
+    ]
+  },
+  {
+    "id": "csc_aurex_truss_coupler",
+    "units_m": 1.0,
+    "nominal_dimensions": [
+      0.08,
+      0.1,
+      0.06
+    ],
+    "lods": {
+      "HIGH_DETAIL": {
+        "triangles": 400,
+        "min": [
+          -0.03400000184774399,
+          -0.029999999329447746,
+          0.003999999724328518
+        ],
+        "max": [
+          0.03800000250339508,
+          0.029999999329447746,
+          0.0989999994635582
+        ]
+      },
+      "GAME_READY": {
+        "triangles": 208,
+        "min": [
+          -0.03400000184774399,
+          -0.029999999329447746,
+          0.003999999724328518
+        ],
+        "max": [
+          0.03800000250339508,
+          0.029999999329447746,
+          0.0989999994635582
+        ]
+      }
+    },
+    "glb_valid": true,
+    "attach_points": [
+      "CSC_Attach_Truss_Tube.001",
+      "CSC_Attach_Hoist.001"
+    ]
+  }
+]

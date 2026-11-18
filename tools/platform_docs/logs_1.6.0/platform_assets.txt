@@ -1,0 +1,1 @@
+{"assertions": 54161, "models": 22, "rigging_item_models": 68, "missing_resource_references": [], "scope": "Static resource/collision/projection checks; not a Minecraft runtime test."}

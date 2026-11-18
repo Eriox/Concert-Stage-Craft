@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  ],
+  "result": {
+    "item": "concertstage:festival_stairs_h220",
+    "count": 1
+  }
+}

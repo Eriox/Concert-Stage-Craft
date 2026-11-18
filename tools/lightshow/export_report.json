@@ -1,0 +1,231 @@
+{
+ "csc_vortex_x1": {
+  "objects": {
+   "base": 111,
+   "head": 128,
+   "yoke": 48
+  },
+  "triangles": {
+   "base": 3485,
+   "head": 9847,
+   "yoke": 2826
+  },
+  "triangles_far": {
+   "base": 868,
+   "head": 2984,
+   "yoke": 330
+  },
+  "zones": 1,
+  "skipped": [
+   "Cyclorama gris neutre"
+  ],
+  "beam": {
+   "origin": [
+    0.0,
+    0.0,
+    -0.1775
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "lens_radius": 0.029
+  },
+  "pivots": {
+   "pan": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "tilt": [
+    -0.0,
+    0.361,
+    0.0
+   ]
+  },
+  "bounds_neutral_parts": [
+   [
+    -0.205,
+    -0.117,
+    -0.24
+   ],
+   [
+    0.205,
+    0.405,
+    0.232
+   ]
+  ],
+  "bytes": 897842
+ },
+ "csc_lumora_w7": {
+  "objects": {
+   "base": 74,
+   "head": 113,
+   "yoke": 19
+  },
+  "triangles": {
+   "base": 1310,
+   "head": 15631,
+   "yoke": 1622
+  },
+  "triangles_far": {
+   "base": 212,
+   "head": 6016,
+   "yoke": 360
+  },
+  "zones": 19,
+  "skipped": [
+   "Cyclorama gris neutre"
+  ],
+  "beam": {
+   "origin": [
+    0.0009,
+    -0.0012,
+    -0.119
+   ],
+   "axis": [
+    0.0073,
+    -0.0102,
+    -0.9999
+   ],
+   "lens_radius": 0.1461
+  },
+  "pivots": {
+   "pan": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "tilt": [
+    -0.0,
+    0.322,
+    0.0
+   ]
+  },
+  "bounds_neutral_parts": [
+   [
+    -0.192,
+    -0.153,
+    -0.135
+   ],
+   [
+    0.192,
+    0.35,
+    0.14
+   ]
+  ],
+  "bytes": 1116404
+ },
+ "csc_lumora_w19": {
+  "objects": {
+   "base": 78,
+   "head": 207,
+   "yoke": 29
+  },
+  "triangles": {
+   "base": 1366,
+   "head": 26518,
+   "yoke": 1920
+  },
+  "triangles_far": {
+   "base": 260,
+   "head": 10748,
+   "yoke": 432
+  },
+  "zones": 37,
+  "skipped": [
+   "Cyclorama gris neutre"
+  ],
+  "beam": {
+   "origin": [
+    0.0012,
+    -0.0014,
+    -0.119
+   ],
+   "axis": [
+    0.0097,
+    -0.0117,
+    -0.9999
+   ],
+   "lens_radius": 0.1838
+  },
+  "pivots": {
+   "pan": [
+    -0.0,
+    0.0,
+    0.0
+   ],
+   "tilt": [
+    -0.0,
+    0.396,
+    0.0
+   ]
+  },
+  "bounds_neutral_parts": [
+   [
+    -0.255,
+    -0.192,
+    -0.135
+   ],
+   [
+    0.255,
+    0.433,
+    0.147
+   ]
+  ],
+  "bytes": 1846572
+ },
+ "csc_pulsestrike_m": {
+  "objects": {
+   "base": 30,
+   "head": 155
+  },
+  "triangles": {
+   "base": 1200,
+   "head": 7154
+  },
+  "triangles_far": {
+   "base": 388,
+   "head": 762
+  },
+  "zones": 42,
+  "skipped": [
+   "Cyclorama gris neutre"
+  ],
+  "beam": {
+   "origin": [
+    -0.0,
+    0.0,
+    -0.0663
+   ],
+   "axis": [
+    -0.0,
+    0.0,
+    -1.0
+   ],
+   "lens_radius": 0.1847
+  },
+  "pivots": {
+   "pan": null,
+   "tilt": [
+    -0.0,
+    0.222,
+    0.0
+   ]
+  },
+  "bounds_neutral_parts": [
+   [
+    -0.232,
+    -0.093,
+    -0.087
+   ],
+   [
+    0.232,
+    0.245,
+    0.093
+   ]
+  ],
+  "bytes": 399566
+ }
+}

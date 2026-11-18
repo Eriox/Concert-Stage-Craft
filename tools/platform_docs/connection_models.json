@@ -1,0 +1,20 @@
+[
+ {
+  "id": "raised_stage_platform_2x1_h220",
+  "from": "raised_stage_platform_2x1_h120",
+  "height_before": 1.2,
+  "height_after": 2.0,
+  "source_cubes": 205,
+  "derived_cubes": 205,
+  "lowered_in": "1.17.3: -0.2 m (vérins), plancher sur une limite de bloc"
+ },
+ {
+  "id": "assembly_festival_stage_8x4_h220",
+  "from": "assembly_festival_stage_8x4_h120",
+  "height_before": 1.2,
+  "height_after": 2.0,
+  "source_cubes": 3520,
+  "derived_cubes": 3520,
+  "lowered_in": "1.17.3: -0.2 m (vérins), plancher sur une limite de bloc"
+ }
+]

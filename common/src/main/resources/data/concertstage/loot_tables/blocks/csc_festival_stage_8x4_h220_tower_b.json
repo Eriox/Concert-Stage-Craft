@@ -1,0 +1,1 @@
+{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"concertstage:csc_festival_stage_8x4_h220_tower_b"}],"conditions":[{"condition":"minecraft:survives_explosion"}]}]}

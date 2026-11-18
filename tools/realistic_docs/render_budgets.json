@@ -1,0 +1,29 @@
+{
+  "note": "Geometry budgets only; not FPS measurements. Runtime shares its link mesh.",
+  "towers": [
+    {
+      "height": 10,
+      "mast_near_quads": 3576,
+      "mast_far_quads": 798,
+      "distant_chain_quads_max": 40
+    },
+    {
+      "height": 14,
+      "mast_near_quads": 4792,
+      "mast_far_quads": 990,
+      "distant_chain_quads_max": 56
+    },
+    {
+      "height": 18,
+      "mast_near_quads": 6008,
+      "mast_far_quads": 1182,
+      "distant_chain_quads_max": 72
+    },
+    {
+      "height": 22,
+      "mast_near_quads": 7224,
+      "mast_far_quads": 1374,
+      "distant_chain_quads_max": 88
+    }
+  ]
+}

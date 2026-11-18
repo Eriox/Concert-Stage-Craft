@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "  I",
+    " S ",
+    "S  "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "concertstage:curtain_tool",
+    "count": 1
+  }
+}

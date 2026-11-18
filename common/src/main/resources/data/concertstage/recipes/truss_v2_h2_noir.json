@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "concertstage:truss_v2_h2"
+    },
+    {
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "result": {
+    "item": "concertstage:truss_v2_h2_noir",
+    "count": 1
+  }
+}

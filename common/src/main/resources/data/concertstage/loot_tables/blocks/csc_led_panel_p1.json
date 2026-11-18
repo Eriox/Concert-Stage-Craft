@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "concertstage:csc_led_panel_p1"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

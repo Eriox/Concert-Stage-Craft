@@ -1,0 +1,27 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "redstone",
+ "pattern": [
+  " I ",
+  "GLG",
+  "IRI"
+ ],
+ "key": {
+  "I": {
+   "item": "minecraft:iron_ingot"
+  },
+  "G": {
+   "item": "minecraft:glass_pane"
+  },
+  "L": {
+   "item": "minecraft:glowstone"
+  },
+  "R": {
+   "item": "minecraft:redstone"
+  }
+ },
+ "result": {
+  "item": "concertstage:csc_lumora_w7",
+  "count": 1
+ }
+}

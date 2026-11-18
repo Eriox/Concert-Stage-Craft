@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SNS",
+    "LLL",
+    "LLL"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "concertstage:stage_tarp_rail",
+    "count": 2
+  }
+}

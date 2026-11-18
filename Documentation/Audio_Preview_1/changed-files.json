@@ -1,0 +1,82 @@
+[
+  {
+    "path": "Documentation/Audio_Preview_1/BUILD_STATUS.txt",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Preview_1/README_FR.md",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Preview_1/audio-tests.log",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Preview_1/changed-files.json",
+    "status": "added"
+  },
+  {
+    "path": "Documentation/Audio_Preview_1/speaker_geometry_audit.json",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/SpeakerBlockEntity.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/audio/core/ConsoleMixer.java",
+    "status": "added"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/ArrayScreen.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/AudioSettings.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/ClientAudio.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/SpeakerAudioStream.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/java/com/concertstage/client/audio/SpeakerSoundInstance.java",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/lang/en_us.json",
+    "status": "modified"
+  },
+  {
+    "path": "common/src/main/resources/assets/concertstage/lang/fr_fr.json",
+    "status": "modified"
+  },
+  {
+    "path": "forge/build.gradle",
+    "status": "modified"
+  },
+  {
+    "path": "forge/gradle.properties",
+    "status": "modified"
+  },
+  {
+    "path": "forge/settings.gradle",
+    "status": "modified"
+  },
+  {
+    "path": "tools/audio_tests/MixerTest.java",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_tests/check_speaker_assets.py",
+    "status": "added"
+  },
+  {
+    "path": "tools/audio_tests/run.sh",
+    "status": "modified"
+  }
+]

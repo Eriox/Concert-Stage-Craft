@@ -1,0 +1,24 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "redstone",
+ "pattern": [
+  " L ",
+  "IRI",
+  " I "
+ ],
+ "key": {
+  "L": {
+   "item": "minecraft:lightning_rod"
+  },
+  "I": {
+   "item": "minecraft:iron_ingot"
+  },
+  "R": {
+   "item": "minecraft:redstone"
+  }
+ },
+ "result": {
+  "item": "concertstage:csc_audio_link_tool",
+  "count": 1
+ }
+}

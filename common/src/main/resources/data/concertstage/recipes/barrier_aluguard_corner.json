@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "concertstage:barrier_aluguard_1m"
+    },
+    {
+      "item": "concertstage:barrier_aluguard_1m"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "concertstage:barrier_aluguard_corner",
+    "count": 1
+  }
+}

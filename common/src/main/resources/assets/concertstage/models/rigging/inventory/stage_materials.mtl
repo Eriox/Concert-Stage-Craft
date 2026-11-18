@@ -1,0 +1,17 @@
+newmtl material_0
+Kd 1 1 1
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+map_Kd #metals
+
+newmtl material_1
+Kd 1 1 1
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+map_Kd #anti_slip
+
+newmtl material_2
+Kd 1 1 1
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+map_Kd #hardware

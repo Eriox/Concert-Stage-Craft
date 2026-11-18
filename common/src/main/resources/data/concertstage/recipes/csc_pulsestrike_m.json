@@ -1,0 +1,27 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "redstone",
+ "pattern": [
+  "GGG",
+  "LRL",
+  "I I"
+ ],
+ "key": {
+  "I": {
+   "item": "minecraft:iron_ingot"
+  },
+  "G": {
+   "item": "minecraft:glass_pane"
+  },
+  "L": {
+   "item": "minecraft:sea_lantern"
+  },
+  "R": {
+   "item": "minecraft:redstone"
+  }
+ },
+ "result": {
+  "item": "concertstage:csc_pulsestrike_m",
+  "count": 1
+ }
+}

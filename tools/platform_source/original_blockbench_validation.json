@@ -1,0 +1,667 @@
+{
+  "application": "Blockbench",
+  "version": "5.2.2",
+  "runtime": "Official web application 5.2.2, local assets; Chromium headless + software WebGL",
+  "models": [
+    {
+      "cubes": 21,
+      "elements": 21,
+      "groups": 1,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 21,
+      "roundtrip_format": "5.0",
+      "file": "adjustable_leg_h040.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 28,
+      "elements": 28,
+      "groups": 1,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 28,
+      "roundtrip_format": "5.0",
+      "file": "adjustable_leg_h080.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 28,
+      "elements": 28,
+      "groups": 1,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 28,
+      "roundtrip_format": "5.0",
+      "file": "adjustable_leg_h120.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 3520,
+      "elements": 3520,
+      "groups": 168,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 3520,
+      "roundtrip_format": "5.0",
+      "file": "assembly_festival_stage_8x4_h120.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 596,
+      "elements": 596,
+      "groups": 36,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 596,
+      "roundtrip_format": "5.0",
+      "file": "assembly_solo_stage_4x2_h040.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 482,
+      "elements": 482,
+      "groups": 21,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 482,
+      "roundtrip_format": "5.0",
+      "file": "dj_platform_2x2_h080.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 708,
+      "elements": 708,
+      "groups": 36,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 708,
+      "roundtrip_format": "5.0",
+      "file": "drum_riser_4x2_h060.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 148,
+      "elements": 148,
+      "groups": 8,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 148,
+      "roundtrip_format": "5.0",
+      "file": "musician_riser_2x1_h040.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 205,
+      "elements": 205,
+      "groups": 8,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 205,
+      "roundtrip_format": "5.0",
+      "file": "raised_stage_platform_2x1_h120.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 37,
+      "elements": 37,
+      "groups": 2,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 37,
+      "roundtrip_format": "5.0",
+      "file": "safety_railings_1m.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 37,
+      "elements": 37,
+      "groups": 2,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 37,
+      "roundtrip_format": "5.0",
+      "file": "safety_railings_2m.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 90,
+      "elements": 90,
+      "groups": 7,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 90,
+      "roundtrip_format": "5.0",
+      "file": "safety_railings_corner_1x1.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 139,
+      "elements": 139,
+      "groups": 7,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 139,
+      "roundtrip_format": "5.0",
+      "file": "stage_deck_2x1_h020.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 139,
+      "elements": 139,
+      "groups": 7,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 139,
+      "roundtrip_format": "5.0",
+      "file": "stage_deck_2x1_h040.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 205,
+      "elements": 205,
+      "groups": 8,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 205,
+      "roundtrip_format": "5.0",
+      "file": "stage_deck_2x1_h080.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 83,
+      "elements": 83,
+      "groups": 4,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 83,
+      "roundtrip_format": "5.0",
+      "file": "stage_deck_2x1_without_legs.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 131,
+      "elements": 131,
+      "groups": 7,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 131,
+      "roundtrip_format": "5.0",
+      "file": "stage_extension_1x1_h040.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 139,
+      "elements": 139,
+      "groups": 7,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 139,
+      "roundtrip_format": "5.0",
+      "file": "stage_extension_2x0p5_h040.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 86,
+      "elements": 86,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 86,
+      "roundtrip_format": "5.0",
+      "file": "stage_stairs_h040.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 118,
+      "elements": 118,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 118,
+      "roundtrip_format": "5.0",
+      "file": "stage_stairs_h080.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 150,
+      "elements": 150,
+      "groups": 3,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 150,
+      "roundtrip_format": "5.0",
+      "file": "stage_stairs_h120.bbmodel",
+      "new_errors": []
+    },
+    {
+      "cubes": 192,
+      "elements": 192,
+      "groups": 8,
+      "textures": [
+        {
+          "name": "metals.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "anti_slip.png",
+          "width": 512,
+          "height": 512,
+          "error": 0
+        },
+        {
+          "name": "hardware.png",
+          "width": 256,
+          "height": 256,
+          "error": 0
+        }
+      ],
+      "editable": true,
+      "roundtrip_elements": 192,
+      "roundtrip_format": "5.0",
+      "file": "stage_support_structures_2x1_h111.bbmodel",
+      "new_errors": []
+    }
+  ]
+}

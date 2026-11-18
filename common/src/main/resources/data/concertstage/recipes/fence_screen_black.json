@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:black_wool"
+    },
+    {
+      "item": "minecraft:black_wool"
+    },
+    {
+      "item": "minecraft:black_wool"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "result": {
+    "item": "concertstage:fence_screen_black",
+    "count": 1
+  }
+}

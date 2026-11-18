@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "concertstage_csc_v3",
+  "ingredients": [
+    {
+      "item": "concertstage:stage_deck_2x1_without_legs"
+    },
+    {
+      "item": "concertstage:stage_deck_2x1_without_legs"
+    },
+    {
+      "item": "concertstage:adjustable_leg_h120"
+    },
+    {
+      "item": "concertstage:adjustable_leg_h120"
+    },
+    {
+      "item": "concertstage:adjustable_leg_h120"
+    },
+    {
+      "item": "concertstage:adjustable_leg_h120"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    }
+  ],
+  "result": {
+    "item": "concertstage:csc_technical_platform_2x2_h120"
+  }
+}

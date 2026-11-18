@@ -1,0 +1,105 @@
+{
+    "blend": {
+        "func": "add",
+        "srcrgb": "1",
+        "dstrgb": "0"
+    },
+    "vertex": "concertstage_light_debug",
+    "fragment": "concertstage_light_debug",
+    "attributes": [
+        "Position"
+    ],
+    "samplers": [
+        {
+            "name": "DepthSampler"
+        }
+    ],
+    "uniforms": [
+        {
+            "name": "ModelViewMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0
+            ]
+        },
+        {
+            "name": "ProjMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0
+            ]
+        },
+        {
+            "name": "InvProjMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0,
+                0,
+                0,
+                0,
+                0,
+                1.0
+            ]
+        },
+        {
+            "name": "TargetSize",
+            "type": "float",
+            "count": 2,
+            "values": [
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "DebugMode",
+            "type": "float",
+            "count": 1,
+            "values": [
+                6.0
+            ]
+        }
+    ]
+}

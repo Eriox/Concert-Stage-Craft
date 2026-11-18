@@ -1,0 +1,9 @@
+BUILD SUCCESSFUL — Forge 1.20.1-47.2.0 / Java 17 / Gradle 8.8
+Reobfuscated JAR CRC, classes, exact current speaker meshes and version: PASS
+Development smoke client excluded: PASS
+JAR SHA256: ce021abeb46f71feb69c9f5becd98008c34ee690826e2e22bcab8b77c2bfa212
+8 GameTests in Minecraft world: PASS
+Minecraft client smoke + actual master PCM attenuation: PASS (OpenAL No Output)
+Audio core/seek/mixer/limiter tests: PASS
+13 native Blender models and 13 GLBs reopened; editable demo created and reopened.
+Subjective listening and multi-machine multiplayer remain manual checks.

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "concertstage:fence_site_3m"
+    },
+    {
+      "item": "concertstage:fence_screen_black"
+    }
+  ],
+  "result": {
+    "item": "concertstage:fence_site_3m_screen",
+    "count": 1
+  }
+}

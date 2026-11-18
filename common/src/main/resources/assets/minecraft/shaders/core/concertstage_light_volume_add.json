@@ -1,0 +1,150 @@
+{
+    "blend": {
+        "func": "add",
+        "srcrgb": "1",
+        "dstrgb": "1"
+    },
+    "vertex": "concertstage_light_volume",
+    "fragment": "concertstage_light_volume",
+    "attributes": [
+        "Position",
+        "Color",
+        "UV0",
+        "UV2"
+    ],
+    "samplers": [
+        {
+            "name": "DepthSampler"
+        }
+    ],
+    "uniforms": [
+        {
+            "name": "ModelViewMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "name": "ProjMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "name": "InvProjMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "name": "TargetSize",
+            "type": "float",
+            "count": 2,
+            "values": [
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Gain",
+            "type": "float",
+            "count": 1,
+            "values": [
+                1.0
+            ]
+        },
+        {
+            "name": "PassRoot",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.5
+            ]
+        },
+        {
+            "name": "AddMode",
+            "type": "float",
+            "count": 1,
+            "values": [
+                1.0
+            ]
+        },
+        {
+            "name": "AddK",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "AmbientTint",
+            "type": "float",
+            "count": 3,
+            "values": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "AccumMode",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+CSC visual test 2026-11-11T22:39:38.264376400
+GL NVIDIA GeForce RTX 5060 Ti/PCIe/SSE2 / 4.6.0 NVIDIA 621.01
+scene desk: 62 fixtures: 16 x CSC LUMORA W19 (hung), 16 x CSC PULSESTRIKE M (hung), 10 x CSC VORTEX X1, 20 x CSC VORTEX X1 (hung),
+   fid 1 CSC VORTEX X1 at -293 219 -322
+   fid 2 CSC PULSESTRIKE M at -293 219 -321
+   fid 3 CSC LUMORA W19 at -293 219 -320
+   fid 4 CSC VORTEX X1 at -293 219 -319
+   fid 5 CSC PULSESTRIKE M at -293 219 -318
+   fid 6 CSC LUMORA W19 at -293 219 -317
+   fid 7 CSC VORTEX X1 at -293 219 -316
+   fid 8 CSC PULSESTRIKE M at -293 219 -315
+   fid 9 CSC LUMORA W19 at -293 219 -314
+   fid 10 CSC VORTEX X1 at -293 219 -313
+   fid 11 CSC PULSESTRIKE M at -293 219 -312
+   fid 12 CSC VORTEX X1 at -293 219 -311
+   fid 13 CSC LUMORA W19 at -293 219 -310
+   fid 14 CSC LUMORA W19 at -293 219 -309
+   fid 15 CSC VORTEX X1 at -293 219 -308
+   fid 16 CSC PULSESTRIKE M at -293 219 -307
+   fid 17 CSC VORTEX X1 at -293 219 -306
+   fid 18 CSC LUMORA W19 at -293 219 -305
+   fid 19 CSC PULSESTRIKE M at -293 219 -304
+   fid 20 CSC VORTEX X1 at -293 219 -303
+   fid 21 CSC LUMORA W19 at -293 219 -302
+   fid 22 CSC PULSESTRIKE M at -293 219 -301
+   fid 23 CSC VORTEX X1 at -293 219 -300
+   fid 24 CSC LUMORA W19 at -293 219 -299
+   fid 25 CSC PULSESTRIKE M at -293 219 -298
+   fid 26 CSC VORTEX X1 at -293 219 -297
+   fid 27 CSC VORTEX X1 at -288 216 -297
+   fid 28 CSC PULSESTRIKE M at -288 216 -298
+   fid 29 CSC LUMORA W19 at -288 216 -299
+   fid 30 CSC VORTEX X1 at -288 216 -300
+   fid 31 CSC PULSESTRIKE M at -288 216 -301
+   fid 32 CSC LUMORA W19 at -288 216 -302
+   fid 33 CSC VORTEX X1 at -288 216 -303
+   fid 34 CSC PULSESTRIKE M at -288 216 -304
+   fid 35 CSC LUMORA W19 at -288 216 -305
+   fid 36 CSC VORTEX X1 at -288 216 -306
+   fid 37 CSC PULSESTRIKE M at -288 216 -307
+   fid 38 CSC VORTEX X1 at -288 216 -308
+   fid 39 CSC LUMORA W19 at -288 216 -309
+   fid 40 CSC LUMORA W19 at -288 216 -310
+   fid 41 CSC VORTEX X1 at -288 216 -311
+   fid 42 CSC PULSESTRIKE M at -288 216 -312
+   fid 43 CSC VORTEX X1 at -288 216 -313
+   fid 44 CSC LUMORA W19 at -288 216 -314
+   fid 45 CSC PULSESTRIKE M at -288 216 -315
+   fid 46 CSC VORTEX X1 at -288 216 -316
+   fid 47 CSC LUMORA W19 at -288 216 -317
+   fid 48 CSC PULSESTRIKE M at -288 216 -318
+   fid 49 CSC VORTEX X1 at -288 216 -319
+   fid 50 CSC LUMORA W19 at -288 216 -320
+   fid 51 CSC PULSESTRIKE M at -288 216 -321
+   fid 52 CSC VORTEX X1 at -288 216 -322
+   fid 53 CSC VORTEX X1 at -288 207 -322
+   fid 54 CSC VORTEX X1 at -288 207 -319
+   fid 55 CSC VORTEX X1 at -288 208 -316
+   fid 56 CSC VORTEX X1 at -288 208 -313
+   fid 57 CSC VORTEX X1 at -288 209 -311
+   fid 58 CSC VORTEX X1 at -288 209 -308
+   fid 59 CSC VORTEX X1 at -288 208 -306
+   fid 60 CSC VORTEX X1 at -288 208 -303
+   fid 61 CSC VORTEX X1 at -288 207 -300
+   fid 62 CSC VORTEX X1 at -288 207 -297
+r23_lumora_alone_q0: beams 16/48 | far beams 0/48 | beams in the haze 16/32 | projections 16/48 | auto level 3 | frame 8,7 ms | fps 115 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 16 drawn / 16 asked, beams in haze 16 / 16, shadows 16 maps (0 redrawn), 83 sections, 0 meshes, spill 21, bloom 10 passes | CSC optics: 16 lit fixtures drawn, 16 beams, 0 gobos, 0 prisms
+r23_lumora_plus_vortex_q0: beams 46/48 | far beams 0/48 | beams in the haze 32/32 | projections 46/48 | auto level 3 | frame 8,6 ms | fps 116 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 46 drawn / 46 asked, beams in haze 32 / 32, shadows 46 maps (0 redrawn), 99 sections, 0 meshes, spill 58, bloom 10 passes | CSC optics: 46 lit fixtures drawn, 32 beams, 0 gobos, 0 prisms
+r23_lumora_plus_vortex_plus_pulse_q0: beams 48/48 | far beams 14/48 | beams in the haze 32/32 | projections 48/48 | auto level 3 | frame 8,5 ms | fps 120 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 48 drawn / 48 asked, beams in haze 32 / 32, shadows 48 maps (0 redrawn), 122 sections, 0 meshes, spill 49, bloom 10 passes | CSC optics: 48 lit fixtures drawn, 32 beams, 0 gobos, 0 prisms
+r23_lumora_alone_q1: beams 16/64 | far beams 0/96 | beams in the haze 16/48 | projections 16/64 | auto level 3 | frame 8,6 ms | fps 115 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 16 drawn / 16 asked, beams in haze 16 / 16, shadows 16 maps (0 redrawn), 83 sections, 0 meshes, spill 21, bloom 10 passes | CSC optics: 16 lit fixtures drawn, 16 beams, 0 gobos, 0 prisms
+r23_lumora_plus_vortex_q1: beams 46/64 | far beams 0/96 | beams in the haze 46/48 | projections 46/64 | auto level 3 | frame 11,5 ms | fps 87 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 46 drawn / 46 asked, beams in haze 46 / 46, shadows 46 maps (0 redrawn), 111 sections, 0 meshes, spill 58, bloom 10 passes | CSC optics: 46 lit fixtures drawn, 46 beams, 0 gobos, 0 prisms
+r23_lumora_plus_vortex_plus_pulse_q1: beams 62/64 | far beams 0/96 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 10,0 ms | fps 99 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 62 drawn / 62 asked, beams in haze 48 / 48, shadows 62 maps (0 redrawn), 126 sections, 0 meshes, spill 58, bloom 10 passes | CSC optics: 62 lit fixtures drawn, 48 beams, 0 gobos, 0 prisms
+r23_lumora_alone_q2: beams 16/160 | far beams 0/192 | beams in the haze 16/48 | projections 16/64 | auto level 3 | frame 11,8 ms | fps 84 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 16 drawn / 16 asked, beams in haze 16 / 16, shadows 16 maps (0 redrawn), 83 sections, 0 meshes, spill 21, bloom 10 passes | CSC optics: 16 lit fixtures drawn, 16 beams, 0 gobos, 0 prisms
+r23_lumora_plus_vortex_q2: beams 46/160 | far beams 0/192 | beams in the haze 46/48 | projections 46/64 | auto level 3 | frame 14,9 ms | fps 68 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 46 drawn / 46 asked, beams in haze 46 / 46, shadows 46 maps (0 redrawn), 110 sections, 0 meshes, spill 58, bloom 10 passes | CSC optics: 46 lit fixtures drawn, 46 beams, 0 gobos, 0 prisms
+r23_lumora_plus_vortex_plus_pulse_q2: beams 62/160 | far beams 0/192 | beams in the haze 48/48 | projections 62/64 | auto level 3 | frame 12,6 ms | fps 79 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 62 drawn / 62 asked, beams in haze 48 / 48, shadows 62 maps (0 redrawn), 126 sections, 0 meshes, spill 58, bloom 10 passes | CSC optics: 62 lit fixtures drawn, 48 beams, 0 gobos, 0 prisms
+r23_full_lumora_w19_white: beams 16/160 | far beams 0/192 | beams in the haze 16/48 | projections 16/64 | auto level 3 | frame 16,8 ms | fps 60 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 16 drawn / 16 asked, beams in haze 16 / 16, shadows 16 maps (0 redrawn), 131 sections, 0 meshes, spill 22, bloom 10 passes | CSC optics: 16 lit fixtures drawn, 16 beams, 0 gobos, 0 prisms
+r23_full_lumora_w19_purple: beams 16/160 | far beams 0/192 | beams in the haze 16/48 | projections 16/64 | auto level 3 | frame 16,6 ms | fps 61 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 16 drawn / 16 asked, beams in haze 16 / 16, shadows 16 maps (0 redrawn), 88 sections, 0 meshes, spill 22, bloom 10 passes | CSC optics: 16 lit fixtures drawn, 16 beams, 0 gobos, 0 prisms
+r23_full_vortex_x1_white: beams 30/160 | far beams 0/192 | beams in the haze 30/48 | projections 30/64 | auto level 3 | frame 8,3 ms | fps 119 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 30 drawn / 30 asked, beams in haze 30 / 30, shadows 30 maps (0 redrawn), 120 sections, 0 meshes, spill 37, bloom 10 passes | CSC optics: 30 lit fixtures drawn, 30 beams, 0 gobos, 0 prisms
+r23_full_vortex_x1_purple: beams 30/160 | far beams 0/192 | beams in the haze 30/48 | projections 30/64 | auto level 3 | frame 8,4 ms | fps 119 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 30 drawn / 30 asked, beams in haze 30 / 30, shadows 30 maps (0 redrawn), 119 sections, 0 meshes, spill 37, bloom 10 passes | CSC optics: 30 lit fixtures drawn, 30 beams, 0 gobos, 0 prisms
+r23_full_pulsestrike_m_white: beams 16/160 | far beams 0/192 | beams in the haze 16/48 | projections 16/64 | auto level 3 | frame 8,5 ms | fps 119 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 16 drawn / 16 asked, beams in haze 16 / 16, shadows 16 maps (0 redrawn), 45 sections, 0 meshes, spill 0, bloom 10 passes | CSC optics: 16 lit fixtures drawn, 16 beams, 0 gobos, 0 prisms
+r23_full_pulsestrike_m_purple: beams 16/160 | far beams 0/192 | beams in the haze 16/48 | projections 16/64 | auto level 3 | frame 8,4 ms | fps 119 | Shimmer: not used — CSC lights the blocks itself, the same with or without Shimmer (rev. 20) | CSC stage lights: 0 lights, projectors 16 drawn / 16 asked, beams in haze 16 / 16, shadows 16 maps (0 redrawn), 45 sections, 0 meshes, spill 0, bloom 10 passes | CSC optics: 16 lit fixtures drawn, 16 beams, 0 gobos, 0 prisms
+DONE

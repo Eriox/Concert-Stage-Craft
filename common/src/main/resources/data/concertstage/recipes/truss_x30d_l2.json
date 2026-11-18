@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " B ",
+    "I I",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "concertstage:truss_x30d_l2",
+    "count": 2
+  }
+}

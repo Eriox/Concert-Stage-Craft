@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "concertstage:stage_tarp_rail"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "item": "concertstage:regie_tarp_rail",
+    "count": 1
+  }
+}

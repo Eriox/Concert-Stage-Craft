@@ -1,0 +1,5 @@
+CSC VORTEX X1 - pivots and axes (metres, as drawn in Minecraft = model x 1.95; Minecraft / glTF frame: Y up, front -Z)
+base:  origin = bottom centre of the base (standing fixture); hung under a truss the whole fixture is turned 180 degrees about Z
+yoke:  pan pivot (-0.0000, 0.2243, 0.0000), pan = rotation about +Y, 540 degrees in total (DMX centre = straight ahead)
+head:  tilt pivot (-0.0000, 0.7039, 0.0000) (in the base frame), tilt = rotation about +X, 270 degrees in total, positive raises the beam; head OBJ vertices are relative to this pivot
+beam:  origin (-0.0000, 0.4797, 0.0000) (head frame), axis (0.0000, 1.0000, 0.0000), lens radius 0.1384, zoom 2-32 degrees

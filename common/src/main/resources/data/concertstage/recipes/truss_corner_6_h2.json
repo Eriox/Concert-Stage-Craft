@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BIB",
+    "IXI",
+    "BIB"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    },
+    "X": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "concertstage:truss_corner_6_h2",
+    "count": 1
+  }
+}

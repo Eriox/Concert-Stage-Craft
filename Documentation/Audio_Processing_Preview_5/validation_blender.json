@@ -1,0 +1,327 @@
+[
+  {
+    "file": "csc_audio_console_mesh.blend",
+    "collections": {
+      "HIGH_DETAIL": {
+        "vertices": 15628,
+        "triangles": 29454,
+        "dimensions_m": [
+          1.9,
+          1.36,
+          1.046
+        ]
+      },
+      "GAME_READY": {
+        "vertices": 5004,
+        "triangles": 8222,
+        "dimensions_m": [
+          1.9,
+          1.374,
+          1.046
+        ]
+      }
+    },
+    "editable": true,
+    "packed_images": true
+  },
+  {
+    "file": "csc_chain_link.blend",
+    "collections": {
+      "HIGH_DETAIL": {
+        "vertices": 72,
+        "triangles": 144,
+        "dimensions_m": [
+          0.022,
+          0.031,
+          0.00346
+        ]
+      },
+      "GAME_READY": {
+        "vertices": 72,
+        "triangles": 144,
+        "dimensions_m": [
+          0.022,
+          0.031,
+          0.00346
+        ]
+      }
+    },
+    "editable": true,
+    "packed_images": true
+  },
+  {
+    "file": "csc_fader_cap.blend",
+    "collections": {
+      "HIGH_DETAIL": {
+        "vertices": 112,
+        "triangles": 212,
+        "dimensions_m": [
+          0.05,
+          0.035,
+          0.036
+        ]
+      },
+      "GAME_READY": {
+        "vertices": 24,
+        "triangles": 36,
+        "dimensions_m": [
+          0.05,
+          0.035,
+          0.036
+        ]
+      }
+    },
+    "editable": true,
+    "packed_images": true
+  },
+  {
+    "file": "csc_noryx_flying_frame.blend",
+    "collections": {
+      "HIGH_DETAIL": {
+        "vertices": 1312,
+        "triangles": 2532,
+        "dimensions_m": [
+          0.95,
+          0.118,
+          0.54
+        ]
+      },
+      "GAME_READY": {
+        "vertices": 280,
+        "triangles": 468,
+        "dimensions_m": [
+          0.95,
+          0.118,
+          0.54
+        ]
+      }
+    },
+    "editable": true,
+    "packed_images": true
+  },
+  {
+    "file": "csc_noryx_ground_frame.blend",
+    "collections": {
+      "HIGH_DETAIL": {
+        "vertices": 2320,
+        "triangles": 4524,
+        "dimensions_m": [
+          0.96,
+          0.12,
+          0.55
+        ]
+      },
+      "GAME_READY": {
+        "vertices": 280,
+        "triangles": 444,
+        "dimensions_m": [
+          0.96,
+          0.12,
+          0.55
+        ]
+      }
+    },
+    "editable": true,
+    "packed_images": true
+  },
+  {
+    "file": "csc_orvane_flying_frame.blend",
+    "collections": {
+      "HIGH_DETAIL": {
+        "vertices": 1312,
+        "triangles": 2532,
+        "dimensions_m": [
+          2.07,
+          0.118,
+          1.17
+        ]
+      },
+      "GAME_READY": {
+        "vertices": 280,
+        "triangles": 468,
+        "dimensions_m": [
+          2.07,
+          0.118,
+          1.17
+        ]
+      }
+    },
+    "editable": true,
+    "packed_images": true
+  },
+  {
+    "file": "csc_orvane_ground_frame.blend",
+    "collections": {
+      "HIGH_DETAIL": {
+        "vertices": 2320,
+        "triangles": 4524,
+        "dimensions_m": [
+          2.08,
+          0.12,
+          1.18
+        ]
+      },
+      "GAME_READY": {
+        "vertices": 280,
+        "triangles": 444,
+        "dimensions_m": [
+          2.08,
+          0.12,
+          1.18
+        ]
+      }
+    },
+    "editable": true,
+    "packed_images": true
+  },
+  {
+    "file": "csc_orvane_lx12.blend",
+    "collections": {
+      "HIGH_DETAIL": {
+        "vertices": 33201,
+        "triangles": 36102,
+        "dimensions_m": [
+          2.0,
+          0.78,
+          1.1
+        ]
+      },
+      "GAME_READY": {
+        "vertices": 1136,
+        "triangles": 1944,
+        "dimensions_m": [
+          2.0,
+          0.78,
+          1.1
+        ]
+      }
+    },
+    "editable": true,
+    "packed_images": true
+  },
+  {
+    "file": "csc_orvane_lx8.blend",
+    "collections": {
+      "HIGH_DETAIL": {
+        "vertices": 20273,
+        "triangles": 23174,
+        "dimensions_m": [
+          1.6,
+          0.6,
+          0.9
+        ]
+      },
+      "GAME_READY": {
+        "vertices": 1128,
+        "triangles": 1932,
+        "dimensions_m": [
+          1.6,
+          0.6,
+          0.9
+        ]
+      }
+    },
+    "editable": true,
+    "packed_images": true
+  },
+  {
+    "file": "csc_orvane_sb28.blend",
+    "collections": {
+      "HIGH_DETAIL": {
+        "vertices": 43408,
+        "triangles": 46512,
+        "dimensions_m": [
+          1.8,
+          1.2,
+          1.35
+        ]
+      },
+      "GAME_READY": {
+        "vertices": 1168,
+        "triangles": 1992,
+        "dimensions_m": [
+          1.8,
+          1.2,
+          1.35
+        ]
+      }
+    },
+    "editable": true,
+    "packed_images": true
+  },
+  {
+    "file": "csc_rig_link.blend",
+    "collections": {
+      "HIGH_DETAIL": {
+        "vertices": 96,
+        "triangles": 188,
+        "dimensions_m": [
+          0.024,
+          1.0,
+          0.024
+        ]
+      },
+      "GAME_READY": {
+        "vertices": 8,
+        "triangles": 12,
+        "dimensions_m": [
+          0.024,
+          1.0,
+          0.024
+        ]
+      }
+    },
+    "editable": true,
+    "packed_images": true
+  },
+  {
+    "file": "csc_veyra_flying_frame.blend",
+    "collections": {
+      "HIGH_DETAIL": {
+        "vertices": 1312,
+        "triangles": 2532,
+        "dimensions_m": [
+          1.25,
+          0.118,
+          0.69
+        ]
+      },
+      "GAME_READY": {
+        "vertices": 280,
+        "triangles": 468,
+        "dimensions_m": [
+          1.25,
+          0.118,
+          0.69
+        ]
+      }
+    },
+    "editable": true,
+    "packed_images": true
+  },
+  {
+    "file": "csc_veyra_ground_frame.blend",
+    "collections": {
+      "HIGH_DETAIL": {
+        "vertices": 2320,
+        "triangles": 4524,
+        "dimensions_m": [
+          1.26,
+          0.12,
+          0.7
+        ]
+      },
+      "GAME_READY": {
+        "vertices": 280,
+        "triangles": 444,
+        "dimensions_m": [
+          1.26,
+          0.12,
+          0.7
+        ]
+      }
+    },
+    "editable": true,
+    "packed_images": true
+  }
+]
