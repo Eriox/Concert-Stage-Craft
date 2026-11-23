@@ -90,6 +90,25 @@ public class FixtureBlockEntity extends BlockEntity {
     /** Rev. 1.3.0-2: speed of the pan and tilt motors (degrees / s, client). */
     public float panVel, tiltVel;
     public long lastFrameNanos;
+    /**
+     * Client, 1.2.2: the light of a tungsten lamp (a conventional or a blinder) right now, after its filament's inertia, and the
+     * time it was worked out (System.nanoTime). NaN until the first frame of the fixture. Not saved, not synced: a look only.
+     */
+    public float lampLevel = Float.NaN;
+    public long lampNanos;
+    /**
+     * 1.2.2 (RackWorks, Forge): whether the fixture has mains from the RackWorks power network, and the level of its feed. True
+     * and 1 when RackWorks is not installed (or the fixture is not cabled): the fixture works as it always did. Synced to the
+     * clients with the update tag, never saved (a fixture placed again must not remember being unplugged).
+     */
+    public boolean mainsPowered = true;
+    public float mainsLevel = 1f;
+    /** 1.2.2 (Forge): the loader's cable host (RackWorks) for this fixture, null until the loader makes it. */
+    public Object rackworksHost;
+    /** The loader's optional hooks (cables, mains); null in a build without them (Fabric). */
+    public static FixtureHooks HOOKS;
+    /** Whether {@link #HOOKS} has been told this fixture is in the world (setLevel or load). */
+    private boolean hooksInWorld;
     /** Client, rev. 18: hanging hardware (client.light.MountGeometry.Layout), the block above it was planned for, and when. */
     public Object mount;
     public net.minecraft.world.level.block.state.BlockState mountSupport;
@@ -175,6 +194,45 @@ public class FixtureBlockEntity extends BlockEntity {
         return getBlockState().getBlock() instanceof FixtureBlock b ? b : null;
     }
 
+    /**
+     * 1.2.2 (RackWorks): the mains of the fixture from the power network. A change is synced to the clients, where the renderer
+     * makes the fixture dark (and lets a halogen lamp cool out) while it has no supply.
+     */
+    public void setMains(boolean on, float fedLevel) {
+        float lv = Math.max(0f, Math.min(1f, fedLevel));
+        if (on == mainsPowered && Math.abs(lv - mainsLevel) < 0.01f) return;
+        mainsPowered = on;
+        mainsLevel = lv;
+        setChanged();
+        if (level != null && !level.isClientSide) {
+            BlockState s = getBlockState();
+            level.sendBlockUpdated(worldPosition, s, s, Block.UPDATE_CLIENTS);
+        }
+    }
+
+    @Override
+    public void setLevel(net.minecraft.world.level.Level level) {
+        super.setLevel(level);
+        hooksJoin();                                                // 1.2.2: a new fixture (and a loaded one) joins the loader's networks
+    }
+
+    @Override
+    public void setRemoved() {
+        if (hooksInWorld && HOOKS != null) {
+            hooksInWorld = false;
+            HOOKS.leave(this);
+        }
+        super.setRemoved();
+    }
+
+    /** The loader hears that the fixture is in the world, once (its grids, its render tracking). */
+    private void hooksJoin() {
+        if (!hooksInWorld && HOOKS != null) {
+            hooksInWorld = true;
+            HOOKS.join(this);
+        }
+    }
+
     /** Every 2 s on the server: a fixture carried by a lift tells its desk where it is now. */
     public static void serverTick(Level level, BlockPos pos, BlockState state, FixtureBlockEntity be) {
         if (be.console == null || (level.getGameTime() + pos.asLong()) % 40 != 0) return;
@@ -205,6 +263,7 @@ public class FixtureBlockEntity extends BlockEntity {
             if (deskId != 0) tag.putLong("DeskId", deskId);
         }
         if (reported != null) tag.putLong("Reported", reported.asLong());
+        if (HOOKS != null) HOOKS.save(this, tag);                   // 1.2.2: RackWorks cables, saved with the fixture
     }
 
     @Override
@@ -220,11 +279,26 @@ public class FixtureBlockEntity extends BlockEntity {
         fid = tag.getInt("Fid");
         deskId = console == null ? 0L : tag.getLong("DeskId");
         reported = tag.contains("Reported") ? BlockPos.of(tag.getLong("Reported")) : null;
+        lampLevel = Float.NaN;                                      // 1.2.2: the lamp starts cold (the first frame takes its level)
+        // 1.2.2 (RackWorks): the mains is synced, never saved; a fixture placed again starts supplied until the network says otherwise
+        mainsPowered = !tag.contains("Mains") || tag.getBoolean("Mains");
+        mainsLevel = tag.contains("MainsLevel") ? Math.max(0f, Math.min(1f, tag.getFloat("MainsLevel"))) : 1f;
+        if (HOOKS != null) {
+            HOOKS.load(this, tag);
+            hooksJoin();
+            HOOKS.rebind(this);                                     // the links were read: a lift may have moved the fixture
+        }
     }
 
     @Override
     public CompoundTag getUpdateTag() {
-        return saveWithoutMetadata();
+        CompoundTag tag = saveWithoutMetadata();
+        if (HOOKS != null) {
+            tag.putBoolean("Mains", mainsPowered);
+            tag.putFloat("MainsLevel", mainsLevel);
+            tag.putByte("PowerSync", (byte) 1);                     // RackWorks: an empty cable update is still sent, so the client clears it
+        }
+        return tag;
     }
 
     @Override
@@ -238,8 +312,12 @@ public class FixtureBlockEntity extends BlockEntity {
      */
     public net.minecraft.world.phys.AABB getRenderBoundingBox() {
         net.minecraft.world.phys.AABB box = new net.minecraft.world.phys.AABB(worldPosition).inflate(posed() ? 2.5 : 0.5);   // 1.2.1
-        if (Double.isNaN(beamEndX)) return box.inflate(48);
-        double r = beamEndR + 1;
-        return box.minmax(new net.minecraft.world.phys.AABB(beamEndX - r, beamEndY - r, beamEndZ - r, beamEndX + r, beamEndY + r, beamEndZ + r));
+        if (Double.isNaN(beamEndX)) box = box.inflate(48);
+        else {
+            double r = beamEndR + 1;
+            box = box.minmax(new net.minecraft.world.phys.AABB(beamEndX - r, beamEndY - r, beamEndZ - r, beamEndX + r, beamEndY + r, beamEndZ + r));
+        }
+        // 1.2.2 (RackWorks): the cables run past the fixture, up to the far ends
+        return HOOKS != null ? HOOKS.renderBox(this, box) : box;
     }
 }

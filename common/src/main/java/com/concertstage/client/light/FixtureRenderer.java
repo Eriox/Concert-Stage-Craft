@@ -7,6 +7,7 @@ import com.concertstage.light.core.Attr;
 import com.concertstage.light.core.BeamOptics;
 import com.concertstage.light.core.Engine;
 import com.concertstage.light.core.FixtureProfile;
+import com.concertstage.light.core.LampModel;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.math.Axis;
@@ -257,6 +258,15 @@ public class FixtureRenderer implements BlockEntityRenderer<FixtureBlockEntity> 
         boolean feed = LightTargets.feed();
         if (!feed) Perf.frame(com.concertstage.client.GpuMesh.frameSerial > 0 ? com.concertstage.client.GpuMesh.frameSerial : Double.doubleToLongBits(gameTime));
         Engine.Output o = feed ? LightClient.feedOutput(level, be, partial) : LightClient.output(level, be, partial);
+        // 1.2.2 (RackWorks, Forge): a fixture with no mains is dark, whatever the desk sends; its halogen cools out through the lamp.
+        if (o != null && LampModel.tungsten(pr)) o = lamp(be, pr, o, feed, !be.mainsPowered);
+        else if (o != null && !be.mainsPowered) {
+            o = o.copy();
+            o.v[Attr.DIMMER.ordinal()] = 0f;
+            o.strobeHz = 0f;
+        }
+        // 1.2.2: a tungsten lamp (a conventional or a blinder) lags its dimmer and warms with it. Everything below (beam, pool on the
+        // floor, lens, cells) reads the lamp's level and colour, never the raw desk value.
         boolean hung = be.getBlockState().getValue(FixtureBlock.HUNG);
         Direction facing = be.getBlockState().getValue(FixtureBlock.FACING);
         float yaw = 180f - facing.toYRot();
@@ -401,6 +411,56 @@ public class FixtureRenderer implements BlockEntityRenderer<FixtureBlockEntity> 
         } finally {
             if (keptZones != null) { o.zones = keptZones; o.beamR = keptR; o.beamG = keptG; o.beamB = keptB; }
         }
+        // 1.2.2 (RackWorks, Forge): the cables plugged into the fixture (power) are drawn with its body, by RackWorks.
+        if (RENDER_HOOK != null) RENDER_HOOK.drawCables(be, pose, buffers);
+    }
+
+    /** 1.2.2: a loader's client-only drawing after a fixture (RackWorks cables); null in a build without it. */
+    public static FixtureRenderHook RENDER_HOOK;
+
+    /**
+     * 1.2.2 — the light of a tungsten lamp this frame: the desk's dimmer through the filament law, held by the filament's inertia
+     * (heat quicker than cool), and the colour of the lamp at that temperature ({@link Engine#halogen}). A copy of the desk output is
+     * changed, never the output itself: it is reused by the next frame and by the cameras.
+     *
+     * @param feed a LiveVision camera image, drawn between two frames: the lamp does not advance twice, the current level is used
+     */
+    private static Engine.Output lamp(FixtureBlockEntity be, FixtureProfile pr, Engine.Output o, boolean feed, boolean unpowered) {
+        float target = unpowered ? 0f : LampModel.drive(o.get(Attr.DIMMER));
+        long now = System.nanoTime();
+        if (Float.isNaN(be.lampLevel)) {
+            be.lampLevel = target;
+            be.lampNanos = now;
+        } else if (!feed) {
+            float dt = Math.min(0.1f, Math.max(0f, (now - be.lampNanos) / 1.0e9f));
+            be.lampNanos = now;
+            be.lampLevel = LampModel.step(be.lampLevel, target, dt, LightClient.lampFadeSpeed());
+        }
+        Engine.Output c = o.copy();
+        float level = be.lampLevel;
+        c.v[Attr.DIMMER.ordinal()] = level;
+        if (unpowered) c.strobeHz = 0f;                                  // no mains, no flash either
+        if (pr.conventional) {
+            // the gel sits in front of the lamp: the colour of the filament through it (Engine.finishZones, same formula)
+            float[] h = Engine.halogen(level, 0f);
+            int gel = o.gel;
+            c.beamR = h[0] * ((gel >> 16) & 255) / 255f;
+            c.beamG = h[1] * ((gel >> 8) & 255) / 255f;
+            c.beamB = h[2] * (gel & 255) / 255f;
+        } else {
+            // blinders: the halogen colour of each white lamp (Engine.finishZones), its CTO channel still in front of it
+            float[] h = Engine.halogen(level, o.get(Attr.CTO));
+            c.beamR = h[0];
+            c.beamG = h[1];
+            c.beamB = h[2];
+            for (int z = 0; z < pr.zones && z * 4 + 3 < c.zones.length; z++) {
+                if (pr.zoneKind(z) != 1) continue;
+                c.zones[z * 4] = h[0];
+                c.zones[z * 4 + 1] = h[1];
+                c.zones[z * 4 + 2] = h[2];
+            }
+        }
+        return c;
     }
 
     /**
@@ -454,6 +514,10 @@ public class FixtureRenderer implements BlockEntityRenderer<FixtureBlockEntity> 
         if (pr == FixtureProfile.LUMORA_W19 || pr == FixtureProfile.PIXELWASH_W37) return 0.62f;
         if (pr == FixtureProfile.LUMORA_W7) return 0.75f;
         if (pr == FixtureProfile.VORTEX_X1 || pr == FixtureProfile.PHANTOM_S1 || pr == FixtureProfile.PROFILE_P1 || pr == FixtureProfile.RAZOR_B1) return 0.8f;
+        // 1.2.2: a conventional's pool on the floor sat at the ceiling of the light composite from full down to a fifth of the fader
+        // (the tone map is a soft ceiling, 1 + 2.2 tanh(L / 1.83)): at full the pool is unchanged, below it the level now shows.
+        // The blinders keep their own 0.15 on the projection (barOrStrobe above).
+        if (pr.conventional) return 0.5f;
         return 1f;
     }
 
@@ -1658,6 +1722,8 @@ public class FixtureRenderer implements BlockEntityRenderer<FixtureBlockEntity> 
                                   Vec3 cam, PoseStack local, float partial, boolean beams, MultiBufferSource buffers) {
         BlockPos bp = be.getBlockPos();
         if (!beams || o == null || !LightClient.beams) return;
+        if (!be.mainsPowered && !LampModel.tungsten(pr)) { o = o.copy(); o.v[Attr.DIMMER.ordinal()] = 0f; o.strobeHz = 0f; }
+        if (LampModel.tungsten(pr)) o = lamp(be, pr, o, true, !be.mainsPowered);   // 1.2.2: the camera sees the lamp, not the desk
         double gameTime = level.getGameTime() + partial;
         float intensity = BeamOptics.strobeIntensity(o.get(Attr.DIMMER), o.strobeHz, gameTime / 20.0);
         boolean flash = o.strobeHz > 0.05f && intensity > 0f;

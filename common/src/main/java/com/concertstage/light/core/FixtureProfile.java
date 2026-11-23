@@ -36,6 +36,11 @@ public final class FixtureProfile {
     public final float output;
     /** Nominal beam length in blocks (render; cut where the beam hits a block). */
     public final float throwBlocks;
+    /**
+     * 1.2.2: nameplate power of the fixture (watts), for a power network (RackWorks): what it draws from its mains inlet. Design
+     * values of the mod's fictional fixtures, not the data sheet of a real product.
+     */
+    public int watts = 400;
     /** Height of the tilt axis above the base (blocks, from the exported model). */
     public float tiltPivotY;
     /**
@@ -178,6 +183,14 @@ public final class FixtureProfile {
             if (BY_ID.put(p.id, p) != null) throw new IllegalStateException("Duplicate fixture " + p.id);
         }
         RAZOR_B1.prismFacets = 8;
+        // 1.2.2: nameplate power, for a power network (RackWorks). Conventionals and blinders are the hungry ones.
+        VORTEX_X1.watts = 460; PHANTOM_S1.watts = 520; PROFILE_P1.watts = 480; RAZOR_B1.watts = 380;
+        LUMORA_W7.watts = 320; LUMORA_W19.watts = 750; PIXELWASH_W37.watts = 720;
+        PULSESTRIKE_M.watts = 1000; FLASHCORE_FX.watts = 900;
+        PIXELBAR_B16.watts = 180; PIXELTUBE_T1.watts = 90;
+        BLINDER_X2.watts = 1300; BLINDER_X4.watts = 2600; BLINDER_X8.watts = 3200;
+        FOLLOWSPOT_F1.watts = 1100; LASERCORE_L1.watts = 120; FLOODLIGHT_F8.watts = 300;
+        PAR_P64.watts = 1000; FRESNEL_F1.watts = 1000; PC_C1.watts = 1000; ELLIPSOIDAL_E1.watts = 750;
         // rev. 21: the three light zones, read from the models (assets/concertstage/lightshow/<id>.json, zone names and centres):
         // PULSESTRIKE M — RGB_01..07 a row of 7 RGB cells below the centre (y -0.046), RGB_08..14 a row of 7 above (y +0.046),
         //   STROBE_01..28 two rows of 14 white segments in the middle (y -0.010 / +0.010);

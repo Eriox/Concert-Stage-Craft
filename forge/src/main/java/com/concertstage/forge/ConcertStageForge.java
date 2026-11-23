@@ -30,6 +30,11 @@ public class ConcertStageForge {
         net.minecraftforge.common.MinecraftForge.EVENT_BUS.addListener((net.minecraftforge.event.server.ServerStoppedEvent e) ->
             { com.concertstage.audio.net.AudioServer.stopped(); com.concertstage.light.LightServer.stopped(); });
         if (net.minecraftforge.fml.loading.FMLEnvironment.dist == net.minecraftforge.api.distmarker.Dist.CLIENT) ForgeConfigScreen.register();
+        // 1.2.2: CSC fixtures are cable hosts on RackWorks' power and DMX network when it is installed (optional, Forge only).
+        // After registration, never in the constructor: StageContent builds its blocks when its class initialises, and that is too
+        // early here (the registry is frozen by then). Load complete is after every mod's blocks and items are registered.
+        bus.addListener((net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent event) ->
+            com.concertstage.forge.rackworks.RackworksEntry.tryInit());
     }
 
     private void onRegister(RegisterEvent event) {

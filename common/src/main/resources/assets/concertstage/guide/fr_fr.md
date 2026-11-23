@@ -56,6 +56,8 @@ Clic droit sur les projecteurs pour les sélectionner, puis visez l'endroit où 
 - **CSC PAR P64**, **CSC FRESNEL F1** (bord doux), **CSC PC C1** et **CSC ELLIPSOIDAL E1** (découpe, bord net) : projecteurs halogènes à **un seul canal gradateur** dans tous les modes DMX.
 - Pas de moteur : orientez-les avec l'**outil d'angle** (clic droit), qui met aussi une **gélatine** devant la lentille (10 couleurs).
 - Patchez-les comme les autres : le gradateur de la console est leur seule commande.
+- Le filament a de l'inertie : il chauffe en un dixième de seconde et refroidit en passant par l'ambre en une demi-seconde, comme une vraie lampe halogène. Touche **K** → **Inertie des lampes halogènes** : Désactivée / Réaliste / Lente (seulement sur votre écran).
+- Avec **RackWorks** installé (Forge), un projecteur a aussi besoin du **secteur** : branchez son entrée powerCON sur un distro, un groupe ou une multiprise RackWorks (et le câble dans la prise du projecteur). Sans alimentation il reste éteint, et un halogène refroidit quand on débranche.
 
 ### Blinders et projecteurs sans moteur
 

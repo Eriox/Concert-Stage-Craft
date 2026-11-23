@@ -27,3 +27,7 @@ Thumbs.db
 .env
 .env.*
 !*.env.example
+
+# Gradle distribution downloaded by build.ps1
+.gradle-dist/
+**/gametest-run/

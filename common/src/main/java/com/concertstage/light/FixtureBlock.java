@@ -214,8 +214,10 @@ public class FixtureBlock extends HorizontalDirectionalBlock implements EntityBl
     @Override
     @SuppressWarnings("deprecation")
     public void onRemove(BlockState state, Level level, BlockPos pos, BlockState newState, boolean moved) {
-        if (!state.is(newState.getBlock()) && !level.isClientSide && level.getBlockEntity(pos) instanceof FixtureBlockEntity be)
+        if (!state.is(newState.getBlock()) && !level.isClientSide && level.getBlockEntity(pos) instanceof FixtureBlockEntity be) {
             LightServer.fixtureRemoved(level, pos, be);
+            if (FixtureBlockEntity.HOOKS != null) FixtureBlockEntity.HOOKS.removed(be);   // 1.2.2: RackWorks cables unplugged
+        }
         super.onRemove(state, level, pos, newState, moved);
     }
 

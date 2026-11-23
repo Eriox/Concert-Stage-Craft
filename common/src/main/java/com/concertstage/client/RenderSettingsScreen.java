@@ -36,6 +36,12 @@ public class RenderSettingsScreen extends Screen {
         com.concertstage.client.ui.Tr.help(addRenderableWidget(new Ui.Slider(left() + 20 + sw, sy, sw, 18, Component.empty(), RenderQuality.RANGE_MIN,
             RenderQuality.BLOCK_MAX, RenderQuality.blockPercent(), ACCENT,
             v -> Component.translatable("gui.concertstage.render_block_range", v).getString(), RenderQuality::setBlockPercent)), "render_block_range");
+        // 1.2.2: the inertia of the halogen lamps (a look only: the show and the DMX do not change)
+        com.concertstage.client.ui.Tr.help(addRenderableWidget(new Ui.Button(left() + 12, top() + 188, 210, 18,
+            () -> Component.translatable("gui.concertstage.lamp_fade", Component.translatable(com.concertstage.client.light.LightClient.lampFadeKey())),
+            ACCENT, Ui.Style.NORMAL,
+            () -> { com.concertstage.client.light.LightClient.lampFade = (com.concertstage.client.light.LightClient.lampFade + 1) % 3;
+                com.concertstage.client.light.LightClient.save(); })), "lamp_fade");
         addRenderableWidget(new Ui.Button(left() + W - 12 - 90, top() + H - 28, 90, 18, () -> Component.translatable("gui.concertstage.done"),
             ACCENT, Ui.Style.ACCENT, this::onClose));
         // 1.1.1: AUTO — the quality follows the frame rate (one step at a time, at most one change every 20 s)

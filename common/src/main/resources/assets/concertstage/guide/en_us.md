@@ -56,6 +56,8 @@ Right-click fixtures to select them, then aim where you want them to point. Shif
 - **CSC PAR P64**, **CSC FRESNEL F1** (soft edge), **CSC PC C1** and **CSC ELLIPSOIDAL E1** (hard edge): halogen fixtures with **one dimmer channel** in every DMX mode.
 - No motor: aim them with the **Fixture Angle Tool** (right-click), which also slides a **gel** in front of the lens (10 colours).
 - Patch them like the others: the console's dimmer is their only control.
+- The filament has inertia: it warms up in about a tenth of a second and cools down through amber in about half a second, like a real halogen lamp. Key **K** → **Halogen lamp fade**: Off / Realistic / Slow (your screen only).
+- With **RackWorks** installed (Forge), a fixture also needs **mains**: plug its powerCON inlet into a RackWorks distro, generator or strip (and its cable into the fixture's socket). Without a supply it stays dark, and a halogen cools out when the cable is pulled.
 
 ### Blinders and fixtures without a motor
 

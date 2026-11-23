@@ -13,6 +13,15 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 sourceSets.main.java.srcDir '../common/src/main/java'
 sourceSets.main.resources.srcDir '../common/src/main/resources'
 
+// Compile-only shape of the optional RackWorks cable API (1.2.2): the fixtures are cable hosts on RackWorks' network. The real
+// classes come from the RackWorks jar at runtime; these stubs are never packaged, and no RackWorks class is needed to build.
+sourceSets {
+    rwStub {
+        java.srcDir 'src/rwStub/java'
+        compileClasspath += sourceSets.main.compileClasspath
+    }
+}
+
 minecraft {
     mappings channel: 'official', version: '1.20.1'
 
@@ -45,6 +54,12 @@ apply from: '../tools/ffmpeg-bundle.gradle'   // 1.2.1: FFmpeg (LGPL) built in
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
+}
+
+// The RackWorks shape is compile-only: built first, added to the main compile classpath, never packaged.
+tasks.named('compileJava', JavaCompile) {
+    dependsOn 'rwStubClasses'
+    classpath += files("$buildDir/classes/java/rwStub")
 }
 
 jar.finalizedBy('reobfJar')

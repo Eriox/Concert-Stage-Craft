@@ -53,6 +53,27 @@ public final class Engine {
         public float get(Attr a) {
             return v[a.ordinal()];
         }
+
+        /**
+         * 1.2.2: a copy for a look-only change (the tungsten lamp of a conventional or a blinder lags its dimmer and warms with
+         * it). The desk's outputs are reused every frame: the renderer must never write a lagging level back into them.
+         */
+        public Output copy() {
+            Output c = new Output(fid);
+            c.profile = profile;
+            System.arraycopy(v, 0, c.v, 0, v.length);
+            c.zones = zones.clone();
+            c.strobeHz = strobeHz;
+            System.arraycopy(sectionHz, 0, c.sectionHz, 0, sectionHz.length);
+            c.alternate = alternate;
+            c.barsLinked = barsLinked;
+            c.slow = slow;
+            c.beamR = beamR;
+            c.beamG = beamG;
+            c.beamB = beamB;
+            c.gel = gel;
+            return c;
+        }
     }
 
     private record Source(int priority, long order, Show.CueList list, int cur, int prev, long elapsedMs, float level, boolean releasing,

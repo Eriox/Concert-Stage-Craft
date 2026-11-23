@@ -64,6 +64,22 @@ public final class LightClient {
      */
     public static float rigLight = 1f, bloom = 1f;
     public static final float[] EFFECT_PRESETS = {0f, 0.6f, 1f, 1.5f};
+    /**
+     * 1.2.2: the inertia of the tungsten lamps (the conventionals and the blinders): 0 = off (the old instant dimmer), 1 =
+     * realistic (a filament heats in about a tenth of a second and cools in about half a second), 2 = slow (a big 2 kW lamp).
+     * A look only, on your screen; the DMX and the show are unchanged. Saved as lamp_fade.
+     */
+    public static int lampFade = 1;
+
+    /** Translation key of the current {@link #lampFade} (the render settings and the desk settings read it). */
+    public static String lampFadeKey() {
+        return "gui.concertstage.lamp_fade_" + (lampFade <= 0 ? "off" : lampFade == 1 ? "realistic" : "slow");
+    }
+
+    /** The heat/cool time scale of {@link #lampFade}: 0 = no inertia. */
+    public static float lampFadeSpeed() {
+        return lampFade <= 0 ? 0f : lampFade == 1 ? 1f : com.concertstage.light.core.LampModel.SLOW;
+    }
 
     /** Next preset of rig light / bloom (wraps, 0 = off). */
     public static float nextEffect(float v) {
@@ -301,6 +317,11 @@ public final class LightClient {
             lensGlow = clampBrightness(p.getProperty("lens_glow", "1"));   // old defaults saved by earlier versions: move to the new one
             rigLight = clampEffect(p.getProperty("rig_light", "1"));
             bloom = clampEffect(p.getProperty("bloom", "1"));
+            try {
+                lampFade = Math.max(0, Math.min(2, Integer.parseInt(p.getProperty("lamp_fade", "1").trim())));
+            } catch (NumberFormatException e) {
+                lampFade = 1;
+            }
         } catch (Exception ignored) {
             // defaults
         }
@@ -349,6 +370,7 @@ public final class LightClient {
             p.setProperty("lens_glow", String.valueOf(lensGlow));
             p.setProperty("rig_light", String.valueOf(rigLight));
             p.setProperty("bloom", String.valueOf(bloom));
+            p.setProperty("lamp_fade", String.valueOf(lampFade));
             try (var w = Files.newBufferedWriter(f)) { p.store(w, "Concert Stage Craft - lighting (client)"); }
         } catch (Exception ignored) {
             // read-only folder: settings kept for this session
